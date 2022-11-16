@@ -1,0 +1,550 @@
+{
+    "industries": [
+        {
+            "_id": "a1ef1f35467849367fbdcfa60adedffe",
+            "page": "aerospace-defense"
+        },
+        {
+            "_id": "320d177ed7a346686c7572c3fa3a1cb4",
+            "page": "automotive"
+        },
+        {
+            "_id": "20c594b485202198ee8a752d9f7560e1",
+            "page": "capital-projects-infrastructure"
+        },
+        {
+            "_id": "d85f9cf48964140c65c0402260b68fb7",
+            "page": "forest-paper-packaging"
+        },
+        {
+            "_id": "1cd3fe8d931461668d24038729b2c20d",
+            "page": "consumer-markets"
+        },
+        {
+            "_id": "3abb992d40b0b3ff13923bd776ae0bce",
+            "page": "healthcare"
+        },
+        {
+            "_id": "ab3cdbe378ad744d38e6eca637787d27",
+            "page": "industrial-manufacturing"
+        },
+        {
+            "_id": "77c76277cbce4e82f02242e7c21995e0",
+            "page": "insurance"
+        },
+        {
+            "_id": "8f0cf7d6b6c539f041ef43261816630f",
+            "page": "pharmaceuticals-life-sciences"
+        },
+        {
+            "_id": "7652802e36b9e014fb9b75611456a762",
+            "page": "transportation-logistics"
+        },
+        {
+            "_id": "8edaa0320794e3dd39eadb104194057d",
+            "page": "hospitality-leisure"
+        },
+        {
+            "_id": "b7f3ec76be8304db6ab54ccedf06ca74",
+            "page": "engineering-construction"
+        },
+        {
+            "_id": "9d01f6b1037874d8b30a75fdc3fe94e3",
+            "page": "energy-utilities-resources"
+        },
+        {
+            "_id": "2763217450a44b0fc3edc5b3022a425e",
+            "page": "government-public-services"
+        },
+        {
+            "_id": "bbafbd2ecd79f36fccf1ef2f2b3f6b07",
+            "page": "private-equity"
+        },
+        {
+            "_id": "b3169c929f5d4307312af917d0be9c59",
+            "page": "tmt"
+        },
+        {
+            "_id": "5d559655a8c45a72d17f672fd83e434f",
+            "page": "financial-services"
+        }
+    ],
+    "services": [
+        {
+            "_id": "5c3d4a3d8816cd52bf3a085c9f021245",
+            "page": "alliances"
+        },
+        {
+            "_id": "d4f3882e3fac6cca0b8a817245818fc7",
+            "page": "crisis-solutions"
+        },
+        {
+            "_id": "72193f0f0ba7c796d65ef7a827648f04",
+            "page": "entrepreneurial-private-business"
+        },
+        {
+            "_id": "5087991c105bcd66fad1fcd6dd09985c",
+            "page": "family-business"
+        },
+        {
+            "_id": "76c7ee3d36169b0686e4be5b860ff9d3",
+            "page": "forensics"
+        },
+        {
+            "_id": "e6c5060597ea0953d376a678bba356c5",
+            "page": "strategy"
+        },
+        {
+            "_id": "ccf9ee4805f2d30aacc69670f116b515",
+            "page": "audit-assurance"
+        },
+        {
+            "_id": "8cb3c1365e8977b85eaafbabdc240dd5",
+            "page": "consulting"
+        },
+        {
+            "_id": "e6c5060597ea0953d376a678bba356c5",
+            "page": "strategy"
+        },
+        {
+            "_id": "ccf9ee4805f2d30aacc69670f116b515",
+            "page": "audit-assurance"
+        },
+        {
+            "_id": "8cb3c1365e8977b85eaafbabdc240dd5",
+            "page": "consulting"
+        },
+        {
+            "_id": "9de72351e78085842f085f95b7cdb3a5",
+            "page": "deals"
+        },
+        {
+            "_id": "cf875c5271b832c8329a37d5f1b16ecb",
+            "page": "legal"
+        },
+        {
+            "_id": "849c701e7a0b3e9a548f1c17ab438f8b",
+            "page": "people-organization"
+        },
+        {
+            "_id": "b7217e8fba9a571fcd35587dc0412473",
+            "page": "sustainability"
+        },
+        {
+            "_id": "33db9dbdf21fe02d1fbf27d573bcffa3",
+            "page": "tax"
+        }
+    ],
+    "issues": [
+        {
+            "_id": "9d01f6b1037874d8b30a75fdc3fe94e3",
+            "page": "workforce"
+        },
+        {
+            "_id": "2763217450a44b0fc3edc5b3022a425e",
+            "page": "cybersecurity"
+        },
+        {
+            "_id": "bbafbd2ecd79f36fccf1ef2f2b3f6b07",
+            "page": "esg"
+        },
+        {
+            "_id": "b3169c929f5d4307312af917d0be9c59",
+            "page": "the-leadership-agenda"
+        },
+        {
+            "_id": "5d559655a8c45a72d17f672fd83e434f",
+            "page": "risk-regulation"
+        },
+        {
+            "_id": "ccf9ee4805f2d30aacc69670f116b515",
+            "page": "technology"
+        },
+        {
+            "_id": "8cb3c1365e8977b85eaafbabdc240dd5",
+            "page": "transformation"
+        },
+        {
+            "_id": "9de72351e78085842f085f95b7cdb3a5",
+            "page": "trust"
+        },
+        {
+            "_id": "cf875c5271b832c8329a37d5f1b16ecb",
+            "page": "upskilling"
+        },
+        {
+            "_id": "849c701e7a0b3e9a548f1c17ab438f8b",
+            "page": "value-creation"
+        },
+        {
+            "_id": "b7217e8fba9a571fcd35587dc0412473",
+            "page": "crisis-solutions"
+        }
+    ],
+    "about": [
+        {
+            "_id": "33db9dbdf21fe02d1fbf27d573bcffa3",
+            "page": "alumni-network"
+        },
+        {
+            "_id": "bc19a3704ac36affc346dc4813189fb7",
+            "page": "analyst-relations"
+        },
+        {
+            "_id": "6c089840d8b141ef42eaff13547d6508",
+            "page": "case-studies"
+        },
+        {
+            "_id": "965c0d204626274f91fa636c48bc2811",
+            "page": "ethics-business-conduct"
+        },
+        {
+            "_id": "8cff8de32d686879ffa62716410f7c8d",
+            "page": "net-zero"
+        },
+        {
+            "_id": "0a6ee0331502d412692bbbd04d8e0485",
+            "page": "corporate-sustainability"
+        },
+        {
+            "_id": "0db07a15adf7f03aaf0530c87a8fd653",
+            "page": "diversity"
+        },
+        {
+            "_id": "51c5ff564ecfdea5dd0b8390b5f82a33",
+            "page": "global-annual-review-2020"
+        },
+        {
+            "_id": "67f507d4812086a4440e9883cad28087",
+            "page": "global-regulatory-affairs"
+        },
+        {
+            "_id": "9002771ef3756b4e4692a678e85b9e88",
+            "page": "human-rights-statement"
+        },
+        {
+            "_id": "ef3a7db7a0b1b476e6a8de7d85b55e1a",
+            "page": "leadership"
+        },
+        {
+            "_id": "2932aca6a97efa1331c1dfd4681f8234",
+            "page": "corporate-governance"
+        },
+        {
+            "_id": "46fcefd837729c2147971860cd109bea",
+            "page": "new-ventures"
+        },
+        {
+            "_id": "085c2cdd37ff9078baf01ad8f811a1cf",
+            "page": "purpose-and-values"
+        },
+        {
+            "_id": "5fdacf942d654bd92c9a11805e7a72d6",
+            "page": "strategy-council-governance-structure"
+        },
+        {
+            "_id": "b93d2c6cb941b9b9c3239f562e84c16a",
+            "page": "strategy"
+        },
+        {
+            "_id": "27c0aca265f748b8e98edf633e7b4a8f",
+            "page": "global-third-party-code-of-conduct"
+        }
+    ],
+    "sub-industries": [
+        {
+            "_id": "185a04de9ed3484b1b363975d827e398",
+            "page": "energy-utilities-resources/chemicals"
+        },
+        {
+            "_id": "27074192751b4b57db465020dbd3f1c6",
+            "page": "energy-utilities-resources/mining-metals"
+        },
+        {
+            "_id": "34c481178221993f2c0b14a6e3f7a942",
+            "page": "energy-utilities-resources/oil-gas"
+        },
+        {
+            "_id": "60a3e9cb1a168fb8e57473408e4c6c5f",
+            "page": "energy-utilities-resources/power-utilities"
+        },
+        {
+            "_id": "7d0e131d410313b3a8b021aca2064868",
+            "page": "government-public-services/defense"
+        },
+        {
+            "_id": "e5ca3d54bccaaed96f949f9314d22879",
+            "page": "government-public-services/education-not-for-profit"
+        },
+        {
+            "_id": "4e404a889a315a407683b1fb124197ce",
+            "page": "government-public-services/international-development-assistance"
+        },
+        {
+            "_id": "638577910ae2cd8d18e14c764c92cf14",
+            "page": "government-public-services/public-safety-justice-security"
+        },
+        {
+            "_id": "d452262b2bf45dae41f2a571187440a2",
+            "page": "private-equity/sovereign-wealth-investment-funds"
+        },
+        {
+            "_id": "79b43428c52bd85fe5db7a569a295613",
+            "page": "tmt/communications"
+        },
+        {
+            "_id": "388d7b8166f1d9957a48d5f0b6ecca94",
+            "page": "tmt/media"
+        },
+        {
+            "_id": "e21aeeee4a4c64e6a813a0bf9938bed0",
+            "page": "tmt/technology"
+        },
+        {
+            "_id": "d243056569cd38bdc8701d08df80d7ae",
+            "page": "financial-services/banking-capital-markets"
+        },
+        {
+            "_id": "ccf533054f356b404e14e9637c24af19",
+            "page": "financial-services/banking"
+        },
+        {
+            "_id": "c1209681cac6800c0369889676295676",
+            "page": "financial-services/insurance"
+        }
+    ],
+    "sub-services": [
+        {
+            "_id": "6fedf2af8d8cd0a1ec2b00f3d3365457",
+            "page": "audit-assurance/accounting-advisory"
+        },
+        {
+            "_id": "e8d18e055276676bdd0bb4b0a79b0bfe",
+            "page": "audit-assurance/capital-market"
+        },
+        {
+            "_id": "d1e2d772c0ec1436e9dbe4caae869cea",
+            "page": "audit-assurance/corporate-reporting"
+        },
+        {
+            "_id": "e97519af4c93b1d1b995b11b6351dddd",
+            "page": "audit-assurance/the-sas-audit"
+        },
+        {
+            "_id": "e915345419566f7a0ee2a4d313205166",
+            "page": "audit-assurance/ifrs-reporting"
+        },
+        {
+            "_id": "b7c037c1dca931bc0cb9218576c939e4",
+            "page": "audit-assurance/risk-assurance"
+        },
+        {
+            "_id": "3a937ca3a543b7a0ebb2ed4ed0bb8f70",
+            "page": "consulting/cloud-transformation"
+        },
+        {
+            "_id": "5fbac4ef1b7ea2bd519e224b3711d3a0",
+            "page": "consulting/digital-operations"
+        },
+        {
+            "_id": "995753b977bc8de64697100a348eadf7",
+            "page": "consulting/deals"
+        },
+        {
+            "_id": "2604e5c62ddf830a4846ecba1fd98527",
+            "page": "consulting/finance-transformation"
+        },
+        {
+            "_id": "258608f645fbaefd67e6449e69e3fd69",
+            "page": "consulting/forensics"
+        },
+        {
+            "_id": "9ca279320299e2bb13183359c0e2e218",
+            "page": "consulting/front-office-transformation"
+        },
+        {
+            "_id": "33c4ff9411bfeb0a23f2350f5f0a0b7b",
+            "page": "consulting/hr-transformation"
+        },
+        {
+            "_id": "e8c15112d976d0e0a72913d046795ae7",
+            "page": "consulting/people-organization"
+        },
+        {
+            "_id": "fdd733df4d81b7e35941cac1f1128f3a",
+            "page": "consulting/risk-regulation"
+        },
+        {
+            "_id": "70b076d258763375c446fcad0266e30e",
+            "page": "consulting/technology"
+        },
+        {
+            "_id": "39ec04c28ce663b38fd010b040a0defd",
+            "page": "deals/acquisitions"
+        },
+        {
+            "_id": "a2d84cf82d8f800ea3becdc514bdac24",
+            "page": "deals/capital-markets-ipo"
+        },
+        {
+            "_id": "0d68d4a516ce12fa21e99458daee4bc0",
+            "page": "deals/corporate-finance"
+        },
+        {
+            "_id": "5245458743734e519e4a26e817648a3b",
+            "page": "deals/deal-strategy"
+        },
+        {
+            "_id": "48db2ddeb36ad0a14c6c96ca223448f1",
+            "page": "deals/global-fund-advisory-platform"
+        },
+        {
+            "_id": "af20a4acecee1c8fa473247467934ddd",
+            "page": "deals/joint-ventures-and-alliances"
+        },
+        {
+            "_id": "664f2c35aae17160db98e67d9c9383bd",
+            "page": "deals/legal"
+        },
+        {
+            "_id": "57378ff4002cc1565ec010b45600a9a3",
+            "page": "deals/restructuring-and-crisis"
+        },
+        {
+            "_id": "fa36813abc3da5057dc058b239fdd727",
+            "page": "deals/mergers-acquisitions"
+        },
+        {
+            "_id": "ee41e4f66d3fbbdc7d43713aa71949bd",
+            "page": "deals/value-creation"
+        },
+        {
+            "_id": "044c4ec69c31ee19f7e2c4b13cd238bf",
+            "page": "legal/employment"
+        },
+        {
+            "_id": "9cd4279d8a266dd2e3938697fc6bfbce",
+            "page": "legal/entity-governance-compliance"
+        },
+        {
+            "_id": "b0035835314e55d5856ba6bb8d190247",
+            "page": "legal/corporate-and-commercial"
+        },
+        {
+            "_id": "81038d3c67287fa9d907f9b4d1310c18",
+            "page": "legal/mergers-and-acquisitions"
+        },
+        {
+            "_id": "bbb93a05dc2fe0fbba48e79841c827b3",
+            "page": "legal/new-law"
+        },
+        {
+            "_id": "f1c1c1d4b29b4dc676f300d468079e25",
+            "page": "people-organization/culture-change-and-leadership"
+        },
+        {
+            "_id": "e1b7d0fad29ffcf6b25043925cbfd1ad",
+            "page": "people-organization/diversity-and-inclusion"
+        },
+        {
+            "_id": "4393fd4362f4b39c4b496dbdd25caa8c",
+            "page": "people-organization/employment"
+        },
+        {
+            "_id": "0dfc5a1a6d87725b89c77f44f3a00c03",
+            "page": "people-organization/employment-tax-and-costs"
+        },
+        {
+            "_id": "8cf2348f6e1a76a29a643cefe0f8b22f",
+            "page": "people-organization/hr-transformation-technology"
+        },
+        {
+            "_id": "334d99581a26f4296e4a4b171f94a8c9",
+            "page": "people-organization/organizational-strategy"
+        },
+        {
+            "_id": "24eb99ec82dd18185f9290a1787efc61",
+            "page": "people-organization/people-analytics-and-insights"
+        },
+        {
+            "_id": "d8aff27e41edbd4f0169d3f9e06bfc4c",
+            "page": "people-organization/people-in-deals"
+        },
+        {
+            "_id": "159235ba3ebd51fa64dfd25a563fc515",
+            "page": "people-organization/retirement-benefits-pensions"
+        },
+        {
+            "_id": "da1ee35ccbfe9733f73130843100afd9",
+            "page": "people-organization/reward-and-benefits"
+        },
+        {
+            "_id": "1bd103c4e3f4ab32c9f7155f443076fd",
+            "page": "people-organization/workforce-strategy"
+        },
+        {
+            "_id": "fc0879a8020b6dfb4ce6b04b4abd97b0",
+            "page": "sustainability/assurance-verification-reporting"
+        },
+        {
+            "_id": "63206620e84f1f86040851c336ca0a8a",
+            "page": "sustainability/investing-with-impact"
+        },
+        {
+            "_id": "652387c3b45c8a6c138a9c5fb235f2c0",
+            "page": "sustainability/responsible-corporate-strategy"
+        },
+        {
+            "_id": "c7aec22f87ca6fb9f51094b0d08f9cbc",
+            "page": "sustainability/climate-change-policy"
+        },
+        {
+            "_id": "7e898551721fb6151b965547b37e90eb",
+            "page": "sustainability/responsible-supply-chain"
+        },
+        {
+            "_id": "a0bd05909ff33e6d82023cae301a501e",
+            "page": "sustainability/sustainable-development-goals"
+        },
+        {
+            "_id": "956eb06ed8a10a5e266c6ef13ce4363a",
+            "page": "sustainability/environmental-taxes-regulations"
+        },
+        {
+            "_id": "67d4ff33de8d8bef2c064b3bb403311f",
+            "page": "sustainability/total-impact-measurement-management"
+        },
+        {
+            "_id": "037ba010acafbd06994f2cb4faacdaff",
+            "page": "tax/indirect-taxes"
+        },
+        {
+            "_id": "0490a61e25d8715da43be21be6acff72",
+            "page": "tax/international-tax-services"
+        },
+        {
+            "_id": "8ed44514d104d0bc997292476c5735d6",
+            "page": "tax/mergers-and-acquisitions"
+        },
+        {
+            "_id": "f55c2dff906f82634efc9573a7ecbaa8",
+            "page": "tax/code-of-conduct"
+        },
+        {
+            "_id": "ba6ac2a7f113e363ee5972965e83a44d",
+            "page": "tax/tax-controversy-dispute-resolution"
+        },
+        {
+            "_id": "28ddfcab46de4999f3b1b02b5c160d2b",
+            "page": "tax/tax-policy-administration"
+        },
+        {
+            "_id": "25744b71a9adc3a128df4756aced2939",
+            "page": "tax/tax-reporting-strategy"
+        },
+        {
+            "_id": "6fb3dc055e53ca1071cca78760419b81",
+            "page": "tax/transfer-pricing"
+        }
+    ]
+}

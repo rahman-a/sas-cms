@@ -1,0 +1,13 @@
+@use '../../../styles/media' as media;
+
+.section {
+  padding: 5rem 0;
+  &__title {
+    margin: 0 0 2rem 12rem;
+    @include media.breakpoint(md) {
+      margin: 0 0 2rem 2rem;
+    }
+    font: var(--headline-large-text);
+    color: var(--primary-text-color-light);
+  }
+}

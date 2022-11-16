@@ -1,0 +1,44 @@
+@use '@styles/media' as media;
+.cards {
+  & > h3 {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    @include media.breakpoint(md) {
+      margin-left: 1rem;
+    }
+  }
+  &__container {
+    width: 100%;
+    overflow: hidden;
+    @include media.breakpoint(md) {
+      overflow: auto;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    &_nowrap {
+      flex-wrap: nowrap;
+      @include media.breakpoint(md) {
+        flex-wrap: wrap;
+      }
+    }
+    @include media.breakpoint(sm) {
+      justify-content: center;
+      &_nowrap {
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  &__scroll &__wrapper {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    @include media.breakpoint(md) {
+      width: fit-content;
+    }
+  }
+}

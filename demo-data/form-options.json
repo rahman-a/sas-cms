@@ -1,0 +1,72 @@
+[
+    {
+        "_id": "b2a3b3f7b390c231ed8b8adabdc99bfa",
+        "label": "Other (please specify)",
+        "value": "other"
+    },
+    {
+        "_id": "a3e171ffd21209af7e14f1b469add12b",
+        "label": "Capital",
+        "value": "capital"
+    },
+    {
+        "_id": "2ee562e858c04bb1fc1200da81c0f505",
+        "label": "Continuity",
+        "value": "continuity"
+    },
+    {
+        "_id": "e613218648b8837b84ba6d82e489317f",
+        "label": "Deals and Growth",
+        "value": "deals and growth"
+    },
+    {
+        "_id": "a94877c5283f3e0a7f17f596dea7a041",
+        "label": "Digital and Transformation",
+        "value": "digital and transformation"
+    },
+    {
+        "_id": "0513d74f775357402f89d405bc819c42",
+        "label": "General, not specified",
+        "value": "general, not specified"
+    },
+    {
+        "_id": "629884549d197c7305e4c4d6c6c2497d",
+        "label": "Governance",
+        "value": "governance"
+    },
+    {
+        "_id": "bff5062d95d33bab07c610cae2e6a3f5",
+        "label": "Managing Business",
+        "value": "managing business"
+    },
+    {
+        "_id": "09db8ad560af0593726463a8731b3f46",
+        "label": "Managing Ownership",
+        "value": "managing ownership"
+    },
+    {
+        "_id": "7f7afc535a9b0341b033b04ed72472bf",
+        "label": "Profitability",
+        "value": "profitability"
+    },
+    {
+        "_id": "8c0c0447b2c891ea3e8a1661393aeca0",
+        "label": "Purpose and Values",
+        "value": "purpose and values"
+    },
+    {
+        "_id": "4b9ee30d1ef133aea2b8755081d8dc6b",
+        "label": "Risk and Regulation",
+        "value": "risk and regulation"
+    },
+    {
+        "_id": "703c350ed69d286a3d5cb97f4187dba3",
+        "label": "Talent",
+        "value": "talent"
+    },
+    {
+        "_id": "96319c59a081483c1c3f1a8bc24afa50",
+        "label": "Wealth",
+        "value": "wealth"
+    }
+]

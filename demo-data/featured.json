@@ -1,0 +1,90 @@
+{
+    "industries": [
+        {
+            "_id": "5dca7693cc74d8f2135fc76c1d7be598",
+            "text": "Global Consumer Insights Pulse Survey - June 2022",
+            "image": "/images/teaser-final.jpg",
+            "link": "#"
+        },
+        {
+            "_id": "8b7071ba71bce7eef7cce9b8c7d5f461",
+            "text": "Achieving net zero infrastructure",
+            "image": "/images/solar-teaser.jpg",
+            "link": "#"
+        },
+        {
+            "_id": "f07ba4ab6fee1d40a72c8b032f1c0e22",
+            "text": "Manufacturing COO Pulse Survey",
+            "image": "/images/im-hero.jpg",
+            "link": "#"
+        }
+    ],
+    "services": [
+        {
+            "_id": "a082c3b6df6e89ea5262095a85a11b4e",
+            "text": "Ukraine: Tax, Legal and People considerations",
+            "image": "/images/pink-tile.jpg",
+            "link": "#"
+        },
+        {
+            "_id": "9dd2f7b4faa28de5c8baea2ad7156f6e",
+            "text": "Digital Trust Insights Survey 2022",
+            "image": "/images/pulse-survey.jpg",
+            "link": "#"
+        },
+        {
+            "_id": "39bfaae78ef9793237c293084bef984c",
+            "text": "M&A industry trends report",
+            "image": "/images/teaser-image.jpg",
+            "link": "#"
+        }
+    ],
+    "issues": [
+        {
+            "_id": "594354abfe6ccc73c9ca2105482ceff6",
+            "text": "The Leadership Agenda",
+            "image": "/images/ID-30_883px.png",
+            "link": "#"
+        },
+        {
+            "_id": "a1f88ac9fca179b53bbc83a3cc115378",
+            "text": "Take on Tomorrow: a strategy+business podcast",
+            "image": "/images/sb-tot-670x377.jpg",
+            "link": "#"
+        },
+        {
+            "_id": "e67d48b4951ea49f2602dba296b79aeb",
+            "text": "strategy+business digital issue",
+            "image": "/images/s+b-uncover-hidden-levers.jpg",
+            "link": "#"
+        }
+    ],
+    "about": [
+        {
+            "_id": "3ac5af525a173322668091cc6f38ccae",
+            "text": "The New Equation",
+            "image": "/images/tne_featured_nav.jpg",
+            "link": "#"
+        },
+        {
+            "_id": "9fe63ef85f8c96547c4c65a2c7f5de66",
+            "text": "PwC's Global Annual Review",
+            "image": "/images/gar-landing-thumbnail.jpg",
+            "link": "#"
+        },
+        {
+            "_id": "b3c626dbbb31dc466bb1b82c5ab6d73a",
+            "text": "Committing to Net Zero by 2030",
+            "image": "/images/net-zero.jpg",
+            "link": "#"
+        }
+    ],
+    "careers": [
+        {
+            "_id": "b498de58fd1b3efee393a1c44002e5be",
+            "text": "24th Annual Global CEO Survey",
+            "image": "/images/CEO_2021_Thumbnail_main.jpg",
+            "link": "#"
+        }
+    ]
+}

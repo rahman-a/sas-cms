@@ -2,7 +2,8 @@ import { ReactBricks } from 'react-bricks/frontend'
 import type { AppProps } from 'next/app'
 import config from '../react-bricks/config'
 
-import '../css/style.css'
+// import '../css/style.css'
+import '@styles/globals.scss'
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (

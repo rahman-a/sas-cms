@@ -1,0 +1,738 @@
+{
+    "menu": {
+        "industries": [
+            {
+                "_id": 1,
+                "text": "See all industries",
+                "link": "/industries"
+            },
+            {
+                "_id": 2,
+                "text": "Aerospace, defense & security",
+                "link": "/industries/aerospace-defense"
+            },
+            {
+                "_id": 3,
+                "text": "Automotive",
+                "link": "/industries/automotive"
+            },
+            {
+                "_id": 4,
+                "text": "Capital projects & infrastructure",
+                "link": "/industries/capital-projects-infrastructure"
+            },
+            {
+                "_id": 5,
+                "text": "Energy, utilities & resources",
+                "link": "/industries/energy-utilities-resources",
+                "submenu": [
+                    {
+                        "_id": 1,
+                        "text": "Chemicals",
+                        "link": "/industries/energy-utilities-resources/chemicals"
+                    },
+                    {
+                        "_id": 2,
+                        "text": "Mining & Metals",
+                        "link": "/industries/energy-utilities-resources/mining-metals"
+                    },
+                    {
+                        "_id": 3,
+                        "text": "Oil & gas",
+                        "link": "/industries/energy-utilities-resources/oil-gas"
+                    },
+                    {
+                        "_id": 4,
+                        "text": "Power & utilities",
+                        "link": "/industries/energy-utilities-resources/power-utilities"
+                    }
+                ]
+            },
+            {
+                "_id": 6,
+                "text": "Forest, paper & packaging",
+                "link": "/industries/forest-paper-packaging"
+            },
+            {
+                "_id": 7,
+                "text": "Consumer markets",
+                "link": "/industries/consumer-markets"
+            },
+            {
+                "_id": 8,
+                "text": "Government & public services",
+                "link": "/industries/government-public-services",
+                "submenu": [
+                    {
+                        "_id": 1,
+                        "text": "Defense",
+                        "link": "/industries/government-public-services/defense"
+                    },
+                    {
+                        "_id": 2,
+                        "text": "Education",
+                        "link": "/industries/government-public-services/education-not-for-profit"
+                    },
+                    {
+                        "_id": 3,
+                        "text": "International development",
+                        "link": "/industries/government-public-services/international-development-assistance"
+                    },
+                    {
+                        "_id": 4,
+                        "text": "Security",
+                        "link": "/industries/government-public-services/public-safety-justice-security"
+                    }
+                ]
+            },
+            {
+                "_id": 9,
+                "text": "Healthcare",
+                "link": "/industries/healthcare"
+            },
+            {
+                "_id": 10,
+                "text": "Industrial manufacturing",
+                "link": "/industries/industrial-manufacturing"
+            },
+            {
+                "_id": 11,
+                "text": "Insurance",
+                "link": "/industries/insurance"
+            },
+            {
+                "_id": 12,
+                "text": "Pharmaceuticals & life sciences",
+                "link": "/industries/pharmaceuticals-life-sciences"
+            },
+            {
+                "_id": 13,
+                "text": "Private equity",
+                "link": "/industries/private-equity",
+                "submenu": [
+                    {
+                        "_id": 1,
+                        "text": "Sovereign investment funds",
+                        "link": "/industries/private-equity/sovereign-wealth-investment-funds"
+                    }
+                ]
+            },
+            {
+                "_id": 14,
+                "text": "Technology, media & Telecommunications",
+                "link": "/industries/tmt",
+                "submenu": [
+                    {
+                        "_id": 1,
+                        "text": "Communications",
+                        "link": "/industries/tmt/communications"
+                    },
+                    {
+                        "_id": 2,
+                        "text": "Media",
+                        "link": "/industries/tmt/media"
+                    },
+                    {
+                        "_id": 3,
+                        "text": "Technology",
+                        "link": "/industries/tmt/technology"
+                    }
+                ]
+            },
+            {
+                "_id": 15,
+                "text": "Transportation & logistics",
+                "link": "/industries/transportation-logistics"
+            },
+            {
+                "_id": 16,
+                "text": "Hospitality & leisure",
+                "link": "/industries/hospitality-leisure"
+            },
+            {
+                "_id": 17,
+                "text": "Financial services",
+                "link": "/industries/financial-services",
+                "submenu": [
+                    {
+                        "_id": 1,
+                        "text": "Banking & capital markets",
+                        "link": "/industries/financial-services/banking-capital-markets"
+                    },
+                    {
+                        "_id": 2,
+                        "text": "Asset & wealth management",
+                        "link": "/industries/financial-services/banking"
+                    },
+                    {
+                        "_id": 4,
+                        "text": "Insurance",
+                        "link": "/industries/financial-services/insurance"
+                    }
+                ]
+            },
+            {
+                "_id": 18,
+                "text": "Engineering & construction",
+                "link": "/industries/engineering-construction"
+            }
+        ],
+        "services": [
+            {
+                "_id": 1,
+                "text": "See all services",
+                "link": "/services"
+            },
+            {
+                "_id": 2,
+                "text": "Alliances and Ecosystems",
+                "link": "/services/alliances"
+            },
+            {
+                "_id": 3,
+                "text": "Audit and assurance services",
+                "link": "/services/audit-assurance",
+                "submenu": [
+                    {
+                        "_id": 1,
+                        "text": "Actuarial services",
+                        "link": "/services/audit-assurance/accounting-advisory"
+                    },
+                    {
+                        "_id": 2,
+                        "text": "Capital markets",
+                        "link": "/services/audit-assurance/capital-market"
+                    },
+                    {
+                        "_id": 3,
+                        "text": "Corporate reporting",
+                        "link": "/services/audit-assurance/corporate-reporting"
+                    },
+                    {
+                        "_id": 4,
+                        "text": "Financial audit",
+                        "link": "/services/audit-assurance/the-sas-audit"
+                    },
+                    {
+                        "_id": 5,
+                        "text": "IFRS",
+                        "link": "/services/audit-assurance/ifrs-reporting"
+                    },
+                    {
+                        "_id": 6,
+                        "text": "Internal audit",
+                        "link": "/services/audit-assurance/the-sas-audit"
+                    },
+                    {
+                        "_id": 7,
+                        "text": "Risk assurance",
+                        "link": "/services/audit-assurance/risk-assurance"
+                    }
+                ]
+            },
+            {
+                "_id": 4,
+                "text": "Consulting",
+                "link": "/services/consulting",
+                "submenu": [
+                    {
+                        "_id": 1,
+                        "text": "Cloud transformation",
+                        "link": "/services/consulting/cloud-transformation"
+                    },
+                    {
+                        "_id": 2,
+                        "text": "Digital operations",
+                        "link": "/services/consulting/digital-operations"
+                    },
+                    {
+                        "_id": 3,
+                        "text": "Deals",
+                        "link": "/services/consulting/deals"
+                    },
+                    {
+                        "_id": 4,
+                        "text": "Finance transformation",
+                        "link": "/services/consulting/finance-transformation"
+                    },
+                    {
+                        "_id": 5,
+                        "text": "Forensics",
+                        "link": "/services/consulting/forensics"
+                    },
+                    {
+                        "_id": 6,
+                        "text": "Front office transformation",
+                        "link": "/services/consulting/front-office-transformation"
+                    },
+                    {
+                        "_id": 7,
+                        "text": "HR transformation",
+                        "link": "/services/consulting/hr-transformation"
+                    },
+                    {
+                        "_id": 8,
+                        "text": "People",
+                        "link": "/services/consulting/people-organization"
+                    },
+                    {
+                        "_id": 9,
+                        "text": "Risk and regulation",
+                        "link": "/services/consulting/risk-regulation"
+                    },
+                    {
+                        "_id": 10,
+                        "text": "Technology",
+                        "link": "/services/consulting/technology"
+                    }
+                ]
+            },
+            {
+                "_id": 5,
+                "text": "Crisis management",
+                "link": "/services/crisis-solutions"
+            },
+            {
+                "_id": 6,
+                "text": "Deals",
+                "link": "/services/deals",
+                "submenu": [
+                    {
+                        "_id": 1,
+                        "text": "Acquisitions",
+                        "link": "/services/deals/acquisitions"
+                    },
+                    {
+                        "_id": 2,
+                        "text": "Capital markets",
+                        "link": "/services/deals/capital-markets-ipo"
+                    },
+                    {
+                        "_id": 3,
+                        "text": "Corporate finance",
+                        "link": "/services/deals/corporate-finance"
+                    },
+                    {
+                        "_id": 4,
+                        "text": "Deals strategy",
+                        "link": "/services/deals/deal-strategy"
+                    },
+                    {
+                        "_id": 5,
+                        "text": "Global Fund Advisory Platform",
+                        "link": "/services/deals/global-fund-advisory-platform"
+                    },
+                    {
+                        "_id": 6,
+                        "text": "Joint ventures and alliances",
+                        "link": "/services/deals/joint-ventures-and-alliances"
+                    },
+                    {
+                        "_id": 7,
+                        "text": "M&A legal",
+                        "link": "/services/deals/legal"
+                    },
+                    {
+                        "_id": 8,
+                        "text": "M&A tax",
+                        "link": "/services/deals/mergers-acquisitions"
+                    },
+                    {
+                        "_id": 9,
+                        "text": "Restructuring and crisis",
+                        "link": "/services/deals/restructuring-and-crisis"
+                    },
+                    {
+                        "_id": 10,
+                        "text": "Sovereign wealth funds",
+                        "link": "/services/deals/mergers-acquisitions"
+                    },
+                    {
+                        "_id": 11,
+                        "text": "Value creation",
+                        "link": "/services/deals/value-creation"
+                    }
+                ]
+            },
+            {
+                "_id": 7,
+                "text": "Entrepreneurial and private business",
+                "link": "/services/entrepreneurial-private-business"
+            },
+            {
+                "_id": 8,
+                "text": "Family business",
+                "link": "/services/family-business"
+            },
+            {
+                "_id": 9,
+                "text": "Forensics",
+                "link": "/services/forensics"
+            },
+            {
+                "_id": 10,
+                "text": "Legal",
+                "link": "/services/legal",
+                "submenu": [
+                    {
+                        "_id": 1,
+                        "text": "Employment",
+                        "link": "/services/legal/employment"
+                    },
+                    {
+                        "_id": 2,
+                        "text": "Entity governance & compliance",
+                        "link": "/services/legal/entity-governance-compliance"
+                    },
+                    {
+                        "_id": 3,
+                        "text": "International business reorganizations",
+                        "link": "/services/legal/corporate-and-commercial"
+                    },
+                    {
+                        "_id": 4,
+                        "text": "Mergers & acquisitions",
+                        "link": "/services/legal/mergers-and-acquisitions"
+                    },
+                    {
+                        "_id": 5,
+                        "text": "NewLaw",
+                        "link": "/services/legal/new-law"
+                    }
+                ]
+            },
+            {
+                "_id": 11,
+                "text": "People and organization",
+                "link": "/services/people-organization",
+                "submenu": [
+                    {
+                        "_id": 1,
+                        "text": "Culture, leadership and change",
+                        "link": "/services/people-organization/culture-change-and-leadership"
+                    },
+                    {
+                        "_id": 2,
+                        "text": "Diversity and inclusion",
+                        "link": "/services/people-organization/diversity-and-inclusion"
+                    },
+                    {
+                        "_id": 3,
+                        "text": "Employment law",
+                        "link": "/services/people-organization/employment"
+                    },
+                    {
+                        "_id": 4,
+                        "text": "Employment tax and costs",
+                        "link": "/services/people-organization/employment-tax-and-costs"
+                    },
+                    {
+                        "_id": 5,
+                        "text": "HR transformation and technology",
+                        "link": "/services/people-organization/hr-transformation-technology"
+                    },
+                    {
+                        "_id": 6,
+                        "text": "Organizational design",
+                        "link": "/services/people-organization/organizational-strategy"
+                    },
+                    {
+                        "_id": 7,
+                        "text": "People analytics and insights",
+                        "link": "/services/people-organization/people-analytics-and-insights"
+                    },
+                    {
+                        "_id": 8,
+                        "text": "People in deals",
+                        "link": "/services/people-organization/people-in-deals"
+                    },
+                    {
+                        "_id": 9,
+                        "text": "Retirement and pensions",
+                        "link": "/services/people-organization/retirement-benefits-pensions"
+                    },
+                    {
+                        "_id": 10,
+                        "text": "Reward and benefits",
+                        "link": "/services/people-organization/reward-and-benefits"
+                    },
+                    {
+                        "_id": 11,
+                        "text": "Workforce strategy",
+                        "link": "/services/people-organization/workforce-strategy"
+                    }
+                ]
+            },
+            {
+                "_id": 12,
+                "text": "Strategy",
+                "link": "/services/strategy"
+            },
+            {
+                "_id": 13,
+                "text": "Sustainability and climate change",
+                "link": "/services/sustainability",
+                "submenu": [
+                    {
+                        "_id": 1,
+                        "text": "Assurance & reporting",
+                        "link": "/services/sustainability/assurance-verification-reporting"
+                    },
+                    {
+                        "_id": 2,
+                        "text": "Investing with impact",
+                        "link": "/services/sustainability/investing-with-impact"
+                    },
+                    {
+                        "_id": 3,
+                        "text": "Strategic sustainability",
+                        "link": "/services/sustainability/responsible-corporate-strategy"
+                    },
+                    {
+                        "_id": 4,
+                        "text": "Policy & economics",
+                        "link": "/services/sustainability/climate-change-policy"
+                    },
+                    {
+                        "_id": 5,
+                        "text": "Supply chain & operations",
+                        "link": "/services/sustainability/responsible-supply-chain"
+                    },
+                    {
+                        "_id": 6,
+                        "text": "Sustainable Development Goals (SDGs)",
+                        "link": "/services/sustainability/sustainable-development-goals"
+                    },
+                    {
+                        "_id": 7,
+                        "text": "Tax & the regulatory environment",
+                        "link": "/services/sustainability/environmental-taxes-regulations"
+                    },
+                    {
+                        "_id": 8,
+                        "text": "Total Impact Measurement & Management (TIMM)",
+                        "link": "/services/sustainability/total-impact-measurement-management"
+                    }
+                ]
+            },
+            {
+                "_id": 14,
+                "text": "Tax",
+                "link": "/services/tax",
+                "submenu": [
+                    {
+                        "_id": 1,
+                        "text": "Indirect taxes",
+                        "link": "/services/tax/indirect-taxes"
+                    },
+                    {
+                        "_id": 2,
+                        "text": "International tax services",
+                        "link": "/services/tax/international-tax-services"
+                    },
+                    {
+                        "_id": 3,
+                        "text": "Mergers & acquisitions",
+                        "link": "/services/tax/mergers-and-acquisitions"
+                    },
+                    {
+                        "_id": 4,
+                        "text": "Tax code of conduct",
+                        "link": "/services/tax/code-of-conduct"
+                    },
+                    {
+                        "_id": 5,
+                        "text": "Tax controversy & dispute resolution",
+                        "link": "/services/tax/tax-controversy-dispute-resolution"
+                    },
+                    {
+                        "_id": 6,
+                        "text": "Tax policy & administration",
+                        "link": "/services/tax/tax-policy-administration"
+                    },
+                    {
+                        "_id": 7,
+                        "text": "Tax reporting & strategy",
+                        "link": "/services/tax/tax-reporting-strategy"
+                    },
+                    {
+                        "_id": 8,
+                        "text": "Transfer pricing",
+                        "link": "/services/tax/transfer-pricing"
+                    }
+                ]
+            }
+        ],
+        "issues": [
+            {
+                "_id": 1,
+                "text": "See all issues",
+                "link": "/issues"
+            },
+            {
+                "_id": 2,
+                "text": "Workforce",
+                "link": "/issues/workforce"
+            },
+            {
+                "_id": 3,
+                "text": "Cybersecurity",
+                "link": "/issues/cybersecurity"
+            },
+            {
+                "_id": 4,
+                "text": "ESG (Environmental, Social and Governance)",
+                "link": "/issues/esg"
+            },
+            {
+                "_id": 5,
+                "text": "Leadership",
+                "link": "/issues/the-leadership-agenda"
+            },
+            {
+                "_id": 6,
+                "text": "Risk and regulation",
+                "link": "/issues/risk-regulation"
+            },
+            {
+                "_id": 7,
+                "text": "Technology",
+                "link": "/issues/technology"
+            },
+            {
+                "_id": 8,
+                "text": "Transformation",
+                "link": "/issues/transformation"
+            },
+            {
+                "_id": 9,
+                "text": "Trust",
+                "link": "/issues/trust"
+            },
+            {
+                "_id": 10,
+                "text": "Upskilling",
+                "link": "/issues/upskilling"
+            },
+            {
+                "_id": 11,
+                "text": "Value creation",
+                "link": "/issues/value-creation"
+            },
+            {
+                "_id": 12,
+                "text": "COV_id-19: leading the recovery",
+                "link": "/issues/crisis-solutions/cov_id-19"
+            }
+        ],
+        "about": [
+            {
+                "_id": 1,
+                "text": "See more About Us",
+                "link": "/about"
+            },
+            {
+                "_id": 2,
+                "text": "Alumni",
+                "link": "/about/alumni-network"
+            },
+            {
+                "_id": 3,
+                "text": "Analyst relations",
+                "link": "/about/analyst-relations"
+            },
+            {
+                "_id": 4,
+                "text": "Client case studies",
+                "link": "/about/case-studies"
+            },
+            {
+                "_id": 5,
+                "text": "Ethics and compliance",
+                "link": "/about/ethics-business-conduct"
+            },
+            {
+                "_id": 6,
+                "text": "Committing to Net Zero by 2030",
+                "link": "/about/net-zero"
+            },
+            {
+                "_id": 7,
+                "text": "Corporate sustainability",
+                "link": "/about/corporate-sustainability"
+            },
+            {
+                "_id": 8,
+                "text": "Diversity and inclusion",
+                "link": "/about/diversity"
+            },
+            {
+                "_id": 9,
+                "text": "Global Annual Review",
+                "link": "/about/global-annual-review-2020"
+            },
+            {
+                "_id": 10,
+                "text": "Global regulatory affairs",
+                "link": "/about/global-regulatory-affairs"
+            },
+            {
+                "_id": 11,
+                "text": "Human rights statement",
+                "link": "/about/human-rights-statement"
+            },
+            {
+                "_id": 12,
+                "text": "Leadership team",
+                "link": "/about/leadership"
+            },
+            {
+                "_id": 13,
+                "text": "Network governance",
+                "link": "/about/corporate-governance"
+            },
+            {
+                "_id": 14,
+                "text": "New Ventures and Innovation",
+                "link": "/about/new-ventures"
+            },
+            {
+                "_id": 15,
+                "text": "Our purpose and values",
+                "link": "/about/purpose-and-values"
+            },
+            {
+                "_id": 16,
+                "text": "PwC office locations",
+                "link": "/about/office-locations"
+            },
+            {
+                "_id": 17,
+                "text": "Strategy Council",
+                "link": "/about/strategy-council-governance-structure"
+            },
+            {
+                "_id": 18,
+                "text": "Strategy",
+                "link": "/about/strategy"
+            },
+            {
+                "_id": 19,
+                "text": "Third party code of conduct",
+                "link": "/about/global-third-party-code-of-conduct"
+            }
+        ],
+        "careers": [
+            {
+                "_id": 1,
+                "text": "Find out more about careers",
+                "link": "/careers"
+            },
+            {
+                "_id": 2,
+                "text": "Search for a job",
+                "link": "/careers/job-search"
+            }
+        ]
+    }
+}

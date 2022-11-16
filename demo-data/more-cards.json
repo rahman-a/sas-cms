@@ -1,0 +1,25 @@
+{
+    "cards": [
+        {
+            "_id": "b34602b0180b1f65853b5612425a794e",
+            "title": "Career",
+            "description": "SAS is all about you. Whether you’re just starting out or are an experienced professional, your future starts here.",
+            "link": "/careers",
+            "button": "Explore SAS Careers"
+        },
+        {
+            "_id": "3ffb842da155deb302113ae2afaf15fe",
+            "title": "Press room",
+            "description": "Get to know SAS’s leadership, keep up with our latest news, and find the regional contact person you need.",
+            "link": "/news-room",
+            "button": "Visit our Press room"
+        },
+        {
+            "_id": "3c662a4e02d5abedb869baf5f841e4f6",
+            "title": "Offices",
+            "description": "Global network. Global access. We are present around the world. Find us wherever you need us.",
+            "link": "/about/office-locations",
+            "button": "Locations worldwide"
+        }
+    ]
+}

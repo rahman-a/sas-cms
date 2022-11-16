@@ -1,0 +1,34 @@
+@use '../../styles/media' as media;
+
+.social {
+  background-color: var(--container-color);
+  padding: 2rem 0;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__title {
+    margin-right: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--white-color);
+
+    @include media.breakpoint(xs) {
+      font-size: 2rem;
+    }
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+  &__item:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  &__link {
+    display: flex;
+  }
+}

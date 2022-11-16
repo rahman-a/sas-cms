@@ -1,0 +1,100 @@
+.select {
+  position: relative;
+  &__input {
+    position: relative;
+    input {
+      width: 100%;
+      padding: 1.5rem 3.3rem 1.5rem 2rem;
+      outline: none;
+      color: var(--container-color-80);
+      font-size: 1.6rem;
+      font-weight: 600;
+      pointer-events: none;
+      margin-top: 0.5rem;
+    }
+    span {
+      cursor: pointer;
+      position: absolute;
+      right: 1rem;
+      top: 58%;
+    }
+  }
+
+  &__label {
+    font: var(--headline-small-text);
+    color: var(--container-color-80);
+    text-transform: capitalize;
+    span {
+      position: relative !important;
+      right: -0.3rem;
+      font-size: small;
+      color: lighten(#f00, 10%);
+    }
+  }
+
+  &__check {
+    position: absolute;
+    right: 3rem;
+    top: 60%;
+    &_error {
+      color: var(--error-color);
+    }
+    &_valid {
+      color: var(--success-color);
+    }
+  }
+
+  &__list {
+    max-height: 25rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid var(--container-color-20);
+    border-radius: 0.5rem;
+    position: absolute;
+    width: 100%;
+    background-color: var(--white-color);
+    z-index: 99999999;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  &__item {
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    &:hover {
+      background-color: #2684ff;
+      color: var(--primary-text-color-light);
+    }
+    &_focused {
+      background-color: #2684ff;
+      color: var(--primary-text-color-light);
+    }
+  }
+
+  &__msg {
+    font: var(--body-text-small-regular);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+  }
+
+  &__error input {
+    border: 2px solid var(--error-color);
+    outline: none;
+  }
+  &__error &__check {
+    top: 68%;
+  }
+  &__success input {
+    border: 2px solid var(--success-color);
+    outline: none;
+  }
+  &__error &__input span {
+    top: 69%;
+  }
+  &__success &__input span {
+    top: 61%;
+  }
+}

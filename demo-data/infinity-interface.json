@@ -1,0 +1,58 @@
+{
+    "interface": [
+        {
+            "_id": "a5af2a6b59653e416c65b8431dbbc44b",
+            "ownership": [
+                {
+                    "_id": "9787cd29a2e8383b097bec6a64c3a645",
+                    "title": "governance"
+                },
+                {
+                    "_id": "797110445ffadeb798030a1c6d41baec",
+                    "title": "wealth"
+                },
+                {
+                    "_id": "26eaf29a709faadaf23a28e27a30109e",
+                    "title": "purpose"
+                },
+                {
+                    "_id": "fd4d9b0e5bebed774ce2f218eefb91da",
+                    "title": "continuity"
+                }
+            ]
+        },
+        {
+            "_id": "49a519807b3729e1f07e3c91e808d174",
+            "business": [
+                {
+                    "_id": "1dc3b5c5b5652bcbaff6760d992fdd4d",
+                    "title": "deals"
+                },
+                {
+                    "_id": "ef82c9ba48d532d8de60f38eec84306c",
+                    "title": "digital"
+                },
+                {
+                    "_id": "782f4ca498868503442f1194cf5e2892",
+                    "title": "profitability"
+                },
+                {
+                    "_id": "9fd3ba16f222500ac70d7f3463e15fab",
+                    "title": "risk"
+                },
+                {
+                    "_id": "50b798d12e88750bf36040aa67907d23",
+                    "title": "talent"
+                },
+                {
+                    "_id": "6566e5994cd8a62ad54f95463d409cd0",
+                    "title": "ownership"
+                },
+                {
+                    "_id": "c5b76a87f7927db67de856a944a627bc",
+                    "title": "capital"
+                }
+            ]
+        }
+    ]
+}

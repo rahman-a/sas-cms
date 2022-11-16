@@ -1,0 +1,35 @@
+.table {
+  &,
+  tbody,
+  thead,
+  tr {
+    font: var(--body-text-small-regular);
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    color: var(--primary-text-color);
+    vertical-align: baseline;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid var(--background-color);
+  }
+  th,
+  td {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--background-color);
+    border-right: 1px solid var(--background-color);
+  }
+
+  th p {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  tr p {
+    font-size: 1.6rem;
+  }
+
+  tr:not(:first-child):nth-child(odd) {
+    background-color: var(--background-color);
+  }
+}

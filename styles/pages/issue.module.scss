@@ -1,0 +1,48 @@
+@use '../media' as media;
+.issue {
+  position: relative;
+  &__staff {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+
+    @include media.breakpoint(sm) {
+      align-items: flex-start;
+      gap: 1.6rem;
+    }
+  }
+  &__help {
+    background: url(../../public/images/damil-gettyimages-997745894-1600.webp)
+      no-repeat center center;
+    background-size: cover;
+    padding: 10rem 0;
+
+    &_title {
+      font: var(--display-small-text);
+    }
+
+    &_wrapper {
+      width: 50%;
+      background-color: var(--container-color);
+      color: var(--white-color);
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      border-radius: 1rem;
+      @include media.breakpoint(md) {
+        width: 100%;
+      }
+    }
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      p {
+        line-height: 1.8;
+      }
+    }
+  }
+}

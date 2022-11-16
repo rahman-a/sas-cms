@@ -1,0 +1,2210 @@
+[
+    {
+        "_id": "3a5d609f11e8196f943828922554c5db",
+        "name": "Egypt",
+        "lat": 27,
+        "lng": 30,
+        "cities": [
+            {
+                "_id": "5b9fe18ec8278b7e88b59024ebbfb1f4",
+                "name": "Cairo",
+                "lat": 30.06263,
+                "lng": 31.24967,
+                "offices": [
+                    {
+                        "_id": "e2b98c302479d75d4b5e90d265480de3",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers LLC Plot No 211, Second Sector, City Center. New Cairo 11835, Egypt",
+                        "image": "/images/offices/office-ncair.webp",
+                        "tel": "+20 2 2759 7700",
+                        "fax": "+20 2 2759 7711",
+                        "lat": 30.028698345962372,
+                        "lng": 31.46669714164995
+                    }
+                ]
+            },
+            {
+                "_id": "05ee2223faaec7c62c8edc95cafabccc",
+                "name": "Alexandria",
+                "lat": 31.20176,
+                "lng": 29.91582,
+                "offices": [
+                    {
+                        "_id": "2de45831b13146929a28461d15694290",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers LLC/EzzEldeen, Diab & Co Smouha Heights Building 56 Fawzi Moaz Street Smouha Alexandria 21431 Egyp",
+                        "image": "/images/offices/office-alex1.webp",
+                        "tel": "+20 3 424 3355",
+                        "fax": "+20 3 424 3344",
+                        "lat": 31.21130143066547,
+                        "lng": 29.938025612917297
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "bff5062d95d33bab07c610cae2e6a3f5",
+        "name": " India",
+        "lat": 20,
+        "lng": 77,
+        "cities": [
+            {
+                "_id": "09db8ad560af0593726463a8731b3f46",
+                "name": "Delhi NCR",
+                "lat": 28.63576,
+                "lng": 77.22445,
+                "offices": [
+                    {
+                        "_id": "7f7afc535a9b0341b033b04ed72472bf",
+                        "staff": [],
+                        "address": "PricewaterhouseCoopers Pvt Ltd Building 8, Tower B, 8th Floor, DLF Cyber City,Gurugram - 122002, Haryana, India",
+                        "name": "Delhi Gurugram 8 B",
+                        "tel": "+91 (124) 462 0000, 306 0000",
+                        "fax": "+91 (124) 462 0620",
+                        "lat": 28.49444856575703,
+                        "lng": 77.0890039860777
+                    },
+                    {
+                        "_id": "4b9ee30d1ef133aea2b8755081d8dc6b",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers Pvt Ltd Building 10, Tower C, 18th Floor, DLF Cyber City, Gurugram - 122002, Haryana, India",
+                        "name": "Delhi Gurugram 10 C",
+                        "tel": "+91 (124) 330 6000",
+                        "fax": "+91 (124) 330 6999",
+                        "lat": 28.49445485383442,
+                        "lng": 77.08897599743923
+                    },
+                    {
+                        "_id": "703c350ed69d286a3d5cb97f4187dba3",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers Pvt Ltd Sucheta, LKS, 1st Floor, 11A VDM, New Delhi, India",
+                        "name": "Delhi Sucheta",
+                        "tel": "+91 (11) 4115 0500",
+                        "lat": 28.626774464969277,
+                        "lng": 77.20622877959003
+                    },
+                    {
+                        "_id": "96319c59a081483c1c3f1a8bc24afa50",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers Pvt Ltd Novus Tower, 5th Floor, Plot No. 18, Sector 18, Phase - 4, Gurugram, India",
+                        "name": "Delhi Gurugram Novus Tower",
+                        "tel": "+91 (124) 446 7300, +91 (124) 627 7300 ",
+                        "lat": 28.491734638867175,
+                        "lng": 77.07775258209877
+                    }
+                ]
+            },
+            {
+                "_id": "8997df8b00dc569f5527d6e314e1d6bd",
+                "name": "Chennai",
+                "lat": 13.08784,
+                "lng": 80.27847,
+                "offices": [
+                    {
+                        "_id": "41d3c2239910c547bfbe331824f04c07",
+                        "address": "PricewaterhouseCoopers Pvt Ltd Prestige Palladium, Bayan, 129-140, 8th Floors, Greams Road, Chennai, India",
+                        "tel": "+91 (44) 4228 5000",
+                        "fax": "+91 (44) 4228 5100",
+                        "lat": 13.058772750391402,
+                        "lng": 80.25362229323343
+                    }
+                ]
+            },
+            {
+                "_id": "08fe17a1437e983d97e41247211afe25",
+                "name": "Mumbai",
+                "lat": 18.9667,
+                "lng": 72.8333,
+                "offices": [
+                    {
+                        "_id": "8155dbff108505229221e543f250699b",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers Pvt Ltd 252, 2nd - 5th floor, Veer Savarkar Marg, Shivaji Park, Dadar, Mumbai - 400028, Maharashtra, India",
+                        "name": "Mumbai Shivaji Park",
+                        "tel": "+91 (22) 6669 1000",
+                        "fax": "+91 (22) 6654 7800/7801/7802",
+                        "lat": 19.028627281160897,
+                        "lng": 72.83655539726013
+                    },
+                    {
+                        "_id": "f003c226c90b6aaa7f21b32a99f64234",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers Pvt Ltd 8th Floor, IT Building No.3, Nesco IT Park, Western Express Highway, Goregaon East, Mumbai - 400063, Maharashtra, India",
+                        "name": "Mumbai Goregaon",
+                        "tel": "+91 (22) 6119 8000",
+                        "fax": "+91 (22) 6119 8799",
+                        "lat": 19.152824091306666,
+                        "lng": 72.85568053959192
+                    },
+                    {
+                        "_id": "4e7bafded00aa47b3eb98c65d10469ad",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers Service Delivery Center (Bangalore) Pvt. Ltd. First Floor, BG House Hiranandani Business Park Lake Boulevard Road, Powai Mumbai- 400076 Maharashtra",
+                        "name": "Mumbai BG House",
+                        "tel": "+91 (22) 6723 9500",
+                        "lat": 19.11972825302613,
+                        "lng": 72.90813584143709
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "96256c2274d45c2fe1fedc320129a585",
+        "name": " Pakistan",
+        "lat": 30,
+        "lng": 70,
+        "cities": [
+            {
+                "_id": "c504a24137fe5a522e8ac24480c7e743",
+                "name": "Islamabad ",
+                "lat": 33.6989,
+                "lng": 73.0369,
+                "offices": [
+                    {
+                        "_id": "e498216a59620de1654db1e212ddbd3a",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "A.F. Ferguson & Co PIA Building 49 Blue Area Fazl-ul-Haq Road Islamabad 44000 Punjab Pakistan",
+                        "tel": "+92 (51) 2273457-60, (51) 2870045-48",
+                        "fax": "+92 (51) 2277924, (51) 2206473",
+                        "lat": 33.71448348572656,
+                        "lng": 73.0655736153404
+                    }
+                ]
+            },
+            {
+                "_id": "a028e73fa3466bcf588a39eecd9542dd",
+                "name": "Karachi",
+                "lat": 24.8600,
+                "lng": 67.0100,
+                "offices": [
+                    {
+                        "_id": "e87d9fcd8740090585f84c5588ebd36b",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "A.F. Ferguson & Co State Life Building 1-C Off: I. I. Chundrigar Road Karachi 74000 Sindh Pakistan",
+                        "tel": "+92 (21) 32426682-6, (21) 32426711-5",
+                        "fax": "+92 (21) 32415007 (Assurance), (21) 32427938 (Tax)",
+                        "lat": 24.848025055102102,
+                        "lng": 67.00351252883509
+                    }
+                ]
+            },
+            {
+                "_id": "edda2be6433cc4f7b30271490d30d461",
+                "name": "Lahore",
+                "lat": 31.5497,
+                "lng": 74.3436,
+                "offices": [
+                    {
+                        "_id": "13e70c7675a75d4cd5d41973b38374a7",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "A.F. Ferguson & Co 23-C, Aziz Avenue Canal Bank Gulberg V Lahore 54660 Punjab Pakistan",
+                        "tel": "+92 (42) 35715864-71",
+                        "fax": "+92 (42) 35715872",
+                        "lat": 31.53913102431643,
+                        "lng": 74.3476127
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "8403b1b3c85c25e340980cebf145b835",
+        "name": "Saudi Arabia",
+        "lat": 25,
+        "lng": 45,
+        "cities": [
+            {
+                "_id": "8ef8d4f2340115ce7d00ea64bc1b5009",
+                "name": "Riyadh",
+                "lat": 24.6500,
+                "lng": 46.7100,
+                "offices": [
+                    {
+                        "_id": "c659414eae2f8c1d0cbba500daf30c59",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers Kingdom Tower - 21st, 24th & 56th floors, King Fahd Highway, Riyadh 11414, Saudi Arabia",
+                        "image": "/images/offices/office-riya2.webp",
+                        "tel": "+966 11 211 0400",
+                        "fax": "+966 11 211 0401",
+                        "lat": 24.71215711762337,
+                        "lng": 46.674138825839485
+                    }
+                ]
+            },
+            {
+                "_id": "ac43e23ee0f11ec4bfa4de8957cf4e6a",
+                "name": "Jeddah",
+                "lat": 21.5428,
+                "lng": 39.1728,
+                "offices": [
+                    {
+                        "_id": "1585926be857282c8d8baff8ca49e1de",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers Jameel Square Al Tahliah Street Jeddah 21464 Saudi Arabia",
+                        "image": "/images/offices/office-jedd1.webp",
+                        "tel": "+966 12 610 4400",
+                        "fax": "+966 12 610 4411",
+                        "lat": 21.54976745106316,
+                        "lng": 39.15356064417548
+                    }
+                ]
+            },
+            {
+                "_id": "82702d4b1b1c563029c6766f05c0d1cb",
+                "name": "Dhahran",
+                "lat": 26.236355,
+                "lng": 50.032600,
+                "offices": [
+                    {
+                        "_id": "ee53f495d89261201626493a0dff1dc2",
+                        "staff": [],
+                        "address": "PricewaterhouseCoopers c/o Saudi Aramco Room T-340, North Dhahran 31311 Saudi Arabia",
+                        "tel": "+966 13 873 6800 (Assurance) / 13 873 6801 (Tax)",
+                        "lat": 26.238294545400013,
+                        "lng": 50.038527493830955
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "eaf16c54fd517b0e15ce1ce78ec24eac",
+        "name": "Turkey",
+        "lat": 39,
+        "lng": 35,
+        "cities": [
+            {
+                "_id": "417169a540bfb7f842f97734e00b9f01",
+                "name": "Ankara",
+                "lat": 39.9300,
+                "lng": 32.8500,
+                "offices": [
+                    {
+                        "_id": "bbc488f9a86553ee4a81acdf32b5ebf7",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers Atatürk Bulvarı Celal Bayar İş Merkezi No:211/18 Kat:6 Kavaklıdere, Çankaya Ankara 06680 Turkey",
+                        "tel": "+90 (312) 457 4545",
+                        "fax": "+90 (312) 457 4550",
+                        "lat": 39.906040880892405,
+                        "lng": 32.85851358239971
+                    }
+                ]
+            },
+            {
+                "_id": "51a1548fafa4f2932349a1c45677ef1d",
+                "name": "Istanbul",
+                "lat": 41.0100,
+                "lng": 28.9603,
+                "offices": [
+                    {
+                        "_id": "5c2bc16e9e6e7aec318afdd77ef7f556",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers Süleyman Seba Caddesi BJK Plaza No:48 B Blok Kat:9 Akaretler, Beşiktaş Istanbul 34357 Turkey",
+                        "tel": "+90 (212) 326 6060",
+                        "fax": "+90 (212) 326 6050",
+                        "lat": 41.04272010083705,
+                        "lng": 29.00105469592923
+                    }
+                ]
+            },
+            {
+                "_id": "d85062aa86fbdbaff14be6ada92afd60",
+                "name": "İzmir",
+                "lat": 38.4127,
+                "lng": 27.1384,
+                "offices": [
+                    {
+                        "_id": "87a1fa6d2a3a9bab43c8b13c4e1acd62",
+                        "staff": [],
+                        "address": "PricewaterhouseCoopers Kazımdirik Mahallesi Üniversite Caddesi No:70 Bornova Izmir 35100 Turkey",
+                        "tel": "+90 (232) 497 7070",
+                        "fax": "+90 (232) 497 7050",
+                        "lat": 38.45422854165393,
+                        "lng": 27.197487855367275
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "a2dde5c6c188ad94e69cee2227b5910b",
+        "name": "United Arab Emirates",
+        "lat": 24,
+        "lng": 54,
+        "cities": [
+            {
+                "_id": "9c4a1e0b1ce5e2f05dc822e13655f8e7",
+                "name": "Dubai",
+                "lat": 25.2697,
+                "lng": 55.3094,
+                "offices": [
+                    {
+                        "_id": "85571c489bdf31d855eb4d797fa8d5ba",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers Emaar Square Building 5 Dubai United Arab Emirates",
+                        "image": "/images/offices/office-duba3.webp",
+                        "tel": "+971 4 304 3100",
+                        "fax": "+971 4 346 9150",
+                        "lat": 25.201092714609725,
+                        "lng": 55.27491075767181
+                    }
+                ]
+            },
+            {
+                "_id": "37b10d5165587a406f0de8af90002761",
+                "name": "Abu Dhabi",
+                "lat": 24.4781,
+                "lng": 54.3686,
+                "offices": [
+                    {
+                        "_id": "cf0a24939b598b474d0e64919ada4769",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers 25th floor and part of 26th floor, Al Khatem Tower, Abu Dhabi Global Market Square, Al Maryah Island, Abu Dhabi, United Arab Emirates P.O. Box 45263",
+                        "image": "/images/offices/office-abud1.webp",
+                        "tel": "+971 2 694 6800",
+                        "fax": "+971 2 645 6610",
+                        "lat": 24.50207445343188,
+                        "lng": 54.38912639999999
+                    }
+                ]
+            },
+            {
+                "_id": "9b64f8dbf38ef7235d3d75069079ea90",
+                "name": "Sharjah",
+                "lat": 25.3575,
+                "lng": 55.3919,
+                "offices": [
+                    {
+                        "_id": "c17287f7d6b6ebdae8a22aee7de4d898",
+                        "staff": [
+                            {
+                                "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+                                "name": "Ryan Hawk",
+                                "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+                                "tel": "+1 (312) 543 4098",
+                                "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                                    },
+                                    {
+                                        "_id": "318f29597c508eedbfc65dd746cfcee6",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "5a37be7be872133ff6468a703e05a558",
+                                "name": "Harald Wimmer",
+                                "role": "Global Automotive Leader, Partner, PwC Germany",
+                                "tel": "+49 221 2084-240",
+                                "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "9005d751785937c54570a60f1394b066",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "8854554b55fbeec5bcea653728b208fa",
+                                "name": "Jeff Sorensen",
+                                "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "d848698dee18bcb9b66853c2352765b6",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                                    },
+                                    {
+                                        "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                                        "name": "twitter",
+                                        "link": "https://twitter.com/JeffDSorensen"
+                                    },
+                                    {
+                                        "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a6b58cb5e24207c06f4432854195212c",
+                                "name": "John Livingstone",
+                                "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+                                "tel": "",
+                                "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "f9051542a97456c0d33393bc9434f5fd",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                                    },
+                                    {
+                                        "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+                                "name": "Paul Harvey",
+                                "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+                                "tel": "+44 (0) 7738 845 605",
+                                "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+                                "social": [
+                                    {
+                                        "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                                        "name": "linkedin",
+                                        "link": "https://www.linkedin.com/in/psharvey/"
+                                    },
+                                    {
+                                        "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                                        "name": "twitter",
+                                        "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                                    },
+                                    {
+                                        "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                                        "name": "email",
+                                        "link": "staff@sas.com"
+                                    }
+                                ]
+                            }
+                        ],
+                        "address": "PricewaterhouseCoopers Office 1102, Al Batha Tower Al Buheirah Cornice, Al Majaz Sharjah United Arab Emirates",
+                        "tel": "+971 6 597 8600",
+                        "fax": "+971 6 573 0896",
+                        "lat": 25.334400131175105,
+                        "lng": 55.38916244232818
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,46 @@
+{
+    "cards": [
+        {
+            "_id": "1",
+            "title": "Family Business",
+            "text": "Helping family businesses grow, prosper and professionalism to ensure continuity for future generations",
+            "url": "#",
+            "image": "/images/tree-hero-image.webp"
+        },
+        {
+            "_id": "2",
+            "title": "Family Office",
+            "text": "Working with family offices to preserve and then grow the wealth for current and future generations",
+            "url": "#",
+            "image": "/images/FO 6 box image.webp"
+        },
+        {
+            "_id": "3",
+            "title": "NextGen",
+            "text": "Connect. Learn. Lead - Our commitment to young entrepreneurs & successors in family businesses globally",
+            "url": "#",
+            "image": "/images/next-gen-2019-hero.jpg"
+        },
+        {
+            "_id": "4",
+            "title": "Private Wealth",
+            "text": "Helping you and your family business grow and protect your wealth",
+            "url": "#",
+            "image": "/images/privatewealth2.webp"
+        },
+        {
+            "_id": "5",
+            "title": "Small Business Solutions",
+            "text": "From startups to established businesses, we can help you become the company you want to be",
+            "url": "#",
+            "image": "/images/startupbox2.webp"
+        },
+        {
+            "_id": "6",
+            "title": "Powering Private",
+            "text": "Powering Private is a programme that we have created for our private business clients and partners.",
+            "url": "#",
+            "image": "/images/powering-private.webp"
+        }
+    ]
+}

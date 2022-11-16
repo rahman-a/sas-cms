@@ -1,0 +1,31 @@
+@use '../media' as media;
+.main {
+  &__popularCards {
+    gap: 5rem;
+  }
+  &__moreCards {
+    gap: 5rem;
+    @include media.breakpoint(md) {
+      flex-direction: column;
+      padding: 0 1.6rem;
+    }
+    h2 {
+      font: var(--title-text-medium);
+      font-size: 2.5rem;
+      color: var(--primary-text-color) !important;
+      margin: 0;
+    }
+    p {
+      margin: 2rem 0;
+    }
+    a {
+      padding: 1.2rem 5rem;
+      width: fit-content;
+    }
+  }
+}
+
+.container {
+  margin: 5rem; // test
+  width: 25rem; // test
+}

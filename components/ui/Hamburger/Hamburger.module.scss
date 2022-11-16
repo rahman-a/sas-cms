@@ -1,0 +1,31 @@
+.hamburger {
+  margin: 0 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+  &__bar {
+    height: 2.5px;
+    background: var(--primary-text-color);
+    border-radius: 5px;
+    margin: 4px 0;
+    transform-origin: left;
+    transition: all 0.5s;
+    &-white {
+      background: var(--white-color-80);
+    }
+  }
+
+  &__is-open &__bar-top {
+    transform: rotate(45deg);
+  }
+  &__is-open &__bar-middle {
+    transform: translateX(1rem);
+    opacity: 0;
+  }
+  &__is-open &__bar-bottom {
+    transform: rotate(-45deg);
+  }
+}

@@ -1,0 +1,138 @@
+@use '@styles/media' as media;
+
+.index {
+  position: fixed;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+  right: 0;
+  z-index: 9;
+  @include media.breakpoint(sm) {
+    top: 0;
+    left: 0;
+    right: unset;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    transform: translateX(0);
+    pointer-events: none;
+  }
+
+  &:not(&__open):hover {
+    transform: translateX(95%);
+    @include media.breakpoint(sm) {
+      transform: translateX(0);
+    }
+  }
+
+  &__wrapper {
+    background-color: var(--container-color);
+    width: fit-content;
+    @include media.breakpoint(sm) {
+      position: absolute;
+      top: -100%;
+      width: 100%;
+      height: 100%;
+      transition: top 0.3s ease-in-out;
+    }
+  }
+  &__open &__wrapper {
+    @include media.breakpoint(sm) {
+      top: 0;
+      pointer-events: all;
+    }
+  }
+  &__title {
+    color: var(--primary-text-color-light);
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding: 2rem;
+    border-bottom: 1px solid var(--gray-color);
+  }
+
+  &__list {
+    list-style: none;
+    max-height: 40rem;
+    overflow: auto;
+    @include media.breakpoint(sm) {
+      max-height: 85vh;
+    }
+  }
+
+  &__item {
+    min-width: 25rem;
+    border-bottom: 1px solid var(--gray-color);
+    &--selected {
+      background-color: var(--gray-color-60);
+    }
+  }
+
+  &__link {
+    display: block;
+    width: 100%;
+    color: var(--primary-text-color-light);
+    padding: 2rem;
+    font-weight: 400;
+    font: var(--body-text-small-regular);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    span {
+      border-bottom: 1px solid transparent;
+      text-transform: capitalize;
+    }
+    &:hover span {
+      border-bottom-color: var(--primary-color);
+    }
+  }
+
+  &__toggle {
+    all: unset;
+    position: absolute;
+    top: 0%;
+    left: -4.5rem;
+    background-color: var(--surface-color);
+    padding-left: 1.6rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    z-index: -1;
+    cursor: pointer;
+    pointer-events: all;
+    span {
+      display: flex;
+      color: var(--primary-text-color-light);
+      svg {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+    }
+    &_dash {
+      position: absolute;
+      background-color: var(--surface-color);
+      width: 2rem;
+      height: 8rem;
+      top: 98%;
+      right: 3rem;
+      @include media.breakpoint(sm) {
+        display: none;
+      }
+    }
+
+    @include media.breakpoint(sm) {
+      position: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 0;
+      width: 6rem;
+      height: 6rem;
+      top: unset;
+      left: unset;
+      right: 2rem;
+      bottom: 2rem;
+      z-index: 99;
+    }
+  }
+  &__open {
+    transform: translateX(0);
+  }
+}

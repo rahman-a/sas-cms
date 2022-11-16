@@ -1,0 +1,21 @@
+@use '@styles/media' as media;
+.card {
+  min-width: 25rem;
+  @include media.breakpoint(sm) {
+    width: 95%;
+  }
+  h2 {
+    font: var(--title-text-medium);
+    font-size: 2.5rem;
+    color: var(--primary-text-color);
+    margin: 0;
+  }
+  p {
+    margin: 2rem 0;
+  }
+  button,
+  a {
+    padding: 1.2rem 5rem;
+    width: fit-content;
+  }
+}

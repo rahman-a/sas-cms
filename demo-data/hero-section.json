@@ -1,0 +1,58 @@
+{
+    "industries": {
+        "_id": "2de45831b13146929a28461d15694290",
+        "title": "Industries and sectors",
+        "text": "Our industry-focused network is designed to anticipate and address your business needs. Together, our 250,000 people, deployed across 158 countries, can both zoom out and see the big picture — the context — and zoom in on the right solution.",
+        "image": "/images/industries-hero.jpg",
+        "short-url": "https://sas.to/348ggWw"
+    },
+    "services": {
+        "_id": "bf22ca9de261d92f0980ba1435d8a0ad",
+        "title": "Services",
+        "text": "PwC offers experienced and comprehensive help for a wide range of business needs, and can help you to work smarter and reach your goals. Have a look at the professional services PwC offers, and let's talk.",
+        "image": "/images/hero-section.webp",
+        "short-url": "https://sas.to/3kUezTE"
+    },
+    "about": {
+        "_id": "e69a19ad01dbf50da1fa14cfc6540e47",
+        "title": "About us",
+        "text": "Read our Global annual review, meet our Global leadership team, discover our approach to corporate sustainability, our commitment to diversity, inclusion, and more.",
+        "image": "/images/damil-gettyimages-1147997246-1600.webp",
+        "short-url": "https://sas.to/3kUezTE"
+    },
+    "issues": {
+        "_id": "727287871e0bc4105452ad6e2ce8c140",
+        "title": "Today's issues",
+        "text": "Explore our views and insights to help create the value you seek in today's challenging business landscape",
+        "image": "/images/damil-gettyimages-975027882-1600.webp",
+        "short-url": "https://sas.to/2HDU1kv"
+    },
+    "industry": {
+        "_id": "9e9a73bd97b4cfeac997879e48b0310e",
+        "title": "Consumer markets",
+        "text": "SAS's consumer markets practice provides support in areas such as disruption, the impacts of e-commerce, supply chain management, compliance and regulatory pressures, data analytics and changing customer demands.",
+        "image": "/images/retail-hero.webp",
+        "short-url": "https://sas.to/348ggWw"
+    },
+    "service": {
+        "_id": "16f6188cbd45f90809310a721e854451",
+        "title": "Emerge stronger from disruption",
+        "text": "Powered by technology-driven forensic intelligence and analytics, we help you build resilient strategies to protect value, build trust and create opportunities for your business to emerge stronger.",
+        "image": "/images/forensis-services-1600.webp",
+        "short-url": "https://sas.to/3kUezTE"
+    },
+    "issue": {
+        "_id": "d6ab1f08e7ecf24bee1505d8d7391da8",
+        "title": "Managing risk and regulation",
+        "text": "Rethink risk, regulation and compliance to drive strategy, capabilities and performance.",
+        "image": "/images/risk-regulation-hero.webp",
+        "short-url": "https://sas.to/2HDU1kv"
+    },
+    "page": {
+        "_id": "05ee2223faaec7c62c8edc95cafabccc",
+        "title": "Ethics and compliance",
+        "text": "Words have power. But only when they’re backed by action. At PwC, we don’t just talk about a culture of ethical behaviour and compliance with the law. We live it.",
+        "image": "/images/ethics-hero.webp",
+        "short-url": "https://sas.to/2QWyEw2"
+    }
+}

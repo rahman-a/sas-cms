@@ -1,0 +1,170 @@
+{
+    "_id": "c3a9db3d4e831d9a09576ee4921e17e7",
+    "title": "Learn more about risk and regulatory risks by industry",
+    "list": [
+        {
+            "_id": "8ef8d4f2340115ce7d00ea64bc1b5009",
+            "title": "financial services",
+            "items": [
+                {
+                    "_id": "945e207f72e84ff02a3eeafc31320740",
+                    "item": "AML",
+                    "url": "#"
+                },
+                {
+                    "_id": "3e15393bf4f30dc3e9bbf1e3cb3e5387",
+                    "item": "LIBOR",
+                    "url": "#"
+                },
+                {
+                    "_id": "ac43e23ee0f11ec4bfa4de8957cf4e6a",
+                    "item": "BASEL IV",
+                    "url": "#"
+                },
+                {
+                    "_id": "1585926be857282c8d8baff8ca49e1de",
+                    "item": "tax compliance",
+                    "url": "#"
+                },
+                {
+                    "_id": "58d06d6a8bd7bc7c6919bf75641e83b9",
+                    "item": "customer authentication",
+                    "url": "#"
+                },
+                {
+                    "_id": "ba5d095f67fc48548c4f397857196784",
+                    "item": "data protection",
+                    "url": "#"
+                },
+                {
+                    "_id": "9e197fe3e127db75d7d4c7bc7b1c13c9",
+                    "item": "contract compliance",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "_id": "c659414eae2f8c1d0cbba500daf30c59",
+            "title": "health industries",
+            "items": [
+                {
+                    "_id": "c4f9639a213ed2c4e655fdf0ec4ad83c",
+                    "item": "privacy & security",
+                    "url": "#"
+                },
+                {
+                    "_id": "82702d4b1b1c563029c6766f05c0d1cb",
+                    "item": "data",
+                    "url": "#"
+                },
+                {
+                    "_id": "43329f9c1e6d91fe8dcbed4d9ef4208a",
+                    "item": "regulatory reform",
+                    "url": "#"
+                },
+                {
+                    "_id": "ee53f495d89261201626493a0dff1dc2",
+                    "item": "pharmacovigilance",
+                    "url": "#"
+                },
+                {
+                    "_id": "b86ef649d9d9cbd3382d63b4310b6242",
+                    "item": "GxP",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "_id": "97a8edc6dcda6d8d43b6de766472ba40",
+            "title": "energy, utilities & resources",
+            "items": [
+                {
+                    "_id": "49cef520834f3bdd70736ed84b9f3356",
+                    "item": "ESG",
+                    "url": "#"
+                },
+                {
+                    "_id": "3787a2f213567bd0cea36abafcc3ba2f",
+                    "item": "supply chain",
+                    "url": "#"
+                },
+                {
+                    "_id": "eaf16c54fd517b0e15ce1ce78ec24eac",
+                    "item": "market and rate regulations",
+                    "url": "#"
+                },
+                {
+                    "_id": "417169a540bfb7f842f97734e00b9f01",
+                    "item": "utilities consumer protection",
+                    "url": "#"
+                },
+                {
+                    "_id": "bbc488f9a86553ee4a81acdf32b5ebf7",
+                    "item": "infrastructure security & incident management",
+                    "url": "#"
+                },
+                {
+                    "_id": "1131631d71df32397623cb993f56909a",
+                    "item": "transfer pricing",
+                    "url": "#"
+                },
+                {
+                    "_id": "6e599b062f3699362ab1c2bab10df9cf",
+                    "item": "land and mineral rights use",
+                    "url": "#"
+                },
+                {
+                    "_id": "fca93fcf9cfece6079e06c6d0fff984a",
+                    "item": "hazard & safety",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "_id": "d55492ac34ec5b637402247265720264",
+            "title": "technology, media & telecom",
+            "items": [
+                {
+                    "_id": "4c60da4cef6def79b289f55f672a7c8f",
+                    "item": "privacy",
+                    "url": "#"
+                },
+                {
+                    "_id": "51a1548fafa4f2932349a1c45677ef1d",
+                    "item": "piracy/intellectual property",
+                    "url": "#"
+                },
+                {
+                    "_id": "5c2bc16e9e6e7aec318afdd77ef7f556",
+                    "item": "telecom regulation",
+                    "url": "#"
+                },
+                {
+                    "_id": "677b7d815e86b31f81eded9f62b3c33f",
+                    "item": "net neutrality",
+                    "url": "#"
+                },
+                {
+                    "_id": "cd5acccebbd6feea2459e3cd325850ca",
+                    "item": "contract compliance",
+                    "url": "#"
+                },
+                {
+                    "_id": "cbd027fbad7087de56594cc0ded141a5",
+                    "item": "channel partner compliance",
+                    "url": "#"
+                },
+                {
+                    "_id": "7b8c9ca73e0eb7f1ef72b005c3224ff2",
+                    "item": "PCI Compliance",
+                    "url": "#"
+                },
+                {
+                    "_id": "d85062aa86fbdbaff14be6ada92afd60",
+                    "item": "IoT Regulation",
+                    "url": "#"
+                }
+            ]
+        }
+    ]
+}

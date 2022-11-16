@@ -1,0 +1,47 @@
+@use '../media' as media;
+.industry {
+  position: relative;
+  &__cards {
+    padding: 5rem 0;
+    & > h2 {
+      color: var(--primary-text-color);
+    }
+  }
+  &__card {
+    a {
+      color: var(--primary-text-color) !important;
+    }
+  }
+
+  &__cards {
+    background-color: var(--background-color);
+  }
+
+  &__more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include media.breakpoint(md) {
+      margin-top: 3rem;
+    }
+    a {
+      padding: 1rem 2rem;
+      font-size: 1.4rem;
+    }
+    a:first-child {
+      margin-right: 1rem;
+    }
+  }
+
+  &__staff {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+
+    @include media.breakpoint(sm) {
+      align-items: flex-start;
+      gap: 1.6rem;
+    }
+  }
+}

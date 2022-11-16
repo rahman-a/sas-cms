@@ -1,0 +1,164 @@
+@use './media' as *;
+
+@font-face {
+  font-family: 'ITC-Charter';
+  src: url(../public/lib/fonts/CharterITC-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Regular';
+  src: url(../public/lib/fonts/Helvetica-Neue-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Medium';
+  src: url(../public/lib/fonts/Helvetica-Neue-Medium.otf);
+}
+
+/**
+font-style
+font-variant
+font-weight
+font-size/line-height
+font-family
+*/
+
+$white-color: #fff;
+
+:root {
+  // FONTS VARIABLES
+  --main-font-regular: 'ITC-Charter', serif;
+  --secondary-font-regular: 'Helvetica Neue Regular', Arial, sans-serif;
+  --secondary-font-medium: 'Helvetica Neue Medium', Arial, sans-serif;
+
+  // DISPLAY TEXT FONTS VARIABLES
+  --display-text: normal normal 400 4rem/5.2rem var(--main-font-regular);
+  --display-small-text: normal normal 400 3.8rem/4.9rem var(--main-font-regular);
+
+  // HEADLINE TEXT FONTS VARIABLES
+  --headline-large-text: normal normal 400 2.7rem/2.7rem
+    var(--main-font-regular);
+  --headline-medium-text: normal normal 400 2.4rem/3.1rem
+    var(--main-font-regular);
+  --headline-small-text: normal normal 400 2rem/2.7rem var(--main-font-regular);
+
+  // TITLE TEXT FONTS VARIABLES
+  --title-text-regular: normal normal 400 1.8rem/3.1rem
+    var(--secondary-font-regular);
+  --title-text-large-regular: normal normal 400 2rem/3rem
+    var(--secondary-font-regular);
+  --title-text-medium: normal normal 700 2rem/2.6rem
+    var(--secondary-font-medium);
+  --title-text-large-medium: normal normal 700 2.8rem/3.6rem
+    var(--secondary-font-medium);
+  --title-text-large: normal normal 700 4rem/2.4rem var(--secondary-font-medium);
+
+  // BODY TEXT FONTS VARIABLES
+  --body-text-regular: normal normal 400 1.6rem/2.7rem
+    var(--secondary-font-regular);
+  --body-text-small-regular: normal normal 400 1.4rem/2.3rem
+    var(--secondary-font-regular);
+
+  // COLORS VARIABLES
+  --primary-color: rgb(30, 149, 224);
+  --primary-color-light: rgb(201, 236, 252);
+  --primary-color-dark: rgb(0, 38, 56);
+
+  --primary-text-color: rgb(45, 45, 45);
+  --primary-text-color-light: rgb(255, 255, 255);
+  --primary-text-color-dark: rgb(0, 0, 0);
+
+  --surface-color: rgb(57, 65, 85);
+  --background-color: rgb(242, 242, 242);
+  --background-color-dark: rgb(222, 222, 222);
+  --gray-color: rgb(125, 125, 125);
+  --gray-color-20: rgba(125, 125, 125, 0.2);
+  --gray-color-40: rgba(125, 125, 125, 0.4);
+  --gray-color-60: rgba(125, 125, 125, 0.6);
+  --gray-color-80: rgba(125, 125, 125, 0.8);
+  --container-color: rgb(45, 45, 45);
+  --container-color-20: rgba(45, 45, 45, 0.2);
+  --container-color-40: rgba(45, 45, 45, 0.4);
+  --container-color-60: rgba(45, 45, 45, 0.6);
+  --container-color-80: rgba(45, 45, 45, 0.8);
+
+  --white-color: rgb(255, 255, 255);
+  --white-color-20: rgba(255, 255, 255, 0.2);
+  --white-color-40: rgba(255, 255, 255, 0.4);
+  --white-color-60: rgba(255, 255, 255, 0.6);
+  --white-color-80: rgba(255, 255, 255, 0.8);
+  --black-color: rgb(0, 0, 0);
+
+  --error-color: rgb(224, 48, 30);
+  --error-container-color: rgb(255, 199, 199);
+
+  --success-color: rgb(17, 115, 92);
+  --success-container-color: rgb(199, 255, 213);
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  @include breakpoint(xl) {
+    font-size: 60%;
+  }
+  @include breakpoint(lg) {
+    font-size: 58%;
+  }
+  @include breakpoint(md) {
+    font-size: 56%;
+  }
+  @include breakpoint(sm) {
+    font-size: 54%;
+  }
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--secondary-font-regular);
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+
+  @include breakpoint(xl) {
+    width: 90%;
+  }
+  @include breakpoint(md) {
+    width: 98%;
+  }
+}
+
+.is-visible {
+  display: block !important;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+#hidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.table__title {
+  background-color: var(--gray-color-20);
+  border-left: 2px solid var(--primary-color);
+  p {
+    font-size: 1.6rem;
+    color: var(--primary-color-dark);
+    letter-spacing: 0.5px;
+  }
+}

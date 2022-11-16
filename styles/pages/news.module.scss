@@ -1,0 +1,40 @@
+@use '../media' as media;
+
+.news {
+  &__cards {
+    padding: 3rem 0;
+    & > div {
+      width: 100%;
+    }
+    & > h2 {
+      margin: 0 0 2rem 2rem;
+      color: var(--primary-text-color);
+    }
+
+    &_wrapper {
+      gap: 1rem;
+    }
+    &_card {
+      max-width: unset;
+      width: calc(100% / 2);
+    }
+  }
+
+  &__filter {
+    &_action {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      button[data-active='true'] {
+        background-color: var(--gray-color);
+        color: var(--white-color);
+        border: 0;
+      }
+    }
+    &_tab {
+      & > div {
+        padding: 0rem;
+      }
+    }
+  }
+}

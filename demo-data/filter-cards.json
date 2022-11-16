@@ -1,0 +1,206 @@
+[
+    {
+        "_id": "5c9c0b5b4b6b8c0b8c8b4567",
+        "title": "topic",
+        "keywords": [
+            {
+                "_id": "87a1fa6d2a3a9bab43c8b13c4e1acd62",
+                "keyword": "corporate finance"
+            },
+            {
+                "_id": "b2d3badf39ed2ade01e952ff94beee7a",
+                "keyword": "customer"
+            },
+            {
+                "_id": "91c7cb1aa16b52641f0ff65e1131a770",
+                "keyword": "cyber"
+            },
+            {
+                "_id": "cb59c140e9dd075461a6296f79ed1d28",
+                "keyword": "deals"
+            },
+            {
+                "_id": "b92fe5ab713c154a969eba8407b914d8",
+                "keyword": "digital"
+            },
+            {
+                "_id": "b1723b1c93371defe3945ac90be5c8f2",
+                "keyword": "finance"
+            },
+            {
+                "_id": "e35294e2cb4549759f7258ff46eb371f",
+                "keyword": "forensic services"
+            },
+            {
+                "_id": "8384866a1782909f5a9cc15f8e99fa12",
+                "keyword": "infrastructure advisory"
+            },
+            {
+                "_id": "803ea5d402d5f2364ff206da6fd24b36",
+                "keyword": "operations"
+            },
+            {
+                "_id": "2341c4037925ca8d330f2cc208ca25e8",
+                "keyword": "people and organisation"
+            },
+            {
+                "_id": "3a5d609f11e8196f943828922554c5db",
+                "keyword": "portfolio and programme management"
+            },
+            {
+                "_id": "5b9fe18ec8278b7e88b59024ebbfb1f4",
+                "keyword": "strategy"
+            },
+            {
+                "_id": "e2b98c302479d75d4b5e90d265480de3",
+                "keyword": "sustainability and Climate Change"
+            },
+            {
+                "_id": "ee3a7befafe8466ad7397c066cb8f351",
+                "keyword": "technology"
+            },
+            {
+                "_id": "9e9a73bd97b4cfeac997879e48b0310e",
+                "keyword": "transaction services"
+            },
+            {
+                "_id": "16f6188cbd45f90809310a721e854451",
+                "keyword": "transformation"
+            }
+        ]
+    },
+    {
+        "_id": "b2d3badf39ed2ade01e952ff94beee7a",
+        "title": "industry",
+        "keywords": [
+            {
+                "_id": "d6ab1f08e7ecf24bee1505d8d7391da8",
+                "keyword": "automotive"
+            },
+            {
+                "_id": "05ee2223faaec7c62c8edc95cafabccc",
+                "keyword": "banking and capital markets"
+            },
+            {
+                "_id": "2de45831b13146929a28461d15694290",
+                "keyword": "consumer markets"
+            },
+            {
+                "_id": "bf22ca9de261d92f0980ba1435d8a0ad",
+                "keyword": "energy, utilities and resources"
+            },
+            {
+                "_id": "727287871e0bc4105452ad6e2ce8c140",
+                "keyword": "engineering & construction"
+            },
+            {
+                "_id": "e69a19ad01dbf50da1fa14cfc6540e47",
+                "keyword": "financial services"
+            },
+            {
+                "_id": "b2a3b3f7b390c231ed8b8adabdc99bfa",
+                "keyword": "government"
+            },
+            {
+                "_id": "a3e171ffd21209af7e14f1b469add12b",
+                "keyword": "healthcare"
+            },
+            {
+                "_id": "2ee562e858c04bb1fc1200da81c0f505",
+                "keyword": "hospitality & leisure"
+            },
+            {
+                "_id": "e613218648b8837b84ba6d82e489317f",
+                "keyword": "industrial manufacturing"
+            },
+            {
+                "_id": "a94877c5283f3e0a7f17f596dea7a041",
+                "keyword": "insurance"
+            },
+            {
+                "_id": "0513d74f775357402f89d405bc819c42",
+                "keyword": "media"
+            },
+            {
+                "_id": "629884549d197c7305e4c4d6c6c2497d",
+                "keyword": "public services"
+            },
+            {
+                "_id": "bff5062d95d33bab07c610cae2e6a3f5",
+                "keyword": "technology"
+            },
+            {
+                "_id": "09db8ad560af0593726463a8731b3f46",
+                "keyword": "telecommunications"
+            },
+            {
+                "_id": "7f7afc535a9b0341b033b04ed72472bf",
+                "keyword": "transportation & logistics"
+            }
+        ]
+    },
+    {
+        "_id": "91c7cb1aa16b52641f0ff65e1131a770",
+        "title": "region",
+        "keywords": [
+            {
+                "_id": "8c0c0447b2c891ea3e8a1661393aeca0",
+                "keyword": "americas"
+            },
+            {
+                "_id": "4b9ee30d1ef133aea2b8755081d8dc6b",
+                "keyword": "asia"
+            },
+            {
+                "_id": "703c350ed69d286a3d5cb97f4187dba3",
+                "keyword": "asia Pacific"
+            },
+            {
+                "_id": "96319c59a081483c1c3f1a8bc24afa50",
+                "keyword": "europe"
+            },
+            {
+                "_id": "8997df8b00dc569f5527d6e314e1d6bd",
+                "keyword": "global"
+            },
+            {
+                "_id": "41d3c2239910c547bfbe331824f04c07",
+                "keyword": "middle East"
+            }
+        ]
+    },
+    {
+        "_id": "cb59c140e9dd075461a6296f79ed1d28",
+        "title": "alliance",
+        "keywords": [
+            {
+                "_id": "e72c1da13ec22d0b12e3d1b4cd1df03f",
+                "keyword": "amazon web services (AWS)"
+            },
+            {
+                "_id": "b6d35a049bde07bc484b946dd2cdf486",
+                "keyword": "guidewire"
+            },
+            {
+                "_id": "09d08405fb99bedc613db51856577341",
+                "keyword": "microsoft"
+            },
+            {
+                "_id": "666b30a01ff6a253c4053204b961cd4a",
+                "keyword": "oracle"
+            },
+            {
+                "_id": "08fe17a1437e983d97e41247211afe25",
+                "keyword": "SAP"
+            },
+            {
+                "_id": "8155dbff108505229221e543f250699b",
+                "keyword": "salesforce"
+            },
+            {
+                "_id": "f17e400f9f9bf92bddce88212b708afd",
+                "keyword": "workday"
+            }
+        ]
+    }
+]

@@ -1,0 +1,422 @@
+[
+    {
+        "_id": "a56528576e53533fe0a7e733263ae205",
+        "title": "Cookies on this site",
+        "description": "",
+        "content": [
+            {
+                "_id": "27fde3eff1c3c9e38f6777986eff8e5b",
+                "type": "Strictly Necessary Cookies",
+                "cookies": [
+                    {
+                        "_id": "ada89792458b8a4566fe8a71e8046fb3",
+                        "provider": "SAS",
+                        "name": "sas-id",
+                        "purpose": "SAS Registration Cookie- This cookie contains the encrypted email ID of the user. It is used to identify the registered user account (if available) for each request.",
+                        "type": "First party, Persistent",
+                        "duration": "1 day or 30 days (if “Remember me” is checked)"
+                    },
+                    {
+                        "_id": "12efc27694fe8dfe7544026048fe3185",
+                        "provider": "SAS",
+                        "name": "firsttime-login",
+                        "purpose": "SAS Registration Cookie- This cookie is used by SAS during the registration process to ensure that any necessary password updates are completed.",
+                        "type": "First party",
+                        "duration": "Until password update is completed"
+                    },
+                    {
+                        "_id": "fdda0e6cfd6e3335da2dd6331e08bb17",
+                        "provider": "SAS",
+                        "name": "sas_overlay",
+                        "purpose": "SAS Registration Cookie- This cookie is used by SAS to make sure that the overlay (registration panel) opens once per browser session",
+                        "type": "First party",
+                        "duration": "Until the end of the browser session"
+                    },
+                    {
+                        "_id": "86e4b35a837e4e3d4d90d6fa546c04ff",
+                        "provider": "Load balancer",
+                        "name": "BIGipServerPOOL-69.20.11.37-Dispatch",
+                        "purpose": "This cookie is set by the servers hosting SAS sites to allow a visitor to receive site content from one out of multiple servers as the visitor browses the site. This improves performance and allows the visitor’s session to be maintained.",
+                        "type": "First party, Persistent",
+                        "duration": "Until end of session"
+                    },
+                    {
+                        "_id": "15c89f828f39b24fc3f181f3b86b8528",
+                        "provider": "SAS",
+                        "name": "sas_closed_topics",
+                        "purpose": "This cookies is used by SAS to help personalize the content a user sees based on topics they've identified they're interested in.",
+                        "type": "First party",
+                        "duration": "Until the end of the browser session"
+                    },
+                    {
+                        "_id": "eecf568085799714c4d2dd2271941ac2",
+                        "provider": "SAS",
+                        "name": "sas-cookie-accept",
+                        "purpose": "This cookie is used by SAS to understand whether or not a user has selected \"I understand\" in their cookie banner.",
+                        "type": "First party",
+                        "duration": "Until the end of the browser session"
+                    },
+                    {
+                        "_id": "d574f80cdd091414e9c4caaa08e228de",
+                        "provider": "SAS",
+                        "name": "sas_int_usr",
+                        "purpose": "This cookie is used by SAS to distinguish internal users from external visitors to the Websites. It is set when a person is accessing the website from within the SAS network (VPN or office).",
+                        "type": "First party",
+                        "duration": "3 months"
+                    }
+                ]
+            },
+            {
+                "_id": "8623d2fd9be66aedc08dc5f7a51c5917",
+                "type": "Performance cookies",
+                "cookies": [
+                    {
+                        "_id": "127b5bb18020fd3f5d87bd3e99ab1272",
+                        "provider": "Adobe Analytics",
+                        "name": "_sdsat_landing_page",
+                        "purpose": "Stores the first page you hit when visiting sas.com",
+                        "type": "First party, Session",
+                        "duration": "Until end of session"
+                    },
+                    {
+                        "_id": "2029b4bbb80629524bb92c7c1f6370cb",
+                        "provider": "Adobe Analytics",
+                        "name": "_sdsat_traffic_source",
+                        "purpose": "Stores the site you came from before reaching sas.com",
+                        "type": "First party, Session",
+                        "duration": "Until end of session"
+                    },
+                    {
+                        "_id": "f5c90da83037cc91a1d1a949a44e8d9f",
+                        "provider": "Adobe Analytics",
+                        "name": "_sdsat_pages_viewed",
+                        "purpose": "Stores the quantity (number) of pages that you view during your visit.",
+                        "type": "First party, Session",
+                        "duration": "Until end of session"
+                    },
+                    {
+                        "_id": "206b8d8ff4f9e9f5b726a42cd2fa8288",
+                        "provider": "Adobe Analytics",
+                        "name": "_sdsat_lt_pages_viewed",
+                        "purpose": "Stores the total number of pages viewed",
+                        "type": "First party, Persistent",
+                        "duration": "2 years from set/update"
+                    },
+                    {
+                        "_id": "3be3c926a6f87aaf6b4eb1afad20238e",
+                        "provider": "Adobe Analytics",
+                        "name": "_sdsat_session_count",
+                        "purpose": "Stores a session counter",
+                        "type": "First party, Persistent",
+                        "duration": "2 years from set/update"
+                    },
+                    {
+                        "_id": "effd488858a2776184c90b3ba9ec69db",
+                        "provider": "Adobe Analytics",
+                        "name": "s_vi",
+                        "purpose": "This cookie stores the visitor ID provided by our analytics provider whenever you first visit one of the Websites.",
+                        "type": "Third Party Persistent",
+                        "duration": "2 years from set/update"
+                    },
+                    {
+                        "_id": "1df042d224ff1066d23ad399484bc4d3",
+                        "provider": "Adobe Analytics",
+                        "name": "gpv",
+                        "purpose": "This cookie stores the quantity of pages you view when visiting the Websites",
+                        "type": "First and third party",
+                        "duration": "30 minutes from set/update"
+                    },
+                    {
+                        "_id": "10cd8a046d915abe24935b5585005063",
+                        "provider": "Adobe Analytics",
+                        "name": "s_nr",
+                        "purpose": "This cookie stores the date(s) when you visit the Websites, and whether or not you are a new or returning visitor.",
+                        "type": "First and third party",
+                        "duration": "2 years from set/update"
+                    },
+                    {
+                        "_id": "2257f3ab4895ffcb88dc7c4934508d7e",
+                        "provider": "Adobe Analytics",
+                        "name": "s_ppv",
+                        "purpose": "Stores information on the percentage of the page displayed",
+                        "type": "First and third party",
+                        "duration": "Until end of session"
+                    },
+                    {
+                        "_id": "3fa759a7857a4f3a6dbcb7733f15474d",
+                        "provider": "Adobe Analytics",
+                        "name": "s_fid",
+                        "purpose": "This cookie is a \"fallback\" visitor identifier where the s_vi cookie is for some reason blocked. It contains a randomly generated unique ID",
+                        "type": "First and third party",
+                        "duration": "5 years from set/update"
+                    },
+                    {
+                        "_id": "602e824cc4b8038d5b6e5bff42783604",
+                        "provider": "Adobe Analytics",
+                        "name": "s_ppvl",
+                        "purpose": "Stores information on the percentage of the page displayed to you",
+                        "type": "First and third party",
+                        "duration": "Until end of session"
+                    },
+                    {
+                        "_id": "019a4f0edb2469f0d105297734b6b5e8",
+                        "provider": "Adobe Analytics",
+                        "name": "s_cc",
+                        "purpose": "This cookie allows Adobe Analytics to determine whether or not cookies are enabled in your browser.",
+                        "type": "First and third party",
+                        "duration": "Until end of session"
+                    },
+                    {
+                        "_id": "75f2c7805a834d44ef089fa53f1e6405",
+                        "provider": "Adobe Analytics",
+                        "name": "s_sq",
+                        "purpose": "This cookie is set and read by the JavaScript code when the ClickMap functionality and the Activity Map functionality are enabled; it contains information about the previous links that you clicked on the Websites.",
+                        "type": "First party",
+                        "duration": "2 years from set/update"
+                    },
+                    {
+                        "_id": "9000e7a0288070ce04a2ad50247d1a69",
+                        "provider": "Demandbase",
+                        "name": "dmdbase_cdc",
+                        "purpose": "This cookie is used to pass only the company name and firmographic attributes of a site visitor into analytics based on the source IP address. It is set using JavaScript.",
+                        "type": "First Party Session",
+                        "duration": "Until end of session"
+                    },
+                    {
+                        "_id": "b7ac62dd593b120f278277503dbcc8dc",
+                        "provider": "Demandbase",
+                        "name": "dmpsh",
+                        "purpose": "This tracks the history of any ID syncs between TUUID and 3rd party exchanges",
+                        "type": "Third party",
+                        "duration": "2 years"
+                    },
+                    {
+                        "_id": "23f430ee71b6797d51bac439616825d4",
+                        "provider": "Demandbase",
+                        "name": "tuuid_lu",
+                        "purpose": "This tracks the date when the TUUID was last updated.",
+                        "type": "Third party",
+                        "duration": "2 years"
+                    },
+                    {
+                        "_id": "947c5ee0fdbf7499544a068b625767a4",
+                        "provider": "Demandbase",
+                        "name": "pvc",
+                        "purpose": "This cookie tracks post-view conversions for ad campaigns.",
+                        "type": "Third party",
+                        "duration": "2 years"
+                    },
+                    {
+                        "_id": "7561c5ccad2b389c08513f4a07db419e",
+                        "provider": "Demandbase",
+                        "name": "ssid",
+                        "purpose": "This cookie is set to assist in onsite identification for certain legacy campaigns.",
+                        "type": "Third party",
+                        "duration": "2 years"
+                    },
+                    {
+                        "_id": "ac038a3f659a2fb9162efdfc46f179d1",
+                        "provider": "Demandbase",
+                        "name": "_ga",
+                        "purpose": "This is a Google Analytics cookie",
+                        "type": "Third party",
+                        "duration": "2 years"
+                    },
+                    {
+                        "_id": "dc69b74eb4feec371036a2cc966d1ac9",
+                        "provider": "Demandbase",
+                        "name": "tuuid",
+                        "purpose": "This cookie is used for analytics and advertising services provided by Demandbase products.",
+                        "type": "Third party",
+                        "duration": "2 years"
+                    },
+                    {
+                        "_id": "7394e53e7aca0d48a69444e2377668b7",
+                        "provider": "Demandbase",
+                        "name": "IUUID",
+                        "purpose": "This cookie is used for performance and optimization of Demandbase data and reporting.",
+                        "type": "Third party",
+                        "duration": "2 years"
+                    },
+                    {
+                        "_id": "aca5144b1e97b8f55c9446e27d2863dd",
+                        "provider": "Google Analytics",
+                        "name": "__utma",
+                        "purpose": "This is one of the four main cookies set by the Google Analytics service which enables website owners to track visitor behaviour and measure site performance. It it used to calculate new and returning visitor statistics. The cookie is updated every time data is sent to Google Analytics.",
+                        "type": "First and third party",
+                        "duration": "2 years"
+                    },
+                    {
+                        "_id": "4a411c1c9f3e6b1fe399d637c1da7e0c",
+                        "provider": "Google Analytics",
+                        "name": "__utmv",
+                        "purpose": "Used to store visitor-level custom variable data. This cookie is created when a developer uses the _setCustomVar method with a visitor level custom variable. This cookie was also used for the deprecated _setVar method. The cookie is updated every time data is sent to Google Analytics.",
+                        "type": "Third party, persistent",
+                        "duration": ""
+                    },
+                    {
+                        "_id": "903a9769000c45d35473730e70262ed7",
+                        "provider": "Google Analytics",
+                        "name": "__utmz",
+                        "purpose": "Stores the traffic source or campaign that explains how you reached the Websites. The cookie is created when the javascript library executes and is updated every time data is sent to Google Analytics.",
+                        "type": "Third party, persistent",
+                        "duration": ""
+                    },
+                    {
+                        "_id": "98b317ceefd3a790c333e5fbce901ff3",
+                        "provider": "YouTube",
+                        "name": "VISITOR_INFO1_LIVE",
+                        "purpose": "This cookie tracks viewing of Youtube videos on the website.",
+                        "type": "Third party, persistent",
+                        "duration": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": "577e8cfb47ec714b676728158fee0d31",
+        "title": "Commonly used cookies on the Websites",
+        "description": "The following cookies may be present on certain of the Websites, including but not limited to SAS.com/us and SAS.com/gx.",
+        "content": [
+            {
+                "_id": "7bccf8d0cd1292f9dcf720e7e8df9288",
+                "type": "Performance cookies",
+                "cookies": [
+                    {
+                        "_id": "6b4ce34da2cc76ae09d60ad3653fa509",
+                        "provider": "Adobe Target",
+                        "name": "mbox",
+                        "purpose": "This cookie gives website operators the ability to test which online content and offers are more relevant to visitors. Click here for more information.",
+                        "type": "First party",
+                        "duration": "2 weeks"
+                    },
+                    {
+                        "_id": "2bcb42a26c130aab144a4b596e03173e",
+                        "provider": "Crazy Egg",
+                        "name": "_ceir",
+                        "purpose": "This cookie is set by CrazyEgg and records whether you have visited the Website.",
+                        "type": "First party, Persistent",
+                        "duration": "5 years"
+                    },
+                    {
+                        "_id": "b3278d53bc0b70d84a5066bb3374cdf5",
+                        "provider": "Crazy Egg",
+                        "name": "_ceg.s",
+                        "purpose": "This cookie is set by CrazyEgg and records anonymous usage activity on the site to help define heat maps and common user patterns to improve functionality and content development in the future.",
+                        "type": "First and third party",
+                        "duration": "3 months"
+                    },
+                    {
+                        "_id": "72a5d0443be68cb3ad6812b068701e4e",
+                        "provider": "Crazy Egg",
+                        "name": "_ceg.u",
+                        "purpose": "This cookie is set by CrazyEgg, in tandem with the anonymous usage patterns cookie, to understand repeat visitor patterns on the Websites.",
+                        "type": "First and third party",
+                        "duration": "3 months"
+                    },
+                    {
+                        "_id": "8de6e629cdaf0198ead9cc01e92fcd93",
+                        "provider": "Google Analytics",
+                        "name": "_gat",
+                        "purpose": "This cookie name is associated with Google Universal Analytics, according to Google documentation it is used to throttle the request rate - limiting the collection of data on high traffic sites. It expires after 10 minutes.",
+                        "type": "First party, Session",
+                        "duration": "1 minute"
+                    },
+                    {
+                        "_id": "f1cd0b179dd563a98d4ba317cf3c9592",
+                        "provider": "Google Analytics",
+                        "name": "_gid",
+                        "purpose": "This cookie stores a unique user session identifier.",
+                        "type": "First & Third party, Session",
+                        "duration": "24 hours"
+                    },
+                    {
+                        "_id": "51e6a70f7917e6611202e6768f973391",
+                        "provider": "Google Analytics",
+                        "name": "_ga",
+                        "purpose": "This cookie is typically written to the browser upon the first visit to the Websites. If the cookie has been deleted by the browser operator, and the browser subsequently visits sas.com, a new _ga cookie is written with a different unique ID. In most cases, this cookie is used to understand whether a visitor is a single time visitor or a repeat visitor to the Websites and it is updated with each page view. Additionally, this cookie is provided with a unique ID that Google Analytics uses to ensure both the validity and accessibility of the cookie as an extra security measure.",
+                        "type": "First & Third party, Persistent",
+                        "duration": "2 years"
+                    },
+                    {
+                        "_id": "c628eebfc0a72a5ca381d96c7103eab9",
+                        "provider": "Google Analytics",
+                        "name": "__utmb",
+                        "purpose": "This cookie is used to determine new sessions/visits.",
+                        "type": "First party",
+                        "duration": "30 mins from set/update"
+                    }
+                ]
+            },
+            {
+                "_id": "dc3ccfd937f403e07a57a3ca98b789f0",
+                "type": "Customisation cookies",
+                "cookies": [
+                    {
+                        "_id": "fb3b34691ebdfd43c4cdf49c1d238eeb",
+                        "provider": "Eloqua",
+                        "name": "ELOQUA",
+                        "purpose": "This cookie is set by Eloqua and is used by certain of the Websites, including www.sas.com/US, to understand what content key contacts have viewed and what content interests those individuals. It is set when you first visit the site and updated on subsequent visits.",
+                        "type": "Third party, Persistent",
+                        "duration": "2 years from set/update"
+                    },
+                    {
+                        "_id": "03121d0838ebba6982aaac721c05c068",
+                        "provider": "Eloqua",
+                        "name": "ELQSTATUS",
+                        "purpose": "This cookie is set by Eloqua and is used by certain of the Websites, including www.sas.com/US, to understand what content key contacts have viewed and what content interests those individuals. It is set when you are first visit the relevant Website and updated on subsequent visits.",
+                        "type": "Third party, Persistent",
+                        "duration": "2 years from set/update"
+                    }
+                ]
+            },
+            {
+                "_id": "b945276a19a21894db9793256b682d5d",
+                "type": "Advertising cookies",
+                "cookies": [
+                    {
+                        "_id": "e0d12d708c7ed7147bfee7a20e88174b",
+                        "provider": "Google",
+                        "name": "ide",
+                        "purpose": "This is a Google UserID cookie used to help track users across various portions of the Websites.",
+                        "type": "Third party",
+                        "duration": "Two years"
+                    },
+                    {
+                        "_id": "28fe9d00e8ef20e5f146dea7ff3cb4bf",
+                        "provider": "Google",
+                        "name": "nid",
+                        "purpose": "This is a Google UserID cookie used to help track users across various portions of the Websites.",
+                        "type": "Third party",
+                        "duration": "6 months"
+                    },
+                    {
+                        "_id": "7805dfe0f63e330f6199342476a2e923",
+                        "provider": "Google",
+                        "name": "uid",
+                        "purpose": "This is a Google UserID cookie used to help track users across various portions of the Websites.",
+                        "type": "Third party, Persistent",
+                        "duration": ""
+                    },
+                    {
+                        "_id": "6a4d3268f75c3a73588d01b3fb4f1d07",
+                        "provider": "LinkedIn",
+                        "name": "BizoID",
+                        "purpose": "LinkedIn Ad analytics",
+                        "type": "Third party",
+                        "duration": "6 months"
+                    },
+                    {
+                        "_id": "1e90c5f1a4f286bbba6bd9ae1ab8acfe",
+                        "provider": "LinkedIn",
+                        "name": "UserMatchHistory",
+                        "purpose": "This cookie is used by LinkedIn for advertisement analytics",
+                        "type": "Third party",
+                        "duration": "6 months"
+                    }
+                ]
+            }
+        ]
+    }
+]

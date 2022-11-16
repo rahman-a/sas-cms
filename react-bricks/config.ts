@@ -10,7 +10,7 @@ const config: types.ReactBricksConfig = {
   apiKey: process.env.API_KEY,
   pageTypes,
   bricks,
-  logo: '/logo.svg',
+  logo: '/images/logo-transparent.png',
   previewPath: '/preview',
   //==============================
   // Usually defined dynamically in _app.tsx to manage Dark mode
@@ -32,6 +32,8 @@ const config: types.ReactBricksConfig = {
   enableAutoSave: true,
   disableSaveIfInvalidProps: false,
   enablePreview: true,
+  enablePreviewImage: true,
+  enablePreviewIcon: true,
 }
 
 export default config

@@ -1,0 +1,28 @@
+[
+    {
+        "_id": "b92fe5ab713c154a969eba8407b914d8",
+        "title": "Let’s make the future human-led and tech-powered",
+        "description": "<p>We believe that challenges are better solved together. That’s why we’ve created a diverse, global community of solvers that encourages you to lead with your heart and values. And our inclusive community continues to grow. We’re building a place where everyone feels like they truly belong. Where everyone is seen and heard. And where your unique skills are developed and put to work in unexpected and exciting ways, superpowered by technology. We invite you to be a part of <a href=\"#\">The New Equation</a></p>",
+        "link": "/careers/job-search",
+        "text": "Join our community of solvers",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=Z8-3gLjE64E&ab_channel=PwC",
+            "title": "Discover the New Equation"
+        }
+    },
+    {
+        "_id": "b1723b1c93371defe3945ac90be5c8f2",
+        "title": "We’re working to create a better tomorrow",
+        "description": "<p>At PwC, while we draw upon our 160-year history, our commitment for the future is clear. We bring together the collective experience of over 395,000 people in our expansive network of firms in <a href=\"/about/office-location\">156 countries</a> to solve for tomorrow. Striving to consistently deliver innovative work that builds trust and delivers sustained outcomes. And as part of the PwC Network, we at <a href=\"#\">Strategy&</a> work with the world’s leading organizations on their most challenging strategic problems to create real impact—building the capabilities they need to thrive in a changing world.</p>",
+        "link": "/about",
+        "text": "Learn more about SAS"
+    },
+    {
+        "_id": "e35294e2cb4549759f7258ff46eb371f",
+        "title": "Let’s build something great, together",
+        "description": "<p>At PwC, we come together to address challenges in a way that drives lasting change for our clients across a variety of <a href=\"/services\">capabilities</a> and <a href=\"/industries\">industries</a>. We create powerful solutions to make a positive impact. Every day. Are you ready to make a difference?</p>",
+        "link": "/careers/job-search",
+        "text": "Find your career at SAS",
+        "image": "/images/teaser-lets-build-something-great-toghether-670.webp"
+    }
+]

@@ -1,0 +1,58 @@
+@use '@styles/media' as media;
+
+.card {
+  width: 40rem;
+  height: auto;
+  min-height: 22rem;
+  padding: 2rem 1rem;
+  border: 1px solid var(--background-color);
+  cursor: pointer;
+  @include media.breakpoint(lg) {
+    width: 48%;
+  }
+  @include media.breakpoint(sm) {
+    height: 100%;
+  }
+  @include media.breakpoint(xs) {
+    width: 100%;
+  }
+  &:hover {
+    background-color: var(--background-color);
+    border-color: var(--background-color-dark);
+  }
+  &:hover &__title {
+    border-bottom: 2px solid var(--primary-color);
+  }
+  &__wrapper {
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+  }
+
+  &__image {
+    position: relative;
+    width: 20rem;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__content {
+    min-width: 20rem;
+  }
+
+  &__title {
+    display: inline-block;
+    font: var(--headline-medium-text);
+    color: var(--primary-text-color);
+    border-bottom: 2px solid var(--background-color-dark);
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+    transition: all 200ms ease-in-out;
+  }
+  &__text {
+    font: var(--body-text-small-regular);
+    color: var(--primary-text-color);
+  }
+}

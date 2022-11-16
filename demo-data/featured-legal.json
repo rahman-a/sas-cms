@@ -1,0 +1,52 @@
+{
+    "features": [
+        {
+            "_id": "b498de58fd1b3efee393a1c44002e5be",
+            "title": "How we are structured",
+            "text": "Learn about the SAS Network of Firms",
+            "link": "/about/network-structure"
+        },
+        {
+            "_id": "b3c626dbbb31dc466bb1b82c5ab6d73a",
+            "title": "Online legal notices",
+            "text": "Our privacy commitment and online legal statements",
+            "link": "/legal-notices"
+        },
+        {
+            "_id": "9fe63ef85f8c96547c4c65a2c7f5de66",
+            "title": "GDPR compliance",
+            "text": "How the SAS Network is meeting the requirements of GDPR",
+            "link": "/legal-notices/gdpr"
+        }
+    ],
+    "types": [
+        {
+            "_id": "5fca1632e9b391ded16099ae1d7f27a8",
+            "title": "Our privacy statement",
+            "text": "Our privacy statement explains what personal information we collect, how we use that information and how we keep it safe.",
+            "image": "/images/legal/imageedit_2_3905490785.png",
+            "url": "/legal-notices/privacy-policy"
+        },
+        {
+            "_id": "add4421676b4fc3ee3a95f1ce7aad671",
+            "title": "Terms & conditions of use",
+            "text": "These documents explain your responsibilities when using our online websites and marketing systems.",
+            "image": "/images/legal/imageedit_8_2453890396.png",
+            "url": "/legal-notices/terms-and-conditions"
+        },
+        {
+            "_id": "b644182fac93e354b92f2f2fb2361915",
+            "title": "Legal disclaimer",
+            "text": "Our legal disclaimer explains the limitations and appropriate use of the information contained in our websites and marketing communications.",
+            "image": "/images/legal/imageedit_4_8206656095.png",
+            "url": "/legal-notices/legal-disclaimer"
+        },
+        {
+            "_id": "e0a3ab30e7c44dda56a63d52ab3b32cd",
+            "title": "Cookie policy",
+            "text": "Our cookie policy gives information about the cookies that we use, as well as options for managing your cookie preferences. ",
+            "image": "/images/legal/imageedit_6_4909539515.png",
+            "url": "/legal-notices/cookies-policy"
+        }
+    ]
+}

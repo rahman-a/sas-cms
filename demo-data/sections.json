@@ -1,0 +1,125 @@
+{
+    "sections": [
+        {
+            "_id": "eb4437e258e70bfe323fd84583b084f4",
+            "details": {
+                "_id": "8c9082d5de6fe26486db4de7efa731ea",
+                "image": "/images/the-new-equation-pwc.webp",
+                "title": "Delivering Sustained Outcomes Which Make A Difference",
+                "sub-title": "Solving for sustained outcomes which create value for our clients and the world",
+                "description": "<p>Our approach embodies who we are: a community of solvers coming together in unexpected ways to deliver sustained outcomes for organisations, their customers, stakeholders and communities, which make a positive and enduring impact right across the value chain.</p><p>Our formula is simple: we deliver bold ideas, solutions which are human-led and tech-powered and meaningful experiences which deliver real-life results.</p>"
+            },
+            "cards": [
+                {
+                    "_id": "9b831d2cb9cc9571cbace79ec4354588",
+                    "title": "Meet the four forces shaping your workforce strategy",
+                    "description": "This article looks at how Specialisation, Scarcity, Humanity and Rivalry are creating workforce upheavals for businesses today that companies must factor in",
+                    "image": "/images/dam.thumbnail.webp",
+                    "link": "#"
+                },
+                {
+                    "_id": "2259ddf0a73c6e7e19868e5f4619c2f5",
+                    "title": "Reaching your full cloud potential",
+                    "description": "The cloud is not a tactic; it is a strategic tool. In this article, PwC experts outline seven mission-critical factors for changing your approach. ",
+                    "image": "/images/dam2.thumbnail.webp",
+                    "link": "#"
+                },
+                {
+                    "_id": "a12b1a227cb34de71259ebe95ee9429b",
+                    "title": "The ESG movement: Are you ready for the ESG revolution?",
+                    "description": "It is essential for business leaders to tackle reporting, strategy, and business transformation to holistically integrate ESG into their business",
+                    "image": "/images/dam3.thumbnail.webp",
+                    "link": "#"
+                },
+                {
+                    "_id": "eb4437e258e70bfe323fd84583b084f4",
+                    "title": "Transforming healthcare through virtual delivery",
+                    "description": "During the first wave of the COVID-19 pandemic, the health ministry of a Middle East government became concerned that people who needed medical attention were",
+                    "image": "/images/dam4.thumbnail.webp",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "_id": "edfdcfbb1cce4853ff897fde1ad44857",
+            "details": {
+                "_id": "480be02207ef324a1bbad5b6934ae952",
+                "image": "/images/new-day-rga-pwc-card.webp",
+                "title": "You can’t buy trust — you have to earn it",
+                "sub-title": "A world built on the foundations of trust and transparency",
+                "reverse": true,
+                "description": "<p>Trust has never been more important. It’s the link that connects your organisation, your people, your customers, your stakeholders and the world. We know that trust isn’t something you can buy off the shelf. It’s something you earn through every interaction, every experience, every relationship and every outcome delivered.</p><p>We deliver the highest quality through integrity, unwavering objectivity and heavy investment in data, tools, technology, products and services. The result is an environment where agility, consistency and insight thrive, and where our people can provide clients with the excellence they expect time and time again.</p>"
+            },
+            "cards": [
+                {
+                    "_id": "57ecac3c55740515156a6cd525c7425e",
+                    "title": "Linking executive pay to ESG goals",
+                    "description": "Public pressure and changing norms are paving the way for business leaders to be paid based on a new set of criteria.",
+                    "image": "/images/dam5.thumbnail.webp",
+                    "link": "#"
+                },
+                {
+                    "_id": "63ef3355a557992316eff49a3dcb8da2",
+                    "title": "Private Equity Responsible Investment Survey",
+                    "description": "A survey of 209 General Partners and Limited Partners explores how ESG and responsible investing are becoming fundamental drivers of value creation for PE.",
+                    "image": "/images/dam6.thumbnail.webp",
+                    "link": "#"
+                },
+                {
+                    "_id": "14f54797ffbc89a7f733e70562ea6057",
+                    "title": "Simplifying cybersecurity",
+                    "description": "Leaders who are serious about cybersecurity need to make simplicity and complexity reduction a business priority.",
+                    "image": "/images/dam7.thumbnail.webp",
+                    "link": "#"
+                },
+                {
+                    "_id": "05afb880753ae29b2ab3c71f72ab374f",
+                    "title": "Learning to love transparency",
+                    "description": "Five short-term priorities for CEOs and executive teams contemplating a more transparent future.The post-Covid transparency imperative requires an urgent",
+                    "image": "/images/dam8.thumbnail.webp",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "_id": "139b87b2258ed397f16289c5f4983677",
+            "details": {
+                "_id": "9391bb40bfd933425545d61565a5c732",
+                "image": "/images/gettyimages.webp",
+                "title": "People solving together powered by technology",
+                "sub-title": "People and technology working together to create a stronger tomorrow",
+                "description": "<p>The New Equation is a future that is human-led and tech-powered. For us, people and technology work hand in hand. It's about how human ingenuity combines with technology innovation and experience to deliver faster, more intelligent and better outcomes while building trust with stakeholders across the value chain.</p>"
+            },
+            "cards": [
+                {
+                    "_id": "a5963f7c88db7b05fc98d00d187b61df",
+                    "title": "It’s time to get excited about boring AI",
+                    "description": "Extracting information from documents may not be the splashiest application of automation, but it has massive potential to reduce errors and costs.",
+                    "image": "/images/dam9.thumbnail.webp",
+                    "link": "#"
+                },
+                {
+                    "_id": "fac8e09c15f5652ff28fa44a9c998841",
+                    "title": "Simplifying cybersecurity",
+                    "description": "Leaders who are serious about cybersecurity need to make simplicity and complexity reduction a business priority.",
+                    "image": "/images/dam7.thumbnail.webp",
+                    "link": "#"
+                },
+                {
+                    "_id": "e2c3ddc40398554fb9d670d62ce6a7b6",
+                    "title": "Mapping an inaccessible world for people with disabilities",
+                    "description": "Alongside AXS Lab, we improved options for people with disabilities by using our BXT Works approach combining business, experience and technology.",
+                    "image": "/images/dam10.thumbnail.webp",
+                    "link": "#"
+                },
+                {
+                    "_id": "907d16c34995fcccc1943ddb52000363",
+                    "title": "New world. New skills.",
+                    "description": "The need to upskill and reskill the workforce has never been more urgent. Everyone should be able to live, learn, work and participate in the digital world",
+                    "image": "/images/dam11.thumbnail.webp",
+                    "link": "#"
+                }
+            ]
+        }
+    ]
+}

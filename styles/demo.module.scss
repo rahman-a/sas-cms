@@ -1,0 +1,12 @@
+@use '../styles/media' as media;
+.demo {
+  margin: 5rem 2rem;
+  width: 70rem;
+  // height: 35vh;
+  // background-color: #eee;
+  // display: flex;
+  // justify-content: center;
+  &__wrapper {
+    min-height: 200vh;
+  }
+}

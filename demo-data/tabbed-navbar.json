@@ -1,0 +1,43 @@
+{
+    "tabs": [
+        {
+            "_id": "91c7cb1aa16b52641f0ff65e1131a770",
+            "icon": "/images/icons/tab-icon-1.svg",
+            "label": "prepare",
+            "details": {
+                "_id": "8384866a1782909f5a9cc15f8e99fa12",
+                "title": "Build resilience before a crisis hits",
+                "description": "<p>The more prepared an organisation is to manage a crisis, the more confidently it can avert existential threats in an emergency. PwC can support you with numerous measures to ensure you have all the tools you need in a crisis – from developing crisis plans and holding crisis training to creating an integrated crisis management program.</p>",
+                "image": "/images/wolkenkratzer-himmel-wolken-1201502161-670x377.webp",
+                "link": "#",
+                "text": "find out more"
+            }
+        },
+        {
+            "_id": "cb59c140e9dd075461a6296f79ed1d28",
+            "icon": "/images/icons/tab-icon-2.svg",
+            "label": "respond",
+            "details": {
+                "_id": "e35294e2cb4549759f7258ff46eb371f",
+                "title": "Build confidence and take control",
+                "description": "<p>The right planning, targeted initiatives, and a clear strategy form the basis for coordinated and effective crisis management. PwC reviews, assesses, and refines your strategy and equips you with all the capabilities you need to respond effectively in times of crisis. These measures include setting up a crisis management group and leveraging the right data for making decisions. Core elements in a successful crisis response include:</p><ul><li>Establishing a governance structure</li><li>Identifying central workstreams and owners</li><li>Establishing a clear approach and setting priorities</li><li>Basing crisis response decisions on facts</li><li>Thinking about upcoming risks and potential countermeasures</li></ul>",
+                "image": "/images/milchstrasse-ueber-toronto-1014582546-670x377.jpg",
+                "link": "#",
+                "text": "find out more"
+            }
+        },
+        {
+            "_id": "b92fe5ab713c154a969eba8407b914d8",
+            "icon": "/images/icons/tab-icon-3.svg",
+            "label": "emerge resilient",
+            "details": {
+                "_id": "b1723b1c93371defe3945ac90be5c8f2",
+                "title": "Emerge from a crisis stronger, sooner, and more resilient",
+                "description": "<p>There should always be an eye to the future.</p><p>In the wake of any crisis, the most successful organisations are those that invested in learning lessons, implementing changes, and leveraging opportunities.</p><p>The effects of a crisis can often be long-lasting. As you recover, you stabilise your operations and adapt to a new “business as usual”. Your recovery from a crisis can become an opportunity for new growth. In order to seize these opportunities, you develop and implement new business strategies, reflecting and taking actions on the lessons learned. These actions will help your organisation become more resilient and have stronger capabilities for crisis management in the future.</p>",
+                "image": "/images/wolkenkratzer-nebel-surreal-497791741-670x377.jpg",
+                "link": "#",
+                "text": "find out more"
+            }
+        }
+    ]
+}

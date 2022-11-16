@@ -1,0 +1,43 @@
+{
+    "video": {
+        "_id": "8997df8b00dc569f5527d6e314e1d6bd",
+        "title": "Empower your workforce to deliver sustained outcomes for your business",
+        "description": "<p>The world of work is changing. Technology is everywhere, diversity is essential, and the line between personal and professional continues to blur. These changes present a once in a generation opportunity for business leaders, governments and society to reimagine how work gets done, reshape the workforce and empower people wherever they work.</p><p>Our passionate community of solvers is here to help you craft and execute a new strategy. Combining capabilities across markets and organisational specialties, guided by employment regulations and powered by the latest cloud-based data, analytics and reporting tools, we help turn today’s workplace challenges into new and better ways of working. With a fresh outlook and bold actions, you can build on individual strengths, fuel collective performance, and enable your people to deliver sustained outcomes for your business.</p><p>Human potential is boundless—and it’s already inside your organization. We’ve got the breadth of strategic knowledge and implementation experience to help you unleash it.</p>",
+        "video": {
+            "url": "https://www.youtube.com/watch?v=qItiTqNZStQ&ab_channel=PwC",
+            "description": "When your whole world changes, you can’t run your business the same old way. Watch this short video to hear how our workforce specialists can work with you to help shape the workforce of the future.",
+            "duration": "1.40"
+        }
+    },
+    "section": {
+        "details": {
+            "_id": "c659414eae2f8c1d0cbba500daf30c59",
+            "title": "Strategy led action plan",
+            "description": "<p>ESG is more than good intentions. It's about creating a tangible, practical plan that achieves real results. Success is not about climate change, diversity and disclosures alone. It’s about embedding these principles- and more across your business- from investment to sustainable innovation. Bringing together your best people and smartest technology so you can see more, go deeper and act swiftly. Enabling you to tackle the biggest challenges of today – and capture the best opportunities of tomorrow.</p>",
+            "image": "/images/esg-strategy-3-670.webp"
+        },
+        "cards": [
+            {
+                "_id": "97a8edc6dcda6d8d43b6de766472ba40",
+                "title": "Time to get serious about climate risk",
+                "text": "Many companies overlook the pressing, often surprising, array of climate risks they face.",
+                "image": "/images/page-thumbnail-c-suite.webp",
+                "url": "#"
+            },
+            {
+                "_id": "d55492ac34ec5b637402247265720264",
+                "title": "State of Climate Tech 2021",
+                "text": "Investors are securing both climate impact and commercial returns from climate tech.",
+                "image": "/images/state-of-climate-tech-hero-670x377-v3.webp",
+                "url": "#"
+            },
+            {
+                "_id": "945e207f72e84ff02a3eeafc31320740",
+                "title": "Green Taxes and Incentives Tracker",
+                "text": "Green taxes, green cash grants and green tax incentives are increasing.",
+                "image": "/images/thumbnail-living-wall.webp",
+                "url": "#"
+            }
+        ]
+    }
+}

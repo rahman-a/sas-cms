@@ -1,0 +1,25 @@
+{
+    "slides": [
+        {
+            "_id": "920d5909da305425102559c7bab9e9ca",
+            "title": "Global M&A; Industry Trends:2022 Mid-Year Update",
+            "description": "M&A; reset: As market headwinds pick up speed, the second half of 2022 is providing an opportunity for dealmakers to reassess strategy and act boldly.",
+            "image": "/images/xindustry-hero.png",
+            "link": "/industries/capital-projects-infrastructure"
+        },
+        {
+            "_id": "1e486b29126421003378a06fb243f2b5",
+            "title": "What does the future hold for entertainment and media?",
+            "description": "Read SAS's Global Entertainment and Media Outlook 2022-2026 for a five year projection of consumer and advertising spending data across 14 segments and 52 territories.",
+            "image": "/images/fs-hero-image.jpg",
+            "link": "/services/deals/legal"
+        },
+        {
+            "_id": "cc11fc6189f4732463c433276a8175ac",
+            "title": "What 52,000 people think about work today",
+            "description": "Explore key findings from SAS’s Global Workforce Hopes and Fears Survey 2022 of more than 52,000 workers across 44 countries and territories.",
+            "image": "/images/insurance.jpg",
+            "link": "/issues/value-creation"
+        }
+    ]
+}

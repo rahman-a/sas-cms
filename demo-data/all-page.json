@@ -1,0 +1,36 @@
+{
+    "cards": [
+        {
+            "_id": "b498de58fd1b3efee393a1c44002e5be",
+            "title": "Consumers’ outlook brightens despite headwinds",
+            "text": "Consumers’ outlook brightens despite headwinds",
+            "link": "#"
+        },
+        {
+            "_id": "b3c626dbbb31dc466bb1b82c5ab6d73a",
+            "title": "Achieving net zero infrastructure",
+            "text": "Affordability should be at the top of world leaders’ agenda.",
+            "link": "#"
+        },
+        {
+            "_id": "9fe63ef85f8c96547c4c65a2c7f5de66",
+            "title": "COO Pulse Survey",
+            "text": "What’s next in manufacturing?",
+            "link": "#"
+        }
+    ],
+    "details": {
+        "_id": "b3c626dbbb31dc466bb1b82c5ab6d73a",
+        "title": "Context is everything.",
+        "description": "<p>You don't do business in a vacuum.</p><p>You’re competing in a complex environment encompassing technology, supply chains, skilled workers, accounting standards, competitors, and probably more than a handful of regulators and tax authorities.</p><p>Find your industry below. And let's talk.</p>"
+    },
+    "footer": {
+        "_id": "4c916cc7e809b48f4de24b82d3e983b6",
+        "title": "We are a community of solvers combining human ingenuity, experience and technology innovation to deliver sustained outcomes and build trust.",
+        "description": "<p>It all adds up to The New Equation.</p>",
+        "link": "#",
+        "text": "See how The New Equation can solve for you",
+        "image": "/images/tne-site-promo.webp",
+        "reverse": true
+    }
+}

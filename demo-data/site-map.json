@@ -1,0 +1,345 @@
+[
+    {
+        "_id": "a1ef1f35467849367fbdcfa60adedffe",
+        "text": "Industries",
+        "link": "/industries",
+        "items": [
+            {
+                "_id": 1,
+                "text": "See all industries",
+                "link": "/industries"
+            },
+            {
+                "_id": 2,
+                "text": "Aerospace, defense & security",
+                "link": "/industries/aerospace-defense"
+            },
+            {
+                "_id": 3,
+                "text": "Automotive",
+                "link": "/industries/automotive"
+            },
+            {
+                "_id": 4,
+                "text": "Capital projects & infrastructure",
+                "link": "/industries/capital-projects-infrastructure"
+            },
+            {
+                "_id": 5,
+                "text": "Energy, utilities & resources",
+                "link": "/industries/energy-utilities-resources"
+            },
+            {
+                "_id": 6,
+                "text": "Forest, paper & packaging",
+                "link": "/industries/forest-paper-packaging"
+            },
+            {
+                "_id": 7,
+                "text": "Consumer markets",
+                "link": "/industries/consumer-markets"
+            },
+            {
+                "_id": 8,
+                "text": "Government & public services",
+                "link": "/industries/government-public-services"
+            },
+            {
+                "_id": 9,
+                "text": "Healthcare",
+                "link": "/industries/healthcare"
+            },
+            {
+                "_id": 10,
+                "text": "Industrial manufacturing",
+                "link": "/industries/industrial-manufacturing"
+            },
+            {
+                "_id": 11,
+                "text": "Insurance",
+                "link": "/industries/see-all-industries"
+            },
+            {
+                "_id": 12,
+                "text": "Pharmaceuticals & life sciences",
+                "link": "/industries/pharmaceuticals-life-sciences"
+            },
+            {
+                "_id": 13,
+                "text": "Private equity",
+                "link": "/industries/private-equity"
+            },
+            {
+                "_id": 14,
+                "text": "Technology, media & Telecommunications",
+                "link": "/industries/tmt"
+            },
+            {
+                "_id": 15,
+                "text": "Transportation & logistics",
+                "link": "/industries/transportation-logistics"
+            },
+            {
+                "_id": 16,
+                "text": "Hospitality & leisure",
+                "link": "/industries/hospitality-leisure"
+            },
+            {
+                "_id": 17,
+                "text": "Financial services",
+                "link": "/industries/financial-services"
+            },
+            {
+                "_id": 18,
+                "text": "Engineering & construction",
+                "link": "/industries/engineering-construction"
+            }
+        ]
+    },
+    {
+        "_id": "320d177ed7a346686c7572c3fa3a1cb4",
+        "text": "Services",
+        "link": "/services",
+        "items": [
+            {
+                "_id": 1,
+                "text": "See all services",
+                "link": "/services"
+            },
+            {
+                "_id": 2,
+                "text": "Alliances and Ecosystems",
+                "link": "/services/alliances"
+            },
+            {
+                "_id": 3,
+                "text": "Audit and assurance services",
+                "link": "/services/audit-assurance"
+            },
+            {
+                "_id": 4,
+                "text": "Consulting",
+                "link": "/services/consulting"
+            },
+            {
+                "_id": 5,
+                "text": "Crisis management",
+                "link": "/services/crisis-solutions"
+            },
+            {
+                "_id": 6,
+                "text": "Deals",
+                "link": "/services/deals"
+            },
+            {
+                "_id": 7,
+                "text": "Entrepreneurial and private business",
+                "link": "/services/entrepreneurial-private-business"
+            },
+            {
+                "_id": 8,
+                "text": "Family business",
+                "link": "/services/family-business"
+            },
+            {
+                "_id": 9,
+                "text": "Forensics",
+                "link": "/services/forensics"
+            },
+            {
+                "_id": 10,
+                "text": "Legal",
+                "link": "/services/legal"
+            },
+            {
+                "_id": 11,
+                "text": "People and organization",
+                "link": "/services/people-organization"
+            },
+            {
+                "_id": 12,
+                "text": "Strategy",
+                "link": "/services/strategy"
+            },
+            {
+                "_id": 13,
+                "text": "Sustainability and climate change",
+                "link": "/services/sustainability"
+            },
+            {
+                "_id": 14,
+                "text": "Tax",
+                "link": "/services/tax"
+            }
+        ]
+    },
+    {
+        "_id": "20c594b485202198ee8a752d9f7560e1",
+        "text": "Today's Issues",
+        "link": "/issues",
+        "items": [
+            {
+                "_id": 1,
+                "text": "See all issues",
+                "link": "/issues"
+            },
+            {
+                "_id": 2,
+                "text": "Workforce",
+                "link": "/issues/workforce"
+            },
+            {
+                "_id": 3,
+                "text": "Cybersecurity",
+                "link": "/issues/cybersecurity"
+            },
+            {
+                "_id": 4,
+                "text": "ESG (Environmental, Social and Governance)",
+                "link": "/issues/esg"
+            },
+            {
+                "_id": 5,
+                "text": "Leadership",
+                "link": "/issues/the-leadership-agenda"
+            },
+            {
+                "_id": 6,
+                "text": "Risk and regulation",
+                "link": "/issues/risk-regulation"
+            },
+            {
+                "_id": 7,
+                "text": "Technology",
+                "link": "/issues/technology"
+            },
+            {
+                "_id": 8,
+                "text": "Transformation",
+                "link": "/issues/transformation"
+            },
+            {
+                "_id": 9,
+                "text": "Trust",
+                "link": "/issues/trust"
+            },
+            {
+                "_id": 10,
+                "text": "Upskilling",
+                "link": "/issues/upskilling"
+            },
+            {
+                "_id": 11,
+                "text": "Value creation",
+                "link": "/issues/value-creation"
+            },
+            {
+                "_id": 12,
+                "text": "COV_id-19: leading the recovery",
+                "link": "/issues/crisis-solutions/cov_id-19"
+            }
+        ]
+    },
+    {
+        "_id": "d85f9cf48964140c65c0402260b68fb7",
+        "text": "About",
+        "link": "/about",
+        "items": [
+            {
+                "_id": 1,
+                "text": "See more About Us",
+                "link": "/about"
+            },
+            {
+                "_id": 2,
+                "text": "Alumni",
+                "link": "/about/alumni-network"
+            },
+            {
+                "_id": 3,
+                "text": "Analyst relations",
+                "link": "/about/analyst-relations"
+            },
+            {
+                "_id": 4,
+                "text": "Client case studies",
+                "link": "/about/case-studies"
+            },
+            {
+                "_id": 5,
+                "text": "Ethics and compliance",
+                "link": "/about/ethics-business-conduct"
+            },
+            {
+                "_id": 6,
+                "text": "Committing to Net Zero by 2030",
+                "link": "/about/net-zero"
+            },
+            {
+                "_id": 7,
+                "text": "Corporate sustainability",
+                "link": "/about/corporate-sustainability"
+            },
+            {
+                "_id": 8,
+                "text": "Diversity and inclusion",
+                "link": "/about/diversity"
+            },
+            {
+                "_id": 9,
+                "text": "Global Annual Review",
+                "link": "/about/global-annual-review-2020"
+            },
+            {
+                "_id": 10,
+                "text": "Global regulatory affairs",
+                "link": "/about/global-regulatory-affairs"
+            },
+            {
+                "_id": 11,
+                "text": "Human rights statement",
+                "link": "/about/human-rights-statement"
+            },
+            {
+                "_id": 12,
+                "text": "Leadership team",
+                "link": "/about/leadership"
+            },
+            {
+                "_id": 13,
+                "text": "Network governance",
+                "link": "/about/corporate-governance"
+            },
+            {
+                "_id": 14,
+                "text": "New Ventures and Innovation",
+                "link": "/about/new-ventures"
+            },
+            {
+                "_id": 15,
+                "text": "Our purpose and values",
+                "link": "/about/purpose-and-values"
+            },
+            {
+                "_id": 16,
+                "text": "PwC office locations",
+                "link": "/about/office-locations"
+            },
+            {
+                "_id": 17,
+                "text": "Strategy Council",
+                "link": "/about/strategy-council-governance-structure"
+            },
+            {
+                "_id": 18,
+                "text": "Strategy",
+                "link": "/about/strategy"
+            },
+            {
+                "_id": 19,
+                "text": "Third party code of conduct",
+                "link": "/about/global-third-party-code-of-conduct"
+            }
+        ]
+    }
+]

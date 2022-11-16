@@ -1,0 +1,109 @@
+@use '../media' as media;
+.contact {
+  &__hero {
+    height: 30rem;
+    & > div {
+      width: 50%;
+      @include media.breakpoint(sm) {
+        width: 70%;
+      }
+      @include media.breakpoint(xs) {
+        width: 90%;
+      }
+    }
+  }
+
+  &__section {
+    padding: 2rem 0 !important;
+    background-color: var(--background-color);
+  }
+
+  &__content {
+    width: 60%;
+    padding: 0 2rem;
+    @include media.breakpoint(sm) {
+      width: 70%;
+    }
+    @include media.breakpoint(xs) {
+      width: 100%;
+      padding: 0 1rem;
+    }
+  }
+
+  &__form {
+    margin-left: 2rem;
+    @include media.breakpoint(xs) {
+      margin-left: 0;
+    }
+    input {
+      background-color: var(--primary-text-color-light);
+      border: 1px solid var(--background-color-dark);
+    }
+    & > fieldset:not(:last-child) {
+      margin-bottom: 3.5rem;
+    }
+  }
+
+  &__select {
+    margin-bottom: 3.5rem;
+  }
+
+  &__header {
+    color: var(--primary-color);
+    font-size: 3.5rem;
+    border-top: 2px solid;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  &__par {
+    color: var(--primary-text-color);
+  }
+
+  &__required {
+    margin: 5rem 0 1rem 0;
+    span {
+      color: var(--error-color);
+    }
+  }
+  &__textarea {
+    display: flex;
+    flex-direction: column;
+    label {
+      margin-bottom: 1.2rem;
+      font: var(--headline-small-text);
+      color: var(--container-color-80);
+      text-transform: capitalize;
+    }
+    textarea {
+      outline: none;
+      background-color: var(--primary-text-color-light);
+      border: 1px solid var(--background-color-dark);
+      padding: 2rem;
+      font: var(--headline-small-text);
+      color: var(--container-color-80);
+    }
+  }
+
+  &__cta {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 5rem 0;
+    a {
+      padding: 1rem;
+    }
+  }
+
+  &__disclaimer {
+    margin: 5rem 0;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--primary-text-color);
+  }
+
+  &__link {
+    color: var(--primary-text-color);
+    margin: 0 0.3rem;
+  }
+}

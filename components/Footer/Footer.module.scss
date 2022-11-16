@@ -1,0 +1,90 @@
+@use '../../styles/media' as media;
+
+.footer {
+  background-color: var(--container-color-80);
+  padding: 5rem 0;
+  @include media.breakpoint(md) {
+    padding: 3rem 0;
+  }
+  &__wrapper {
+    @include media.breakpoint(md) {
+      padding-left: 2rem;
+    }
+  }
+  &__header,
+  &__legal {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 2rem;
+    a {
+      display: inline-block;
+      min-width: 12rem;
+      color: var(--primary-text-color-light);
+      font: var(--title-text-regular);
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    @include media.breakpoint(md) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    color: var(--primary-text-color-light);
+    margin: 1rem 0;
+    @include media.breakpoint(md) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+  }
+
+  &__text {
+    min-width: 16rem;
+  }
+
+  &__legal {
+    gap: 3rem;
+    margin: 2rem 0 0 10rem;
+    a {
+      font: var(--body-text-small-regular);
+      @include media.breakpoint(md) {
+        font-size: 1.6rem;
+      }
+    }
+    @include media.breakpoint(md) {
+      flex-direction: column;
+      margin: 2rem 0;
+      gap: 1rem;
+    }
+  }
+
+  &__separator {
+    display: block;
+    height: 1px;
+    background-color: var(--white-color);
+  }
+
+  &__link {
+    &_border {
+      border: 1px solid var(--white-color);
+      min-width: 5rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  &__border {
+    border: 1px solid var(--white-color);
+    min-width: 5rem;
+    padding: 0.5rem 1rem;
+  }
+}

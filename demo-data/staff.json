@@ -1,0 +1,104 @@
+{
+    "staff": [
+        {
+            "_id": "8ff38fe951031ee5d13f86e9a85a677f",
+            "name": "Ryan Hawk",
+            "role": "Global Industrial Manufacturing & Automotive Leader, PwC United States",
+            "tel": "+1 (312) 543 4098",
+            "image": "/images/staff/ryan-hawk.jpg.pwcimage.105.105.jpg",
+            "social": [
+                {
+                    "_id": "0ba9164e399d7660a56b21ec3a59c090",
+                    "name": "linkedin",
+                    "link": "https://www.linkedin.com/in/ryan-hawk-7b547825/"
+                },
+                {
+                    "_id": "318f29597c508eedbfc65dd746cfcee6",
+                    "name": "email",
+                    "link": "staff@sas.com"
+                }
+            ]
+        },
+        {
+            "_id": "5a37be7be872133ff6468a703e05a558",
+            "name": "Harald Wimmer",
+            "role": "Global Automotive Leader, Partner, PwC Germany",
+            "tel": "+49 221 2084-240",
+            "image": "/images/staff/harald-wimmer.jpg.pwcimage.105.105.jpg",
+            "social": [
+                {
+                    "_id": "9005d751785937c54570a60f1394b066",
+                    "name": "email",
+                    "link": "staff@sas.com"
+                }
+            ]
+        },
+        {
+            "_id": "8854554b55fbeec5bcea653728b208fa",
+            "name": "Jeff Sorensen",
+            "role": "Global Industrial Manufacturing & Automotive Assurance Leader, PwC United States",
+            "tel": "",
+            "image": "/images/staff/pwc-jeff-sorensen-headshot.jpg.pwcimage.105.105.jpg",
+            "social": [
+                {
+                    "_id": "d848698dee18bcb9b66853c2352765b6",
+                    "name": "linkedin",
+                    "link": "https://www.linkedin.com/in/jeffsorensenpwc/"
+                },
+                {
+                    "_id": "5b2e187d929e6ed1331da91a8d1a127f",
+                    "name": "twitter",
+                    "link": "https://twitter.com/JeffDSorensen"
+                },
+                {
+                    "_id": "9f3e816ab6cda970c02f98c6d765d00f",
+                    "name": "email",
+                    "link": "staff@sas.com"
+                }
+            ]
+        },
+        {
+            "_id": "a6b58cb5e24207c06f4432854195212c",
+            "name": "John Livingstone",
+            "role": "Global Industrial Manufacturing & Automotive Tax Leader, PwC United States",
+            "tel": "",
+            "image": "/images/staff/pwc-john-livingstone.jpg.pwcimage.105.105.jpg",
+            "social": [
+                {
+                    "_id": "f9051542a97456c0d33393bc9434f5fd",
+                    "name": "linkedin",
+                    "link": "https://www.linkedin.com/in/john-livingstone-86484174/"
+                },
+                {
+                    "_id": "98bff654b5ef6346301f2c45930c0a0a",
+                    "name": "email",
+                    "link": "staff@sas.com"
+                }
+            ]
+        },
+        {
+            "_id": "a5a91c739a1fa08cf10d5a01178e360b",
+            "name": "Paul Harvey",
+            "role": "Industry Executive, Industrial Manufacturing & Automotive, PwC United Kingdom",
+            "tel": "+44 (0) 7738 845 605",
+            "image": "/images/staff/paul-harvey.jpg.pwcimage.105.105.jpg",
+            "social": [
+                {
+                    "_id": "b6017b1ac26b15e134b0e5d80f6ab161",
+                    "name": "linkedin",
+                    "link": "https://www.linkedin.com/in/psharvey/"
+                },
+                {
+                    "_id": "1b6e945fa1e13c014cc13c4875e245d4",
+                    "name": "twitter",
+                    "link": "https://www.pwc.com/gx/en/industries/@paul_harvey"
+                },
+                {
+                    "_id": "433a6a5957a372cbc13cdff0cc19e50a",
+                    "name": "email",
+                    "link": "staff@sas.com"
+                }
+            ]
+        }
+    ]
+}

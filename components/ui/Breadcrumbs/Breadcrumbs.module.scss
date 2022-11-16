@@ -1,0 +1,41 @@
+@use '../../../styles/media' as media;
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  min-width: 100%;
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    white-space: nowrap;
+    color: var(--container-color);
+    margin-left: 0.5rem;
+    @include media.breakpoint(md) {
+      font-size: 1.5rem;
+    }
+    &:not(::after) {
+      border-bottom: 1px solid var(--container-color);
+    }
+    &:not(:last-child) {
+      &::after {
+        content: '';
+        background-image: url('./chevron-dark.svg');
+        width: 0.8rem;
+        height: 1rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transform: rotate(-90deg);
+        margin: 0 -0.2rem 0 1rem;
+      }
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

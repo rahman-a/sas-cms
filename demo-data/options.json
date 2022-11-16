@@ -1,0 +1,39 @@
+{
+    "options": [
+        {
+            "_id": "677b7d815e86b31f81eded9f62b3c33f",
+            "value": "other",
+            "label": "Other (please specify)"
+        },
+        {
+            "_id": "cd5acccebbd6feea2459e3cd325850ca",
+            "value": "crisis & response",
+            "label": "Crisis Management and response"
+        },
+        {
+            "_id": "cbd027fbad7087de56594cc0ded141a5",
+            "value": "workforce",
+            "label": "Workforce"
+        },
+        {
+            "_id": "7b8c9ca73e0eb7f1ef72b005c3224ff2",
+            "value": "operation & supply chain",
+            "label": "Operation & supply chain"
+        },
+        {
+            "_id": "d85062aa86fbdbaff14be6ada92afd60",
+            "value": "finance & liquidity",
+            "label": "Finance and Liquidity"
+        },
+        {
+            "_id": "87a1fa6d2a3a9bab43c8b13c4e1acd62",
+            "value": "Tax, trade and regulatory",
+            "label": "Tax, trade and regulatory"
+        },
+        {
+            "_id": "b2d3badf39ed2ade01e952ff94beee7a",
+            "value": "Strategy and brand",
+            "label": "Strategy and brand"
+        }
+    ]
+}

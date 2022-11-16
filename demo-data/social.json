@@ -1,0 +1,28 @@
+{
+    "social": [
+        {
+            "_id": "669349065d3c408ae72c138fb67f6d88",
+            "name": "Twitter",
+            "image": "/images/social/follow_twitter.webp",
+            "url": "#"
+        },
+        {
+            "_id": "5525ba827e0ed36daaf39b0b6242c6a4",
+            "name": "Facebook",
+            "image": "/images/social/follow_facebook.gif",
+            "url": "#"
+        },
+        {
+            "_id": "ce44061b62f128f30d1765edb194406a",
+            "name": "LinkedIn",
+            "image": "/images/social/follow_linkedin.png",
+            "url": "#"
+        },
+        {
+            "_id": "06fbf5abe8d2868dea90ae0f0c9faa70",
+            "name": "Youtube",
+            "image": "/images/social/follow_youtube.webp",
+            "url": "#"
+        }
+    ]
+}

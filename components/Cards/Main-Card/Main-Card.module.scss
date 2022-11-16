@@ -1,0 +1,144 @@
+@use '../../../styles/media' as media;
+
+.card {
+  position: relative;
+  height: 42rem;
+  width: 33.5rem;
+  background-color: var(--white-color);
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: color 0.3s ease-in;
+    color: var(--primary-text-color);
+    @include media.breakpoint(md) {
+      color: var(--white-color);
+    }
+  }
+
+  &:hover &__wrapper {
+    color: var(--white-color);
+  }
+
+  &__figure {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__details {
+    flex-grow: 2;
+    background-color: transparent;
+    position: relative;
+    z-index: 99;
+    transform: translateY(0);
+    transition: transform 0.5s 0.2s ease-in-out;
+    padding: 0 1rem;
+    p {
+      transition: opacity 0.5s 0.2s ease-in-out;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    @include media.breakpoint(md) {
+      transform: translateY(-50px);
+
+      padding: 0 2rem;
+      p {
+        opacity: 1;
+        visibility: visible;
+      }
+      span {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__fixed &__details {
+    transform: translateY(-78px);
+
+    padding: 0 2rem;
+    p {
+      opacity: 1;
+      visibility: visible;
+    }
+    span {
+      opacity: 1;
+    }
+  }
+
+  &__link {
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    color: var(--white-color);
+    text-decoration: underline;
+    transition: opacity 0.5s 0.2s ease-in-out;
+    svg {
+      margin-left: 0.5rem;
+    }
+  }
+
+  &:hover &__details {
+    transform: translateY(-78px);
+
+    padding: 0 2rem;
+    p {
+      opacity: 1;
+      visibility: visible;
+    }
+    span {
+      opacity: 1;
+    }
+  }
+
+  &__title {
+    font: var(--title-text-large-regular);
+    padding: 1rem 0;
+    transition: all 0.2s;
+    @include media.breakpoint(md) {
+      text-decoration: underline;
+    }
+  }
+
+  &__fixed &__title {
+    margin-top: 2rem;
+    text-decoration: underline;
+  }
+
+  &:hover &__title {
+    margin-top: 4rem;
+    text-decoration: underline;
+  }
+
+  &__description {
+    margin: 1rem 0;
+    font: var(--body-text-small-regular);
+  }
+
+  &__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    padding: 0 2rem;
+    background-color: var(--primary-color);
+    transition: height 0.5s ease-in-out;
+    @include media.breakpoint(md) {
+      height: 65%;
+    }
+  }
+
+  &__fixed &__overlay {
+    height: 65%;
+  }
+
+  &:hover &__overlay {
+    height: 65%;
+  }
+}

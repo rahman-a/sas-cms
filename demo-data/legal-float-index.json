@@ -1,0 +1,132 @@
+{
+    "cookies": {
+        "index": [
+            {
+                "_id": "5d6b3a4f9442e1a76ae62e6c5e550526",
+                "title": "what are cookies",
+                "url": "what-are-cookies"
+            },
+            {
+                "_id": "9c17a3bd2be8d38342bdd95872d25245",
+                "title": "Use of cookies on SAS websites",
+                "url": "use-of-cookies-on-sas-websites"
+            },
+            {
+                "_id": "6a7aedfa6edb10826b85d6207357f0ad",
+                "title": "Registered users",
+                "url": "registered-users"
+            },
+            {
+                "_id": "1c69e254402e816f7177ef3729e48b1a",
+                "title": "Analytics and site statistics",
+                "url": "analytics-site-statistics"
+            },
+            {
+                "_id": "95319e6d2ab107292b65a7ea999a8529",
+                "title": "Measuring effectiveness of our activities",
+                "url": "marketing-activities"
+            },
+            {
+                "_id": "132c761b7d79a0547803ea5c4d3d8c86",
+                "title": "Managing cookies on your device",
+                "url": "managing-cookies-on-your-device"
+            }
+        ],
+        "className": "scroll-article-content"
+    },
+    "privacy": {
+        "index": [
+            {
+                "_id": "9a91401e1f3f37935c4e818cbd0e7863",
+                "title": "Introduction",
+                "url": "introduction"
+            },
+            {
+                "_id": "07c5ebc33a8ae54c4a9f2f89b3ebc268",
+                "title": "Transfer of personal data",
+                "url": "personal-data"
+            },
+            {
+                "_id": "c17287f7d6b6ebdae8a22aee7de4d898",
+                "title": "Our processing activities",
+                "url": "processing-activities"
+            },
+            {
+                "_id": "9b64f8dbf38ef7235d3d75069079ea90",
+                "title": "Security",
+                "url": "security"
+            },
+            {
+                "_id": "ec47fe743b0a4769887f9923cb490537",
+                "title": "Changes to this privacy statement",
+                "url": "legal"
+            },
+            {
+                "_id": "db0f33ba3aa12274fdcd90d411eedbce",
+                "title": "Contact us",
+                "url": "contact"
+            }
+        ],
+        "className": "scroll-article-content"
+    },
+    "terms": {
+        "index": [
+            {
+                "_id": "b83f4abab7f494578c46bb044f6557ab",
+                "title": "Introduction",
+                "url": "introduction"
+            },
+            {
+                "_id": "6736fa97ae5870fe6d805d3b3b70bb46",
+                "title": "Definitions and interpretation",
+                "url": "definitions"
+            },
+            {
+                "_id": "cf0a24939b598b474d0e64919ada4769",
+                "title": "About the Websites",
+                "url": "about"
+            },
+            {
+                "_id": "37b10d5165587a406f0de8af90002761",
+                "title": "Informational purposes only",
+                "url": "informational-purpose"
+            },
+            {
+                "_id": "7afd348a2e8cf5b1a4e60bb34e1a677e",
+                "title": "Changes to and availability of the Websites",
+                "url": "availability"
+            },
+            {
+                "_id": "8f4f3747d3a45b69063158b37d617ebf",
+                "title": "Your responsibilities",
+                "url": "responsibilities"
+            },
+            {
+                "_id": "119e5ccbab3851d4778352906e6bc2dd",
+                "title": "Requirements to Use the Websites",
+                "url": "requirements"
+            },
+            {
+                "_id": "85571c489bdf31d855eb4d797fa8d5ba",
+                "title": "Registration",
+                "url": "registration"
+            },
+            {
+                "_id": "cdce8868c9619adeacca0602a0578124",
+                "title": "Intellectual property",
+                "url": "intellectual-property"
+            },
+            {
+                "_id": "9c4a1e0b1ce5e2f05dc822e13655f8e7",
+                "title": "Liability and Warranties",
+                "url": "liability-and-warranties"
+            },
+            {
+                "_id": "a2dde5c6c188ad94e69cee2227b5910b",
+                "title": "Other legal provisions",
+                "url": "legal-provisions"
+            }
+        ],
+        "className": "scroll-article-content"
+    }
+}

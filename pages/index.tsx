@@ -10,9 +10,7 @@ import Head from 'next/head'
 import { GetStaticProps } from 'next'
 
 import config from '../react-bricks/config'
-import Layout from '../components/layout'
-import ErrorNoKeys from '../components/errorNoKeys'
-import ErrorNoHomePage from '../components/errorNoHomePage'
+import { Layout, ErrorNoKeys, ErrorNoHomePage } from '@components/react-bricks'
 
 interface HomeProps {
   page: types.Page
@@ -32,7 +30,7 @@ const Home: React.FC<HomeProps> = ({ page, error }) => {
         <>
           <Head>
             <title>{page.meta.title}</title>
-            <meta name="description" content={page.meta.description} />
+            <meta name='description' content={page.meta.description} />
           </Head>
           <PageViewer page={pageOk} />
         </>

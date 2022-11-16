@@ -1,0 +1,50 @@
+.input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 0;
+  &__label {
+    font: var(--headline-small-text);
+    color: var(--container-color-80);
+    text-transform: capitalize;
+    span {
+      font-size: small;
+      color: lighten(#f00, 10%);
+    }
+  }
+  &__field {
+    padding: 1.5rem 3.3rem 1.5rem 2rem;
+  }
+
+  &__check {
+    position: absolute;
+    right: 1rem;
+    top: 60%;
+    &_error {
+      color: var(--error-color);
+    }
+    &_valid {
+      color: var(--success-color);
+    }
+  }
+
+  &__msg {
+    font: var(--body-text-small-regular);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+  }
+
+  &__error input {
+    border: 2px solid var(--error-color);
+    outline: none;
+  }
+  &__error &__check {
+    top: 68%;
+  }
+  &__success input {
+    border: 2px solid var(--success-color);
+    outline: none;
+  }
+}

@@ -1,0 +1,30 @@
+@use '@styles/media' as media;
+
+.card {
+  background-color: var(--container-color);
+  padding: 5rem;
+  max-width: 55rem;
+  min-width: 40rem;
+  height: 25rem;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+  &__wrapper {
+    text-decoration: none;
+    color: var(--white-color);
+  }
+
+  &__title {
+    font: var(--title-text-large-medium);
+  }
+
+  &__text {
+    font: var(--body-text-regular);
+    margin-top: 2rem;
+  }
+  &:hover {
+    background-color: var(--primary-color);
+  }
+  &:hover &__title {
+    text-decoration: underline;
+  }
+}

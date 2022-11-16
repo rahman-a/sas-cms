@@ -1,0 +1,131 @@
+.btn {
+  border: 0;
+  outline: none;
+  position: relative;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 16px;
+  color: var(--primary-text-color-light);
+  background-color: var(--primary-color);
+  border: 1px solid transparent;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+  &__wide {
+    padding: 1.6rem 3.5rem 1.6rem 1.6rem;
+  }
+  &__icon {
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.2s ease-in;
+  }
+
+  &__wide:hover &__icon {
+    transform: translateX(0.5rem);
+  }
+  &:hover {
+    background-color: transparent;
+    border-color: var(--container-color);
+    color: var(--primary-text-color);
+  }
+
+  &__dark-primary {
+    background-color: var(--container-color);
+    border: 0;
+    &:hover {
+      background-color: var(--primary-color);
+      color: var(--primary-text-color-light);
+    }
+  }
+  &__dark-white {
+    background-color: var(--container-color);
+    border: 0;
+    &:hover {
+      background-color: var(--white-color);
+    }
+  }
+  &__white {
+    background-color: var(--white-color);
+    color: var(--container-color);
+    border: 0;
+    &:hover {
+      background-color: var(--white-color);
+    }
+  }
+
+  &__outlined {
+    background-color: transparent;
+    border-color: var(--container-color);
+    color: var(--primary-text-color);
+    &:hover {
+      background-color: var(--primary-color);
+      border-color: transparent;
+      color: var(--primary-text-color-light);
+    }
+  }
+
+  &__secondary-outlined {
+    background-color: transparent;
+    border-color: var(--container-color);
+    color: var(--primary-text-color);
+    &:hover {
+      background-color: var(--primary-color-dark);
+      border-color: transparent;
+      color: var(--primary-text-color-light);
+    }
+  }
+
+  &__gray-outlined {
+    background-color: transparent;
+    border-color: var(--container-color);
+    color: var(--primary-text-color);
+    &:hover {
+      background-color: var(--container-color-60);
+      border-color: transparent;
+      color: var(--primary-text-color-light);
+    }
+  }
+
+  &__text {
+    background-color: transparent;
+    border: 0;
+    color: var(--primary-text-color);
+    &:hover {
+      background-color: transparent;
+      border: 0;
+      color: var(--primary-color);
+    }
+  }
+
+  &__rounded {
+    border-radius: 3rem;
+  }
+
+  &__disabled {
+    background-color: var(--container-color-20);
+    border: 0;
+    color: var(--container-color-40);
+    cursor: not-allowed;
+    &:hover {
+      background-color: var(--container-color-20);
+      border: 0;
+      color: var(--container-color-40);
+    }
+  }
+
+  &__disabled-text {
+    background-color: transparent;
+    border: 0;
+    color: var(--container-color-40);
+    cursor: not-allowed;
+    &:hover {
+      background-color: transparent;
+      border: 0;
+      color: var(--container-color-40);
+    }
+  }
+}

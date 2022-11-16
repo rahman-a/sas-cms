@@ -1,0 +1,214 @@
+{
+    "territories": [
+        {
+            "_id": "4617038ab7c522ff4d655a42aa43974dd662792566653523cdbe870500c6b8e4",
+            "text": "Global",
+            "link": "/global"
+        },
+        {
+            "_id": "e314e940c7b12642721299615f70c939a81fa071b2dfdea88ae8f77b632bacbd",
+            "text": "Afrique Francophone",
+            "link": "/afr-fran"
+        },
+        {
+            "_id": "79261131df92700fdc7bbb2b7b712ce37c5307a34a4eb88f2009b2b2cec999f0",
+            "text": "Egypt",
+            "link": "/egypt"
+        },
+        {
+            "_id": "6e0cda5f1f0a6976a9201f8848516a1b13302c47e609738ffac76a5b2a84d687",
+            "text": "United Arab Emirates",
+            "link": "/uae"
+        },
+        {
+            "_id": "f6fbde929c48615029c6fd391eab5789a8d337cee5f593a7723bb8b1f5cc7683",
+            "text": "Albania",
+            "link": "/albania"
+        },
+        {
+            "_id": "95dcf89a8852b93a5fb65b562b2d0ff455f293ef5e0459c88fb5356f164ffdfa",
+            "text": "America",
+            "link": "/america"
+        },
+        {
+            "_id": "f5c3f3ea79e85dd1fc49c18f2f228ef3d5ae6b819436e84d4b454d812f216fdd",
+            "text": "Andorra",
+            "link": "/andorra"
+        },
+        {
+            "_id": "ee0e28580e068dce207c181af02ff0322b8737953eb26c23b9d708210245d160",
+            "text": "Argentina",
+            "link": "/argentina"
+        },
+        {
+            "_id": "2decb7c79b222087dafb8ea8f81eabfc48faa3a2098204ee182f5f0490bb1175",
+            "text": "Armenia",
+            "link": "/armenia"
+        },
+        {
+            "_id": "8639d700d7cce8ea94e0ee6063b4b46b569a33652f71b53430d7ed5c5907636c",
+            "text": "Australia",
+            "link": "/australia"
+        },
+        {
+            "_id": "5a35612ee447d3055901f4c4c56f66c963d7ac963c919e3530bf2ceb24dd6a24",
+            "text": "Austria",
+            "link": "/austria"
+        },
+        {
+            "_id": "d8439ddcd642b13ace40cb5d4efc8b1fc4fa0dbc727842f0a582f3537971525f",
+            "text": "Azerbaijan",
+            "link": "/azerbaijan"
+        },
+        {
+            "_id": "c8d99cb59bf9da4234fed3b0591c865fdd00035a70a0ced32b38c07154626ed8",
+            "text": "Bahamas",
+            "link": "/bahamas"
+        },
+        {
+            "_id": "a19aba16618ceb94afc21c2d6e9d6b8a0b2ef997c38f0ecc3040441b6a6001e4",
+            "text": "Bahrain",
+            "link": "/bahrain"
+        },
+        {
+            "_id": "263620474dd6f318b595208462ff02377a683d7218a72f3527a60e7203b6f3c2",
+            "text": "Barbados",
+            "link": "/barbados'"
+        },
+        {
+            "_id": "65fdf8387c52238a23110e3f8c1cf113739c0d065a27c03d3f5c8c7c628399ff",
+            "text": "Belgium",
+            "link": "/belgium"
+        },
+        {
+            "_id": "dc51bc0f4506638a6b5fc5ab5be22bebdc6209b091e558d66caeaa4b5718c3be",
+            "text": "België",
+            "link": "/belgië'"
+        },
+        {
+            "_id": "3b1ef752197a8cf0481e8bfec1d589a4c9c2c3fb791b5d9edea7afbcc832819c",
+            "text": "Bermuda",
+            "link": "/global"
+        },
+        {
+            "_id": "050b63371801ecdc289f02b8aa8b5a213b5cad0cd47b4329ba83d4ea44142e7d",
+            "text": "Bolivia",
+            "link": "/global"
+        },
+        {
+            "_id": "272bef5264df73101a5424ed736d8591def7ce0a5f8aa84446808d7371c3247b",
+            "text": "Bosnia and Herzegovina",
+            "link": "/global"
+        },
+        {
+            "_id": "d7734b42dbdad37468dce90832abe1015b9b66be526c5f9d3b7ca963f5b071f6",
+            "text": "Botswana",
+            "link": "/global"
+        },
+        {
+            "_id": "bf4e8a68eb4d426d9976c796a2dbc21a4e79db680c05a4deda448d21d2919bab",
+            "text": "Brasil",
+            "link": "/global"
+        },
+        {
+            "_id": "08ab8eb8c94cea2ae3355be20a21d38e6f10020cea4a1c5da6b8c5a5dd1262cf",
+            "text": "British Virgin Islands",
+            "link": "/global"
+        },
+        {
+            "_id": "3f87c4c9b0a2b30f278b6bbe3547480dd3083683fb8ea5a5ea7967025e19d903",
+            "text": "Brunei",
+            "link": "/global"
+        },
+        {
+            "_id": "3a0c20f73c11dff100c1b573e70404c3fbe8c95de2b4a42a54a951b5d0c16ca6",
+            "text": "Bulgaria",
+            "link": "/global"
+        },
+        {
+            "_id": "73310d946cb1b4a58254e3f94ea312aaf725004f24c33fca51adf48b860a8130",
+            "text": "Cambodia",
+            "link": "/global"
+        },
+        {
+            "_id": "a3221f1d74562bda4a96f986c9b3edb57a6c640baa3f1ae9005911ef890d76b1",
+            "text": "Canada",
+            "link": "/global"
+        },
+        {
+            "_id": "ba91f9e9b3fe040cbf503454ff453a337e50249534f45f981f13da872781bb2b",
+            "text": "Cape Verde",
+            "link": "/global"
+        },
+        {
+            "_id": "cb4531e416f55eb6260a05dd5474f0007317a1a634ca7479834c7b4521a064ef",
+            "text": "Caribbean",
+            "link": "/global"
+        },
+        {
+            "_id": "c029413a540630ef2e10beceb7f397c31ffe62a6806e10b2e5b04931c7842c72",
+            "text": "Cayman Islands",
+            "link": "/global"
+        },
+        {
+            "_id": "e1e426ecb63c8090ae88d0c35a475a1fc9960d7c7ec4e36fd2e1dd1eacd01aa4",
+            "text": "Central and Eastern Europe",
+            "link": "/global"
+        },
+        {
+            "_id": "f77708cb4958815260e2b95d51fa1ee697ba92a9e7a40dbd2c2e6a5ab6ae7d62",
+            "text": "Chad",
+            "link": "/global"
+        },
+        {
+            "_id": "f96061d81d587a47b341d70401dc2907491a5b0f4a1ff05f6e4ccb280971feed",
+            "text": "Channel Islands",
+            "link": "/global"
+        },
+        {
+            "_id": "4d869c59462f6205be59ed50b8e685cf655c6859505ab3ca9e87da36297877dd",
+            "text": "Chile",
+            "link": "/global"
+        },
+        {
+            "_id": "5caf2dba16f4d0dcc996a3d843c51d94486a82883bc66c3f90e9ac2835e5be20",
+            "text": "Colombia",
+            "link": "/global"
+        },
+        {
+            "_id": "72bba3eb9fabf913ac32744efc77954aff98459d1cd3dd076f0d19441aa530aa",
+            "text": "Congo (Brazzaville)",
+            "link": "/global"
+        },
+        {
+            "_id": "5ccb6f701e83f4fd658c32bd45561f5b3ae915c10894fb693df6fb91e248aaa5",
+            "text": "Congo (Dem. Rep.)",
+            "link": "/global"
+        },
+        {
+            "_id": "0e3e97ba06f3fe24ed3d9a5506d893e4d9d42f1aa6caddd79de34dc170924ace",
+            "text": "Costa Rica",
+            "link": "/global"
+        },
+        {
+            "_id": "a7eab43e863dc933328c3a271fa5b427b566a03edba31d104bbcfbe9d4345315",
+            "text": "Croatia",
+            "link": "/global"
+        },
+        {
+            "_id": "caeea314a33e5456837d62b8d6a0d32ece33c667d4bcd7907441e0c61fc6f527",
+            "text": "Cyprus",
+            "link": "/global"
+        },
+        {
+            "_id": "6f9a6304ccbb4b8ce296255c07122d68bb37bb1fdcf0eae824ab06c2d3476cd0",
+            "text": "Czech Republic",
+            "link": "/global"
+        },
+        {
+            "_id": "105b6c2f97f5b3bfb0880f4b4682c1d839aeb9967b07477261e85831d373fdcc",
+            "text": "Côte d'Ivoire",
+            "link": "/global"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+@use '../media' as media;
+
+.service {
+  &__cards {
+    padding: 3rem 0;
+    & > div {
+      width: 100%;
+    }
+    & > h2 {
+      margin: 0 0 2rem 2rem;
+      color: var(--primary-text-color);
+    }
+
+    &_wrapper {
+      gap: 1rem;
+    }
+  }
+
+  &__details {
+    padding: 3rem 0;
+
+    & > div {
+      width: 95%;
+      @include media.breakpoint(md) {
+        width: 85%;
+      }
+    }
+  }
+
+  &__explore {
+    & > h2 {
+      color: var(--primary-text-color);
+    }
+    &_cards {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      @include media.breakpoint(md) {
+        justify-content: center;
+      }
+    }
+  }
+
+  &__staff {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+
+    @include media.breakpoint(sm) {
+      align-items: flex-start;
+      gap: 1.6rem;
+    }
+  }
+}

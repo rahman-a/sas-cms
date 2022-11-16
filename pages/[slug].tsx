@@ -11,8 +11,7 @@ import Head from 'next/head'
 import { GetStaticProps, GetStaticPaths } from 'next'
 
 import config from '../react-bricks/config'
-import Layout from '../components/layout'
-import ErrorNoPage from '../components/errorNoPage'
+import { Layout, ErrorNoPage } from '@components/react-bricks'
 
 interface PageProps {
   page: types.Page
@@ -31,7 +30,7 @@ const Page: React.FC<PageProps> = ({ page, error }) => {
         <>
           <Head>
             <title>{page.meta.title}</title>
-            <meta name="description" content={page.meta.description} />
+            <meta name='description' content={page.meta.description} />
           </Head>
           <PageViewer page={pageOk} />
         </>

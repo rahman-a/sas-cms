@@ -1,0 +1,26 @@
+@use '../../../styles/media' as media;
+
+.btn {
+  display: none;
+  border: 0;
+  opacity: 0;
+  outline: none;
+  background-color: var(--primary-color-dark);
+  color: var(--white-color-80);
+  padding: 1rem 2rem 1rem 3rem;
+  border-radius: 0.2rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  position: relative;
+
+  span {
+    position: absolute;
+    left: 0.5rem;
+  }
+  &__l2 {
+    display: none !important;
+    @include media.breakpoint(md) {
+      display: block !important;
+    }
+  }
+}
