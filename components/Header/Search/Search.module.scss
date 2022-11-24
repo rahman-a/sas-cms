@@ -1,0 +1,112 @@
+@use '../../../styles/media' as media;
+
+.search {
+  display: flex;
+  justify-content: center;
+
+  @include media.breakpoint(md) {
+    padding: 0 2rem;
+  }
+  &__wrapper {
+    width: 60%;
+    overflow: hidden;
+    @include media.breakpoint(md) {
+      width: 100%;
+    }
+  }
+
+  &__input {
+    position: relative;
+    width: 100%;
+    padding: 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    input {
+      width: 100%;
+      padding: 1.5rem 1rem;
+      font-size: 1.7rem;
+      outline: none;
+      &::placeholder {
+        font-size: 1.7rem;
+      }
+      @include media.breakpoint(md) {
+        padding: 1rem 3.5rem 1rem 1rem;
+      }
+    }
+
+    button {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      svg {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+
+  &__loading {
+    display: flex;
+    align-items: center;
+    color: var(--white-color-80);
+    margin-top: 2rem;
+    span {
+      font: var(--body-text-regular);
+      letter-spacing: 2px;
+      margin-left: 1rem;
+    }
+  }
+
+  &__results {
+    position: relative;
+    left: -10rem;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    @include media.breakpoint(md) {
+      height: 58vh;
+      overflow-y: auto;
+      padding-bottom: 2rem;
+    }
+    &_show {
+      animation: slideIn 0.5s 0.5s ease-in-out forwards;
+    }
+  }
+
+  &__view {
+    margin: 40px auto 60px;
+    align-self: center;
+    padding: 16px 46px;
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover {
+      background-color: #fff;
+      color: #2d2d2d;
+    }
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    left: -10rem;
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    left: 0;
+    opacity: 1;
+  }
+}

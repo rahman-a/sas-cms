@@ -1,0 +1,17 @@
+.header {
+  &__font1 {
+    font: var(--display-text);
+  }
+  &__font2 {
+    font: var(--display-small-text);
+  }
+  &__font3 {
+    font: var(--headline-large-text);
+  }
+  &__font4 {
+    font: var(--headline-medium-text);
+  }
+  &__font5 {
+    font: var(--headline-small-text);
+  }
+}

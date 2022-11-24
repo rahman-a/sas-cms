@@ -1,6 +1,7 @@
 @use '../../styles/media' as media;
 
 .carousel {
+  position: relative;
   &__slides {
     width: 100%;
     overflow: hidden;
@@ -11,8 +12,6 @@
   }
   &__wrapper {
     display: grid;
-    // position: relative;
-    // z-index: 99;
     @include media.breakpoint(md) {
       display: flex;
       transition: 0.5s ease-in-out;

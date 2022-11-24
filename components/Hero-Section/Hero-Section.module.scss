@@ -1,0 +1,80 @@
+@use '../../styles/media' as media;
+
+.hero {
+  position: relative;
+  height: 45rem;
+  color: var(--primary-text-color-light);
+  @include media.breakpoint(xs) {
+    background: var(--primary-color);
+  }
+  &__content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--container-color);
+    width: 65%;
+    padding: 5rem;
+    @include media.breakpoint(md) {
+      width: 75%;
+    }
+
+    @include media.breakpoint(sm) {
+      width: 90%;
+    }
+    @include media.breakpoint(xs) {
+      padding: 2rem;
+    }
+
+    &_floating {
+      bottom: 2rem;
+      left: 5rem;
+      width: 55%;
+      padding: 1rem;
+    }
+  }
+
+  &__title {
+    font: var(--headline-small-text);
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+  }
+
+  &__text {
+    font: var(--title-text-large-regular);
+    margin-bottom: 2rem;
+    @include media.breakpoint(xs) {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__link {
+    button {
+      position: relative;
+      border: 0;
+      background: var(--black-color);
+      color: var(--white-color);
+      padding: 1rem 1.5rem;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+
+      &:hover {
+        background: var(--white-color);
+      }
+      &:hover > span {
+        color: var(--black-color);
+      }
+    }
+    &_copy {
+      position: absolute;
+      top: 5rem;
+      left: 0;
+      z-index: 9;
+    }
+  }
+}

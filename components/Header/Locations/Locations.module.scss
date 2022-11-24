@@ -1,0 +1,65 @@
+@use '../../../styles/media' as media;
+
+.locations {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-1.2rem);
+  z-index: 9999;
+
+  &__dropdown {
+    @include media.breakpoint(md) {
+      position: absolute;
+      top: -5rem;
+      span {
+        font-size: 2.5rem;
+        color: var(--white-color);
+        top: -1rem;
+      }
+    }
+  }
+  span:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+  &:hover {
+    color: var(--primary-color);
+  }
+
+  &__white {
+    display: block !important;
+    color: var(--white-color);
+  }
+  @include media.breakpoint(md) {
+    display: none !important;
+  }
+  &__is-mobile {
+    display: block !important;
+  }
+
+  span {
+    position: relative;
+    z-index: 99;
+  }
+  span:nth-child(3) {
+    svg {
+      width: 0.7em;
+    }
+  }
+
+  &__territories {
+    display: none;
+    width: 25rem;
+    margin-left: 0.5rem;
+    position: absolute;
+    right: 0;
+    top: 4rem;
+    @include media.breakpoint(md) {
+      position: relative;
+      top: 0;
+      width: 98vw;
+    }
+    @include media.breakpoint(xs) {
+      width: 96vw;
+    }
+  }
+}

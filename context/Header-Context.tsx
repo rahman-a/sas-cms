@@ -1,5 +1,4 @@
 import { createContext, useState, Dispatch } from 'react'
-import { Menu } from '@customTypes/Menu'
 
 interface HeaderContextProps {
   setIsOpen: Dispatch<React.SetStateAction<boolean>>
@@ -7,11 +6,13 @@ interface HeaderContextProps {
   isDropdownOpen: boolean
   setIsDropdownOpen: Dispatch<React.SetStateAction<boolean>>
   setSubNavType: Dispatch<React.SetStateAction<string>>
+  setSubMenuId: Dispatch<React.SetStateAction<string>>
+  setSubMenuL3Id: Dispatch<React.SetStateAction<string>>
   subNavType: string
+  subMenuId: string
+  subMenuL3Id: string
   subMenuLevel: number
   setSubMenuLevel: Dispatch<React.SetStateAction<number>>
-  menu: Menu
-  setMenu: Dispatch<React.SetStateAction<Menu>>
 }
 
 interface HeaderContextProviderProps {
@@ -28,7 +29,8 @@ export default function HeaderContextProvider({
   const [isOpen, setIsOpen] = useState<boolean>(false)
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false)
   const [subNavType, setSubNavType] = useState<string>('')
-  const [menu, setMenu] = useState<Menu>({} as Menu)
+  const [subMenuId, setSubMenuId] = useState<string>('')
+  const [subMenuL3Id, setSubMenuL3Id] = useState<string>('')
   const [subMenuLevel, setSubMenuLevel] = useState<number>(1)
 
   const passedValues = {
@@ -38,10 +40,12 @@ export default function HeaderContextProvider({
     setIsDropdownOpen,
     setSubNavType,
     subNavType,
+    setSubMenuId,
+    subMenuId,
+    setSubMenuL3Id,
+    subMenuL3Id,
     subMenuLevel,
     setSubMenuLevel,
-    menu,
-    setMenu,
   }
 
   return (

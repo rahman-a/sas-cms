@@ -8,19 +8,21 @@ interface FeatureCardProps {
   link?: string
   textColor?: string
   background?: string
+  isGrow?: boolean
 }
 
 const FeatureCard: types.Brick<FeatureCardProps> = ({
   link,
   textColor,
   background,
+  isGrow,
   ...rest
 }) => {
   return (
     <div
       className={styles.card}
       {...rest}
-      style={{ backgroundColor: background }}
+      style={{ backgroundColor: background, flexGrow: isGrow ? 1 : 0 }}
     >
       <Link href={link || '#'}>
         <a className={styles.card__wrapper}>
@@ -65,6 +67,11 @@ FeatureCard.schema = {
       name: 'link',
       label: 'Card link to..',
       type: types.SideEditPropType.Text,
+    },
+    {
+      name: 'isGrow',
+      label: 'Take up remaining space',
+      type: types.SideEditPropType.Boolean,
     },
     {
       name: 'textColor',

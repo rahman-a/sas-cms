@@ -10,4 +10,7 @@
     font: var(--headline-large-text);
     color: var(--primary-text-color-light);
   }
+  &__wrapper {
+    display: flex;
+  }
 }

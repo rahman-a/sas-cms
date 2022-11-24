@@ -14,7 +14,6 @@ const ImageComponent: types.Brick = ({ ...rest }) => {
       <Image
         propName='details image'
         alt='details graph'
-        maxWidth={100}
         renderWrapper={({ children }) => (
           <figure className={styles.details__figure}>{children}</figure>
         )}

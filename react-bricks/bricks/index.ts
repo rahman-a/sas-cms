@@ -6,6 +6,21 @@ import {
   FooterLink,
   FooterLegalContainer,
   FooterLinksContainer,
+  HeaderContainer,
+  Header,
+  HeaderLogo,
+  HeaderNavbar,
+  HeaderOption,
+  HeaderDropdownMenu,
+  HeaderLink,
+  HeaderSearch,
+  HeaderSubmenu,
+  HeaderSubmenuLevel1,
+  HeaderSubmenuLevel2,
+  HeaderSubmenuLevel3,
+  FeaturedPosts,
+  FeaturedPost,
+  HeaderTerritoriesList,
 } from '@components'
 import {
   Carousel,
@@ -15,8 +30,21 @@ import {
   DetailsSectionImage,
   DetailsSectionVideo,
   DetailsSectionQuote,
+  HeroSection,
+  HeaderText,
+  Accordion,
+  AccordionColumn,
+  AccordionItem,
+  AccordionSubmenuContainer,
+  AccordionLink,
 } from '@components'
-import { Button } from '@components/ui'
+import {
+  Button,
+  DropdownMenu,
+  DropdownListItem,
+  Breadcrumbs,
+  CopyBox,
+} from '@components/ui'
 import {
   CardsWrapper,
   AdvantageCard,
@@ -29,24 +57,37 @@ import {
   StaffCard,
 } from '@components/Cards'
 import { Section } from '@components/Layout'
-import HeroUnit from './HeroUnit'
+// import HeroUnit from './HeroUnit'
 
-const bricks: types.Brick[] = [
-  // General
-  Announcement,
-  Social,
-  // UI
-  Button,
-  // Carousel,
-  Carousel,
-  CarouselItem,
-  CarouselTab,
-  // Details Section
+/////////////////////////
+/// General Bricks
+/////////////////////////
+const GeneralBricks = [Announcement, Social, HeroSection]
+
+/////////////////////////
+/// UI Bricks
+/////////////////////////
+const UIBricks = [Button, DropdownMenu, DropdownListItem, Breadcrumbs, CopyBox]
+
+/////////////////////////
+/// Carousel Bricks
+/////////////////////////
+const CarouselBricks = [Carousel, CarouselItem, CarouselTab]
+
+/////////////////////////
+/// Details Section Bricks
+/////////////////////////
+const DetailsSectionBricks = [
   DetailsSection,
   DetailsSectionImage,
   DetailsSectionVideo,
   DetailsSectionQuote,
-  // Cards
+]
+
+/////////////////////////
+/// Cards Bricks
+/////////////////////////
+const CardsBricks = [
   CardsWrapper,
   AdvantageCard,
   FeatureCard,
@@ -56,14 +97,81 @@ const bricks: types.Brick[] = [
   MoreCard,
   PopularCard,
   StaffCard,
-  // Layout
-  Section,
+]
 
-  // Footer
+/////////////////////////
+/// Layout Bricks
+/////////////////////////
+const LayoutBricks = [Section]
+
+/////////////////////////
+/// Header Bricks
+/////////////////////////
+const HeaderBricks = [
+  HeaderContainer,
+  Header,
+  HeaderLogo,
+  HeaderNavbar,
+  HeaderDropdownMenu,
+  HeaderOption,
+  HeaderLink,
+  HeaderSearch,
+  HeaderSubmenu,
+  HeaderSubmenuLevel1,
+  HeaderSubmenuLevel2,
+  HeaderSubmenuLevel3,
+  FeaturedPosts,
+  FeaturedPost,
+  HeaderTerritoriesList,
+]
+
+/////////////////////////
+/// Footer Bricks
+/////////////////////////
+const FooterBricks = [
   Footer,
   FooterLink,
   FooterLegalContainer,
   FooterLinksContainer,
+]
+
+/////////////////////////
+/// Typography Bricks
+/////////////////////////
+const TypographyBricks = [HeaderText]
+
+/////////////////////////
+/// Accordion Bricks
+/////////////////////////
+const AccordionBricks = [
+  Accordion,
+  AccordionColumn,
+  AccordionItem,
+  AccordionSubmenuContainer as unknown as types.Brick,
+  AccordionLink,
+]
+
+const bricks: types.Brick[] = [
+  // General
+  ...GeneralBricks,
+  // UI
+  ...UIBricks,
+  // Carousel,
+  ...CarouselBricks,
+  // Details Section
+  ...DetailsSectionBricks,
+  // Cards
+  ...CardsBricks,
+  // Layout
+  ...LayoutBricks,
+  // Header
+  ...HeaderBricks,
+  // Footer
+  ...FooterBricks,
+  // Typography
+  ...TypographyBricks,
+  // Accordion
+  ...AccordionBricks,
 ]
 
 export default bricks

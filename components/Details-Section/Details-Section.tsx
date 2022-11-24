@@ -16,6 +16,9 @@ interface DetailsSectionProps {
   // bricks props
   link: string
   isTitle: boolean
+  halfWidth: boolean
+  isDescription: boolean
+  font?: string
 }
 
 const DetailsSection: types.Brick<DetailsSectionProps> = ({
@@ -27,14 +30,23 @@ const DetailsSection: types.Brick<DetailsSectionProps> = ({
   id,
   link,
   isTitle,
+  isDescription,
+  halfWidth,
+  font,
   ...rest
 }) => {
   const detailsClasses = classnames(styles.details, {
     [className as string]: className,
+    [styles.details__halfWidth]: halfWidth,
   })
 
   const detailsWrapperClasses = classnames(styles.details__wrapper, {
     [styles.details__wrapper_reverse]: reverse,
+  })
+
+  const detailsTitleClasses = classnames(styles.details__title, {
+    [styles['details__title-font1']]: font === 'font1',
+    [styles['details__title-font2']]: font === 'font2',
   })
 
   return (
@@ -50,24 +62,28 @@ const DetailsSection: types.Brick<DetailsSectionProps> = ({
                 propName='title'
                 placeholder='Type the section title here...'
                 renderBlock={({ children }) => (
-                  <h2 className={styles.details__title} id={id}>
+                  <h2 className={detailsTitleClasses} id={id}>
                     {children}
                   </h2>
                 )}
               />
             )}
-            <RichText
-              propName='description'
-              placeholder='Type the section description here....'
-              renderBlock={({ children }) => (
-                <div className={styles.details__text}>{children}</div>
-              )}
-              allowedFeatures={[
-                types.RichTextFeatures.Bold,
-                types.RichTextFeatures.Italic,
-                types.RichTextFeatures.Link,
-              ]}
-            />
+            <Repeater propName='headerText' />
+            {isDescription && (
+              <RichText
+                propName='description'
+                placeholder='Type the section description here....'
+                renderBlock={({ children }) => (
+                  <div className={styles.details__text}>{children}</div>
+                )}
+                allowedFeatures={[
+                  types.RichTextFeatures.Bold,
+                  types.RichTextFeatures.Italic,
+                  types.RichTextFeatures.Link,
+                ]}
+              />
+            )}
+
             <Repeater
               propName='details-button'
               itemProps={{ style: { marginTop: '3rem' }, link }}
@@ -85,8 +101,26 @@ DetailsSection.schema = {
   category: 'Details Section',
   getDefaultProps: () => ({
     isTitle: true,
+    isDescription: true,
   }),
   sideEditProps: [
+    {
+      name: 'font',
+      label: 'Header Font Type',
+      type: types.SideEditPropType.Select,
+      selectOptions: {
+        display: types.OptionsDisplay.Select,
+        options: [
+          { value: 'font1', label: 'Display Small Text' },
+          { value: 'font2', label: 'Headline Large' },
+        ],
+      },
+    },
+    {
+      name: 'halfWidth',
+      label: 'Take up half width of Parent',
+      type: types.SideEditPropType.Boolean,
+    },
     {
       name: 'link',
       label: 'Details Link',
@@ -99,7 +133,12 @@ DetailsSection.schema = {
     },
     {
       name: 'isTitle',
-      label: 'define section title',
+      label: 'Toggle section title',
+      type: types.SideEditPropType.Boolean,
+    },
+    {
+      name: 'isDescription',
+      label: 'Toggle section description',
       type: types.SideEditPropType.Boolean,
     },
     {
@@ -128,6 +167,11 @@ DetailsSection.schema = {
       name: 'details-quote',
       itemType: 'details-section-quote',
       itemLabel: 'Details Section quote',
+    },
+    {
+      name: 'headerText',
+      itemType: 'header-text',
+      itemLabel: 'Details Section Header',
     },
   ],
 }

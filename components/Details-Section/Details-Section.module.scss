@@ -6,6 +6,16 @@
     padding: 6rem 0;
   }
 
+  &__halfWidth {
+    width: 50%;
+    @include media.breakpoint(md) {
+      width: 85%;
+    }
+    @include media.breakpoint(sm) {
+      width: 100%;
+    }
+  }
+
   &__wrapper {
     display: flex;
     justify-content: space-between;
@@ -53,6 +63,12 @@
     line-height: 1.4;
     text-transform: capitalize;
     margin-bottom: 2rem;
+    &-font1 {
+      font: var(--display-small-text);
+    }
+    &-font2 {
+      font: var(--headline-large-text);
+    }
     @include media.breakpoint(sm) {
       font-size: 3.2rem;
       margin-top: 2rem;

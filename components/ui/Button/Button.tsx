@@ -19,6 +19,7 @@ const Button: types.Brick<ButtonType> = ({
   style,
   dataAttributes,
   className,
+  fontSize,
   ...rest
 }) => {
   const btnClasses = classnames(styles.btn, {
@@ -33,6 +34,8 @@ const Button: types.Brick<ButtonType> = ({
     [styles['btn__wide']]: icon,
     [styles['btn__disabled-text']]: variant === 'text' && disabled,
     [styles['btn__disabled']]: disabled,
+    [styles['btn__font-medium']]: fontSize === 'medium',
+    [styles['btn__font-large']]: fontSize === 'large',
     [className as string]: className,
   })
 
@@ -42,33 +45,35 @@ const Button: types.Brick<ButtonType> = ({
   }
   if (as === 'a') {
     return (
-      <Link href={link || '#'}>
-        <a
-          {...rest}
-          style={style}
-          onClick={btnClickHandler}
-          className={btnClasses}
-          {...dataAttributes}
-        >
-          {text}
-          {icon && <ButtonIcon icon={icon} />}
-        </a>
-      </Link>
+      <div {...rest}>
+        <Link href={link || '#'}>
+          <a
+            style={style}
+            onClick={btnClickHandler}
+            className={btnClasses}
+            {...dataAttributes}
+          >
+            {text}
+            {icon && <ButtonIcon icon={icon} />}
+          </a>
+        </Link>
+      </div>
     )
   }
   return (
-    <button
-      onClick={btnClickHandler}
-      className={btnClasses}
-      disabled={disabled}
-      style={style}
-      type={type}
-      {...rest}
-      {...dataAttributes}
-    >
-      {text}
-      {icon && <ButtonIcon icon={icon} />}
-    </button>
+    <div {...rest}>
+      <button
+        onClick={btnClickHandler}
+        className={btnClasses}
+        disabled={disabled}
+        style={style}
+        type={type}
+        {...dataAttributes}
+      >
+        {text}
+        {icon && <ButtonIcon icon={icon} />}
+      </button>
+    </div>
   )
 }
 
@@ -140,6 +145,18 @@ Button.schema = {
         options: [
           { label: 'Normal button', value: 'button' },
           { label: 'Make button as link', value: 'a' },
+        ],
+      },
+    },
+    {
+      name: 'fontSize',
+      label: 'Font Size',
+      type: types.SideEditPropType.Select,
+      selectOptions: {
+        display: types.OptionsDisplay.Select,
+        options: [
+          { label: 'Medium', value: 'medium' },
+          { label: 'large', value: 'large' },
         ],
       },
     },

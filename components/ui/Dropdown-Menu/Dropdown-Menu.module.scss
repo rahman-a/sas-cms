@@ -54,6 +54,9 @@
         font-weight: 900;
       }
     }
+    &-hidden {
+      display: none;
+    }
   }
   &__link {
     display: inline-block;

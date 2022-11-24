@@ -7,6 +7,7 @@ import 'simplebar/dist/simplebar.min.css'
 import styles from './Breadcrumbs.module.scss'
 import { Home } from '@components/icons'
 import Link from 'next/link'
+import { types } from 'react-bricks/frontend'
 
 interface BreadcrumbsProps {
   isOpen: boolean
@@ -18,7 +19,7 @@ type Breadcrumb = {
   href: string
 }
 
-const Breadcrumbs: FunctionComponent<BreadcrumbsProps> = ({ isOpen }) => {
+const Breadcrumbs: types.Brick<BreadcrumbsProps> = ({ isOpen }) => {
   const [path, setPath] = useState<Breadcrumb[]>([])
   const router = useRouter()
   const breadcrumbsClasses = classnames(styles.breadcrumbs, {
@@ -69,6 +70,12 @@ const Breadcrumbs: FunctionComponent<BreadcrumbsProps> = ({ isOpen }) => {
       </SimpleBar>
     </div>
   )
+}
+
+Breadcrumbs.schema = {
+  name: 'breadcrumbs',
+  label: 'Breadcrumbs',
+  category: 'UI',
 }
 
 export default Breadcrumbs

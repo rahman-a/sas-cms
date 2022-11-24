@@ -1,13 +1,21 @@
 import Link from 'next/link'
-import React, { Fragment } from 'react'
+import styles from './Footer.module.scss'
+import React from 'react'
+import classnames from 'classnames'
 
 import { types, Text } from 'react-bricks/frontend'
 
 interface FooterLinkProps {
   link: string
+  isEdit?: boolean
 }
 
-const FooterLink: types.Brick<FooterLinkProps> = ({ link, ...rest }) => {
+const FooterLink: types.Brick<FooterLinkProps> = ({
+  link,
+  isEdit,
+  ...rest
+}) => {
+  const linkClasses = isEdit ? styles.footer__edit : ''
   return (
     <span {...rest}>
       <Text
@@ -15,7 +23,7 @@ const FooterLink: types.Brick<FooterLinkProps> = ({ link, ...rest }) => {
         placeholder='type link text...'
         renderBlock={({ children }) => (
           <Link href={link || ''}>
-            <a>{children}</a>
+            <a className={linkClasses}>{children}</a>
           </Link>
         )}
       />
@@ -33,6 +41,11 @@ FooterLink.schema = {
       name: 'link',
       label: 'Link URL',
       type: types.SideEditPropType.Text,
+    },
+    {
+      name: 'isEdit',
+      label: 'Edit Mode',
+      type: types.SideEditPropType.Boolean,
     },
   ],
 }

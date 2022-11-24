@@ -4,15 +4,15 @@ import { types, Repeater } from 'react-bricks/frontend'
 import classnames from 'classnames'
 
 interface FooterLinksContainerProps {
-  isBorder: boolean
+  isEdit: boolean
 }
 
 const FooterLinksContainer: types.Brick<FooterLinksContainerProps> = ({
-  isBorder,
+  isEdit,
   ...rest
 }) => {
   const headerClasses = classnames(styles.footer__header, {
-    [styles.footer__border]: isBorder,
+    [styles.footer__border]: isEdit,
   })
 
   return (
@@ -32,8 +32,8 @@ FooterLinksContainer.schema = {
   }),
   sideEditProps: [
     {
-      name: 'isBorder',
-      label: 'Toggle Container Border',
+      name: 'isEdit',
+      label: 'Edit Mode',
       type: types.SideEditPropType.Boolean,
     },
   ],

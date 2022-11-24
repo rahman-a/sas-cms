@@ -1,0 +1,66 @@
+@use '../../../styles/media' as media;
+
+.result {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 3.8rem;
+  cursor: pointer;
+  text-decoration: none;
+  align-self: flex-start;
+  max-width: 100%;
+  margin-top: 3.6rem;
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  @include media.breakpoint(md) {
+    margin-top: unset;
+  }
+
+  img {
+    display: block;
+    margin: 0 1.6rem auto 1.6rem;
+    width: 15rem;
+  }
+
+  img:first-of-type {
+    @include media.breakpoint(md) {
+      display: none;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-flow: column nowrap;
+    color: var(--white-color);
+    width: auto;
+    min-width: 25rem;
+    @include media.breakpoint(md) {
+      display: block;
+      width: 100%;
+    }
+    h4 {
+      color: var(--white-color);
+      font: var(--title-text-regular);
+      color: var(--white-color);
+      text-decoration: none solid var(--white-color);
+      margin: 0 0 0.8rem;
+      line-height: 1;
+    }
+    p {
+      margin: 0;
+      padding: 0;
+      font: var(--body-text-small-regular);
+      color: var(--white-color);
+      text-decoration: none solid var(--white-color);
+    }
+    img {
+      display: none;
+      float: right;
+      @include media.breakpoint(md) {
+        display: block !important;
+      }
+    }
+  }
+}

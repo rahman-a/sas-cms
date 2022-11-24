@@ -1,0 +1,74 @@
+@use '../../../styles/media' as media;
+
+.options {
+  position: relative;
+
+  @include media.breakpoint(md) {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 8rem;
+  }
+  &__hidden {
+    display: none;
+  }
+  &__item {
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    span:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+    &:hover {
+      color: var(--primary-color);
+    }
+
+    &_white {
+      display: block !important;
+      color: var(--white-color);
+      z-index: 99;
+    }
+  }
+
+  &__search {
+    position: relative;
+    z-index: 999;
+    span:last-child {
+      @include media.breakpoint(md) {
+        display: none;
+      }
+    }
+    span:first-child {
+      @include media.breakpoint(md) {
+        svg {
+          width: 3rem;
+          height: 3rem;
+        }
+      }
+    }
+    &_is-hidden {
+      span:first-child {
+        @include media.breakpoint(md) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &__hamburger {
+    display: none;
+    position: relative;
+    z-index: 999;
+    @include media.breakpoint(md) {
+      display: block;
+    }
+    &_territories {
+      @include media.breakpoint(md) {
+        position: fixed;
+        top: 1rem;
+        right: 0;
+      }
+    }
+  }
+}

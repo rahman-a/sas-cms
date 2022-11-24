@@ -13,8 +13,10 @@ const Footer: types.Brick = () => {
             <Image
               propName='footer logo'
               alt='upload the website logo..'
-              maxWidth={20}
-              aspectRatio={2}
+              maxWidth={100}
+              renderWrapper={({ children }) => (
+                <figure className={styles.footer__logo}>{children}</figure>
+              )}
             />
             <Text
               propName='footer copyright'

@@ -1,6 +1,7 @@
 @use '@styles/media' as media;
 .card {
   min-width: 25rem;
+  max-width: 45rem;
   @include media.breakpoint(sm) {
     width: 95%;
   }

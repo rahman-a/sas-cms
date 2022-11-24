@@ -12,6 +12,7 @@ export interface ButtonType {
   text: string
   children?: React.ReactNode
   style?: React.CSSProperties
+  fontSize?: string
   className?: string
   type?: 'button' | 'submit' | 'reset' | undefined
   onClick?: () => void

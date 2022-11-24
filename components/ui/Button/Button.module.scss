@@ -128,4 +128,13 @@
       color: var(--container-color-40);
     }
   }
+
+  &__font {
+    &-medium {
+      font-size: 1.6rem;
+    }
+    &-large {
+      font-size: 2.2rem;
+    }
+  }
 }

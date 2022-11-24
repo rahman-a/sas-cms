@@ -1,0 +1,17 @@
+@use '../../../styles/media' as media;
+
+.logo {
+  position: relative;
+  width: 5rem;
+  height: 4rem;
+  z-index: 999;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  &__hidden {
+    @include media.breakpoint(md) {
+      display: none;
+    }
+  }
+}

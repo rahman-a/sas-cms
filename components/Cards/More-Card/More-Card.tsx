@@ -98,6 +98,7 @@ MoreCard.schema = {
       name: 'card-button',
       itemType: 'button',
       itemLabel: 'More Card Button',
+      max: 1,
     },
   ],
 }

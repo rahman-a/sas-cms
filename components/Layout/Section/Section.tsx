@@ -4,6 +4,7 @@ import styles from './Section.module.scss'
 import { types, Text, Repeater } from 'react-bricks/frontend'
 import { Home } from '../../icons'
 
+type itemsPosition = 'row' | 'row-reverse' | 'column' | 'column-reverse'
 interface SectionProps {
   style?: React.CSSProperties
   className?: string
@@ -12,17 +13,18 @@ interface SectionProps {
   background?: string
   padding?: string
   textColor?: string
+  itemsPosition?: itemsPosition
   children: React.ReactNode
 }
 
 const Section: types.Brick<SectionProps> = ({
-  children,
   style,
   className,
   wrapperClassName,
   background,
   padding,
   textColor,
+  itemsPosition,
   isTitle,
 }) => {
   const sectionClasses = classnames(styles.section, {
@@ -53,9 +55,14 @@ const Section: types.Brick<SectionProps> = ({
         />
       )}
       <div className='container'>
-        <div className={wrapperClasses}>
+        <div
+          className={wrapperClasses}
+          style={{ flexDirection: itemsPosition }}
+        >
           <Repeater propName='section-cards-wrapper' />
           <Repeater propName='section-details-wrapper' />
+          <Repeater propName='accordionwrapper' />
+          <Repeater propName='headerwrapper' />
         </div>
       </div>
     </section>
@@ -68,6 +75,7 @@ Section.schema = {
   category: 'Layout',
   getDefaultProps: () => ({
     isTitle: true,
+    itemsPosition: 'column-reverse',
   }),
   sideEditProps: [
     {
@@ -114,6 +122,20 @@ Section.schema = {
         ],
       },
     },
+    {
+      name: 'itemsPosition',
+      label: 'Blocks Position',
+      type: types.SideEditPropType.Select,
+      selectOptions: {
+        display: types.OptionsDisplay.Select,
+        options: [
+          { value: 'row', label: 'Row' },
+          { value: 'row-reverse', label: 'Reverse Row' },
+          { value: 'column', label: 'Column' },
+          { value: 'column-reverse', label: 'Reverse Column' },
+        ],
+      },
+    },
   ],
   repeaterItems: [
     {
@@ -125,6 +147,16 @@ Section.schema = {
       name: 'section-details-wrapper',
       itemType: 'details-section',
       itemLabel: 'Details Section',
+    },
+    {
+      name: 'accordionwrapper',
+      itemType: 'accordion',
+      itemLabel: 'Accordion Component',
+    },
+    {
+      name: 'headerwrapper',
+      itemType: 'header-text',
+      itemLabel: 'Header Text',
     },
   ],
 }
