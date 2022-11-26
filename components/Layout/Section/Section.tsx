@@ -10,6 +10,8 @@ interface SectionProps {
   className?: string
   wrapperClassName?: string
   isTitle?: boolean
+  isBackgroundImage?: boolean
+  backgroundImage?: types.IImageSource
   background?: string
   padding?: string
   textColor?: string
@@ -26,8 +28,11 @@ const Section: types.Brick<SectionProps> = ({
   textColor,
   itemsPosition,
   isTitle,
+  isBackgroundImage,
+  backgroundImage,
 }) => {
   const sectionClasses = classnames(styles.section, {
+    [styles.section__background]: isBackgroundImage,
     [className as string]: className,
   })
 
@@ -38,6 +43,7 @@ const Section: types.Brick<SectionProps> = ({
   const stylesValue = {
     ...style,
     backgroundColor: background,
+    background: `url(${backgroundImage?.src}) no-repeat center center`,
     padding: padding,
   }
 
@@ -63,6 +69,12 @@ const Section: types.Brick<SectionProps> = ({
           <Repeater propName='section-details-wrapper' />
           <Repeater propName='accordionwrapper' />
           <Repeater propName='headerwrapper' />
+          <Repeater propName='tabbedinterfacecontainerWrapper' />
+          <Repeater propName='sectionfloatcontentWrapper' />
+          <Repeater propName='sectionfilterlistWrapper' />
+          <div className={styles.section__btns}>
+            <Repeater propName='sectionbuttonWrapper' />
+          </div>
         </div>
       </div>
     </section>
@@ -74,13 +86,24 @@ Section.schema = {
   label: 'Section',
   category: 'Layout',
   getDefaultProps: () => ({
-    isTitle: true,
+    isTitle: false,
     itemsPosition: 'column-reverse',
   }),
   sideEditProps: [
     {
+      name: 'isBackgroundImage',
+      label: 'Set Background Image',
+      type: types.SideEditPropType.Boolean,
+    },
+    {
+      name: 'backgroundImage',
+      label: 'Background Image',
+      type: types.SideEditPropType.Image,
+      show: (props) => props.isBackgroundImage,
+    },
+    {
       name: 'isTitle',
-      label: 'Hide title',
+      label: 'Show title',
       type: types.SideEditPropType.Boolean,
     },
     {
@@ -157,6 +180,26 @@ Section.schema = {
       name: 'headerwrapper',
       itemType: 'header-text',
       itemLabel: 'Header Text',
+    },
+    {
+      name: 'tabbedinterfacecontainerWrapper',
+      itemType: 'tabbedinterfacecontextwrapper',
+      itemLabel: 'Tabbed Interface Container',
+    },
+    {
+      name: 'sectionfloatcontentWrapper',
+      itemType: 'floatcontent',
+      itemLabel: 'Float Content Container',
+    },
+    {
+      name: 'sectionbuttonWrapper',
+      itemType: 'button',
+      itemLabel: 'Section Button',
+    },
+    {
+      name: 'sectionfilterlistWrapper',
+      itemType: 'filterlistcontext',
+      itemLabel: 'Section Filter List',
     },
   ],
 }

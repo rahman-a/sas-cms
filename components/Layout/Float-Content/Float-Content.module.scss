@@ -1,0 +1,28 @@
+@use '@styles/media' as media;
+
+.content {
+  width: 50%;
+  background-color: var(--container-color);
+  color: var(--white-color);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  border-radius: 1rem;
+  @include media.breakpoint(md) {
+    width: 100%;
+  }
+
+  &__title {
+    font: var(--display-small-text);
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    p {
+      line-height: 1.8;
+      color: inherit;
+    }
+  }
+}

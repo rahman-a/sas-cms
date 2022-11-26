@@ -1,0 +1,25 @@
+.list {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  list-style: square;
+  &__item {
+    color: var(--primary-color);
+    padding: 1.2rem 0;
+  }
+
+  &__content {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+  }
+
+  &__link {
+    font: var(--title-text-regular);
+    font-weight: 600;
+    border-bottom: 2px solid currentColor;
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+}

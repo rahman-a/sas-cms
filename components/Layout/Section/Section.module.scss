@@ -13,4 +13,14 @@
   &__wrapper {
     display: flex;
   }
+  &__background {
+    background-size: cover;
+    padding: 10rem 0;
+  }
+  &__btns {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
 }

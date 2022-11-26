@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Staff-Card.module.scss'
+import classnames from 'classnames'
 import { types, Image } from 'react-bricks/frontend'
 import Link from 'next/link'
 import StaffSocial from './Staff-Social'
@@ -17,6 +18,7 @@ interface StaffCardProps {
   textColor: string
   padding: string
   background: string
+  cardSize: string
 }
 
 const StaffCard: types.Brick<StaffCardProps> = ({
@@ -32,11 +34,17 @@ const StaffCard: types.Brick<StaffCardProps> = ({
   textColor,
   padding,
   background,
+  cardSize,
   ...rest
 }) => {
+  const cardClasses = classnames(styles.card, {
+    [styles['card__size--sm']]: cardSize === 'small',
+    [styles['card__size--md']]: cardSize === 'medium',
+    [styles['card__size--lg']]: cardSize === 'large',
+  })
   return (
     <div
-      className={styles.card}
+      className={cardClasses}
       {...rest}
       style={{ padding: `${padding}rem`, backgroundColor: background }}
     >
@@ -107,6 +115,7 @@ StaffCard.schema = {
   hideFromAddMenu: true,
   getDefaultProps: () => ({
     textColor: '#2d2d2d',
+    cardSize: 'large',
   }),
   sideEditProps: [
     {
@@ -157,6 +166,19 @@ StaffCard.schema = {
           name: 'facebook',
           label: 'Facebook profile page link',
           type: types.SideEditPropType.Text,
+        },
+        {
+          name: 'cardSize',
+          label: 'Card Size',
+          type: types.SideEditPropType.Select,
+          selectOptions: {
+            display: types.OptionsDisplay.Select,
+            options: [
+              { value: 'small', label: 'Small' },
+              { value: 'medium', label: 'Medium' },
+              { value: 'large', label: 'Large' },
+            ],
+          },
         },
       ],
     },

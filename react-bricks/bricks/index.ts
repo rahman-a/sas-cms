@@ -37,6 +37,22 @@ import {
   AccordionItem,
   AccordionSubmenuContainer,
   AccordionLink,
+  TabbedInterfaceContext,
+  TabbedInterface,
+  TabbedInterfaceTabsContainer,
+  TabbedInterfaceContentContainer,
+  TabbedInterfaceContent,
+  TabbedInterfaceItem,
+  TabbedNavbarContext,
+  TabbedNavbar,
+  TabbedNavbarContent,
+  TabbedNavbarItem,
+} from '@components'
+import {
+  FilterContext,
+  FilterTab,
+  FilterContent,
+  FilterItem,
 } from '@components'
 import {
   Button,
@@ -44,6 +60,8 @@ import {
   DropdownListItem,
   Breadcrumbs,
   CopyBox,
+  List,
+  ListItem,
 } from '@components/ui'
 import {
   CardsWrapper,
@@ -56,7 +74,12 @@ import {
   PopularCard,
   StaffCard,
 } from '@components/Cards'
-import { Section } from '@components/Layout'
+import {
+  Section,
+  Spacer,
+  FloatContainer,
+  FloatContent,
+} from '@components/Layout'
 // import HeroUnit from './HeroUnit'
 
 /////////////////////////
@@ -67,7 +90,15 @@ const GeneralBricks = [Announcement, Social, HeroSection]
 /////////////////////////
 /// UI Bricks
 /////////////////////////
-const UIBricks = [Button, DropdownMenu, DropdownListItem, Breadcrumbs, CopyBox]
+const UIBricks = [
+  Button,
+  DropdownMenu,
+  DropdownListItem,
+  Breadcrumbs,
+  CopyBox,
+  List,
+  ListItem,
+]
 
 /////////////////////////
 /// Carousel Bricks
@@ -102,7 +133,7 @@ const CardsBricks = [
 /////////////////////////
 /// Layout Bricks
 /////////////////////////
-const LayoutBricks = [Section]
+const LayoutBricks = [Section, Spacer, FloatContainer, FloatContent]
 
 /////////////////////////
 /// Header Bricks
@@ -151,6 +182,33 @@ const AccordionBricks = [
   AccordionLink,
 ]
 
+/////////////////////////
+/// Tabbed Interface Bricks
+/////////////////////////
+const TabbedInterfaceBricks = [
+  TabbedInterfaceContext,
+  TabbedInterface,
+  TabbedInterfaceTabsContainer,
+  TabbedInterfaceContentContainer,
+  TabbedInterfaceContent,
+  TabbedInterfaceItem,
+]
+
+/////////////////////////
+/// Tabbed Navbar Bricks
+/////////////////////////
+const TabbedNavbarBricks = [
+  TabbedNavbarContext,
+  TabbedNavbar,
+  TabbedNavbarContent,
+  TabbedNavbarItem,
+]
+
+/////////////////////////
+/// Filter List Bricks
+/////////////////////////
+const FilterBricks = [FilterContext, FilterTab, FilterContent, FilterItem]
+
 const bricks: types.Brick[] = [
   // General
   ...GeneralBricks,
@@ -172,6 +230,12 @@ const bricks: types.Brick[] = [
   ...TypographyBricks,
   // Accordion
   ...AccordionBricks,
+  // Tabbed Interface Bricks
+  ...TabbedInterfaceBricks,
+  // Tabbed Navbar Bricks
+  ...TabbedNavbarBricks,
+  // Filter List Bricks
+  ...FilterBricks,
 ]
 
 export default bricks

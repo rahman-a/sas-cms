@@ -1,7 +1,17 @@
 @use '@styles/media' as media;
 .card {
-  width: 40rem;
   padding: 1rem 0;
+  &__size {
+    &--sm {
+      width: 30rem;
+    }
+    &--md {
+      width: 35rem;
+    }
+    &--lg {
+      width: 40rem;
+    }
+  }
   @include media.breakpoint(sm) {
     width: 100%;
   }

@@ -6,7 +6,6 @@ import classnames from 'classnames'
 type Bold = 'bolder' | 'lighter'
 
 interface HeaderTextProps {
-  headerType: string
   padding: string
   margin: string
   textColor: string
@@ -16,11 +15,9 @@ interface HeaderTextProps {
 }
 
 const HeaderText: types.Brick<HeaderTextProps> = ({
-  headerType,
   padding,
   margin,
   textColor,
-  fontSize,
   font,
   bold,
 }) => {
@@ -29,7 +26,6 @@ const HeaderText: types.Brick<HeaderTextProps> = ({
     margin,
     color: textColor,
     fontWeight: bold,
-    fontSize,
   }
 
   const headerClasses = classnames({
@@ -103,22 +99,6 @@ HeaderText.schema = {
         options: [
           { value: '3.5rem', label: 'Large' },
           { value: '5rem', label: 'Larger' },
-        ],
-      },
-    },
-    {
-      name: 'headerType',
-      label: 'Header Type',
-      type: types.SideEditPropType.Select,
-      selectOptions: {
-        display: types.OptionsDisplay.Select,
-        options: [
-          { value: 'h1', label: 'H1' },
-          { value: 'h2', label: 'H2' },
-          { value: 'h3', label: 'H3' },
-          { value: 'h4', label: 'H4' },
-          { value: 'h5', label: 'H5' },
-          { value: 'h6', label: 'H6' },
         ],
       },
     },

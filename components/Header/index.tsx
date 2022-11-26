@@ -4,7 +4,9 @@ import { types, Repeater } from 'react-bricks/frontend'
 
 const HeaderContainer: types.Brick = () => (
   <HeaderContextProvider>
-    <Repeater propName='header-wrapper' />
+    <div style={{ padding: '0.5rem' }}>
+      <Repeater propName='header-wrapper' />
+    </div>
   </HeaderContextProvider>
 )
 
