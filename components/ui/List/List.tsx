@@ -6,12 +6,12 @@ import { types, Repeater } from 'react-bricks/frontend'
 interface ListProps {
   isEdit?: boolean
 }
-const List: types.Brick<ListProps> = ({ isEdit }) => {
+const List: types.Brick<ListProps> = ({ isEdit, ...rest }) => {
   const listClasses = classnames(styles.list, {
     'playground__brick--edit': isEdit,
   })
   return (
-    <ul className={listClasses}>
+    <ul className={listClasses} {...rest}>
       <Repeater propName='listitemwrapper' />
     </ul>
   )

@@ -2,9 +2,13 @@ import React from 'react'
 import HeaderContextProvider from '@context/Header-Context'
 import { types, Repeater } from 'react-bricks/frontend'
 
-const HeaderContainer: types.Brick = () => (
+interface HeaderContainerProps {
+  isEdit?: boolean
+}
+
+const HeaderContainer: types.Brick<HeaderContainerProps> = ({ isEdit }) => (
   <HeaderContextProvider>
-    <div style={{ padding: '0.5rem' }}>
+    <div style={{ padding: isEdit ? '0.5rem' : 0 }}>
       <Repeater propName='header-wrapper' />
     </div>
   </HeaderContextProvider>
@@ -14,6 +18,16 @@ HeaderContainer.schema = {
   name: 'header-context',
   label: 'Header Context',
   category: 'Header',
+  getDefaultProps: () => ({
+    isEdit: true,
+  }),
+  sideEditProps: [
+    {
+      name: 'isEdit',
+      label: 'Edit Mode',
+      type: types.SideEditPropType.Boolean,
+    },
+  ],
   repeaterItems: [
     {
       name: 'header-wrapper',

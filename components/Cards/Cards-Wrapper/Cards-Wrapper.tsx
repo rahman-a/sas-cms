@@ -12,6 +12,7 @@ interface CardsWrapperProps {
   className?: string
   textColor?: string
   noWrap?: boolean
+  justifyItems?: 'start' | 'center' | 'end' | 'between' | 'around'
 }
 
 const CardsWrapper: types.Brick<CardsWrapperProps> = ({
@@ -23,6 +24,7 @@ const CardsWrapper: types.Brick<CardsWrapperProps> = ({
   className,
   textColor,
   noWrap,
+  justifyItems,
   ...rest
 }) => {
   const cardsClasses = classnames(styles.cards, {
@@ -31,10 +33,16 @@ const CardsWrapper: types.Brick<CardsWrapperProps> = ({
 
   const wrapperClasses = classnames(styles.cards__wrapper, {
     [className as string]: className,
+    [styles['cards__justify-start']]: justifyItems === 'start',
+    [styles['cards__justify-center']]: justifyItems === 'center',
+    [styles['cards__justify-end']]: justifyItems === 'end',
+    [styles['cards__justify-between']]: justifyItems === 'between',
+    [styles['cards__justify-around']]: justifyItems === 'around',
     [styles.cards__wrapper_nowrap]: noWrap,
   })
   return (
     <div className={cardsClasses} style={style} {...rest}>
+      <Repeater propName='wrapper-header-text' />
       {isTitle && (
         <Text
           propName='title'
@@ -116,6 +124,12 @@ CardsWrapper.schema = {
       itemLabel: 'Staff Card',
       max: 10,
     },
+    {
+      name: 'wrapper-header-text',
+      itemType: 'header-text',
+      itemLabel: 'Header Text',
+      max: 1,
+    },
   ],
   sideEditProps: [
     {
@@ -142,6 +156,21 @@ CardsWrapper.schema = {
         options: [
           { value: '#ffffff', label: 'White' },
           { value: '#2d2d2d', label: 'Light Dark' },
+        ],
+      },
+    },
+    {
+      name: 'justifyItems',
+      label: 'Items Justification',
+      type: types.SideEditPropType.Select,
+      selectOptions: {
+        display: types.OptionsDisplay.Select,
+        options: [
+          { label: 'Start', value: 'start' },
+          { label: 'Center', value: 'center' },
+          { label: 'End', value: 'end' },
+          { label: 'Between', value: 'between' },
+          { label: 'Around', value: 'around' },
         ],
       },
     },

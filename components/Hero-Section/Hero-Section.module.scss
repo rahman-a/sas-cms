@@ -30,6 +30,10 @@
       left: 5rem;
       width: 55%;
       padding: 1rem;
+      @include media.breakpoint(sm) {
+        width: 75%;
+        left: 2rem;
+      }
     }
   }
 

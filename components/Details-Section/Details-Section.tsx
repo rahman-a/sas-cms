@@ -19,6 +19,7 @@ interface DetailsSectionProps {
   halfWidth: boolean
   isDescription: boolean
   font?: string
+  color?: string
 }
 
 const DetailsSection: types.Brick<DetailsSectionProps> = ({
@@ -33,6 +34,7 @@ const DetailsSection: types.Brick<DetailsSectionProps> = ({
   isDescription,
   halfWidth,
   font,
+  color,
   ...rest
 }) => {
   const detailsClasses = classnames(styles.details, {
@@ -55,6 +57,7 @@ const DetailsSection: types.Brick<DetailsSectionProps> = ({
         <Repeater propName='details-image' />
         <Repeater propName='details-video' />
         <Repeater propName='details-quote' />
+        <Repeater propName='details-cubic' />
         <div className={styles.details__row}>
           <div className={styles.details__content}>
             {isTitle && (
@@ -62,7 +65,7 @@ const DetailsSection: types.Brick<DetailsSectionProps> = ({
                 propName='title'
                 placeholder='Type the section title here...'
                 renderBlock={({ children }) => (
-                  <h2 className={detailsTitleClasses} id={id}>
+                  <h2 style={{ color }} className={detailsTitleClasses} id={id}>
                     {children}
                   </h2>
                 )}
@@ -74,7 +77,9 @@ const DetailsSection: types.Brick<DetailsSectionProps> = ({
                 propName='description'
                 placeholder='Type the section description here....'
                 renderBlock={({ children }) => (
-                  <div className={styles.details__text}>{children}</div>
+                  <p style={{ color }} className={styles.details__text}>
+                    {children}
+                  </p>
                 )}
                 allowedFeatures={[
                   types.RichTextFeatures.Bold,
@@ -113,6 +118,34 @@ DetailsSection.schema = {
         options: [
           { value: 'font1', label: 'Display Small Text' },
           { value: 'font2', label: 'Headline Large' },
+        ],
+      },
+    },
+    {
+      name: 'color',
+      label: 'Section Text Color',
+      type: types.SideEditPropType.Select,
+      selectOptions: {
+        display: types.OptionsDisplay.Color,
+        options: [
+          { value: '#ffffff', label: 'White' },
+          { value: 'rgb(30, 149, 224)', label: 'Light Blue' },
+          { value: '#2d2d2d', label: 'Soft Black' },
+          { value: '#000', label: 'Black' },
+        ],
+      },
+    },
+    {
+      name: 'padding',
+      label: 'Section Padding',
+      type: types.SideEditPropType.Select,
+      selectOptions: {
+        display: types.OptionsDisplay.Color,
+        options: [
+          { value: '#ffffff', label: 'small' },
+          { value: 'rgb(30, 149, 224)', label: 'Light Blue' },
+          { value: '#2d2d2d', label: 'Soft Black' },
+          { value: '#000', label: 'Black' },
         ],
       },
     },
@@ -167,6 +200,11 @@ DetailsSection.schema = {
       name: 'details-quote',
       itemType: 'details-section-quote',
       itemLabel: 'Details Section quote',
+    },
+    {
+      name: 'details-cubic',
+      itemType: 'image-cube',
+      itemLabel: 'Details Images Cube',
     },
     {
       name: 'headerText',

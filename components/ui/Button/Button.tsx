@@ -20,6 +20,7 @@ const Button: types.Brick<ButtonType> = ({
   dataAttributes,
   className,
   fontSize,
+  width,
   ...rest
 }) => {
   const btnClasses = classnames(styles.btn, {
@@ -36,6 +37,9 @@ const Button: types.Brick<ButtonType> = ({
     [styles['btn__disabled']]: disabled,
     [styles['btn__font-medium']]: fontSize === 'medium',
     [styles['btn__font-large']]: fontSize === 'large',
+    [styles['btn__auto']]: width === 'auto',
+    [styles['btn__max-content']]: width === 'max',
+    [styles['btn__min-content']]: width === 'min',
     [className as string]: className,
   })
 
@@ -83,7 +87,6 @@ Button.schema = {
   category: 'UI',
   hideFromAddMenu: true,
   getDefaultProps: () => ({
-    variant: 'dark-primary',
     text: 'Click here..',
   }),
   sideEditProps: [
@@ -119,6 +122,19 @@ Button.schema = {
           { label: 'Button', value: 'button' },
           { label: 'Submit', value: 'submit' },
           { label: 'Reset', value: 'reset' },
+        ],
+      },
+    },
+    {
+      name: 'width',
+      label: 'Button width',
+      type: types.SideEditPropType.Select,
+      selectOptions: {
+        display: types.OptionsDisplay.Select,
+        options: [
+          { label: 'Auto', value: 'auto' },
+          { label: 'Max-Width', value: 'max' },
+          { label: 'Min-Width', value: 'min' },
         ],
       },
     },

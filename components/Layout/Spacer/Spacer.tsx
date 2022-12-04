@@ -24,7 +24,7 @@ const Spacer: types.Brick<SpacerProps> = ({
   width,
   isEdit,
 }) => {
-  const spacerClasses = classnames({
+  const spacerClasses = classnames(styles.spacer, {
     [styles['spacer__m-0']]: margin === 'none',
     [styles['spacer__m-sm']]: margin === 'small',
     [styles['spacer__m-md']]: margin === 'medium',

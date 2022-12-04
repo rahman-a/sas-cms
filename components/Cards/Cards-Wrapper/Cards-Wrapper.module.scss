@@ -34,6 +34,24 @@
     }
   }
 
+  &__justify {
+    &-start {
+      justify-content: flex-start !important;
+    }
+    &-center {
+      justify-content: center !important;
+    }
+    &-end {
+      justify-content: flex-end !important;
+    }
+    &-between {
+      justify-content: space-between !important;
+    }
+    &-around {
+      justify-content: space-around !important;
+    }
+  }
+
   &__scroll &__wrapper {
     justify-content: space-between;
     flex-wrap: nowrap;

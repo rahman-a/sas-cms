@@ -8,10 +8,23 @@ import React, {
 import styles from './Image-Cube.module.scss'
 import classnames from 'classnames'
 import { Cube } from '../../icons'
+import { types } from 'react-bricks/frontend'
 
 type EventType = DragEvent<HTMLDivElement> | TouchEvent<HTMLDivElement>
 
-const ImageCube = () => {
+interface ImageCubeProps {
+  imageFaceOne?: types.IImageSource
+  imageFaceTwo?: types.IImageSource
+  imageFaceThree?: types.IImageSource
+  imageFaceFour?: types.IImageSource
+}
+
+const ImageCube: types.Brick<ImageCubeProps> = ({
+  imageFaceOne,
+  imageFaceTwo,
+  imageFaceThree,
+  imageFaceFour,
+}) => {
   const cubeRef = useRef<HTMLDivElement>(null)
   const [transformX, setTransformX] = useState(0)
   const [transformY, setTransformY] = useState(0)
@@ -75,10 +88,22 @@ const ImageCube = () => {
     <div className={styles.cube}>
       <div className={styles.cube__wrapper}>
         <div className={styles.cube__faces} ref={cubeRef}>
-          <div className={cubeFaceClasses(1)}></div>
-          <div className={cubeFaceClasses(2)}></div>
-          <div className={cubeFaceClasses(3)}></div>
-          <div className={cubeFaceClasses(4)}></div>
+          <div
+            className={cubeFaceClasses(1)}
+            style={{ backgroundImage: `url(${imageFaceOne?.src})` }}
+          ></div>
+          <div
+            className={cubeFaceClasses(2)}
+            style={{ backgroundImage: `url(${imageFaceTwo?.src})` }}
+          ></div>
+          <div
+            className={cubeFaceClasses(3)}
+            style={{ backgroundImage: `url(${imageFaceThree?.src})` }}
+          ></div>
+          <div
+            className={cubeFaceClasses(4)}
+            style={{ backgroundImage: `url(${imageFaceFour?.src})` }}
+          ></div>
         </div>
       </div>
       <div
@@ -97,6 +122,34 @@ const ImageCube = () => {
       </div>
     </div>
   )
+}
+
+ImageCube.schema = {
+  name: 'image-cube',
+  label: 'Image Cube',
+  category: 'UI',
+  sideEditProps: [
+    {
+      name: 'imageFaceOne',
+      label: 'Background image for Face One',
+      type: types.SideEditPropType.Image,
+    },
+    {
+      name: 'imageFaceTwo',
+      label: 'Background image for Face Two',
+      type: types.SideEditPropType.Image,
+    },
+    {
+      name: 'imageFaceThree',
+      label: 'Background image for Face Three',
+      type: types.SideEditPropType.Image,
+    },
+    {
+      name: 'imageFaceFour',
+      label: 'Background image for Face Four',
+      type: types.SideEditPropType.Image,
+    },
+  ],
 }
 
 export default ImageCube

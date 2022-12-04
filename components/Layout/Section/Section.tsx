@@ -1,5 +1,5 @@
 import classnames from 'classnames'
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './Section.module.scss'
 import { types, Text, Repeater } from 'react-bricks/frontend'
 import { Home } from '../../icons'
@@ -7,6 +7,7 @@ import { Home } from '../../icons'
 type itemsPosition = 'row' | 'row-reverse' | 'column' | 'column-reverse'
 interface SectionProps {
   style?: React.CSSProperties
+  title?: string
   className?: string
   wrapperClassName?: string
   isTitle?: boolean
@@ -16,11 +17,14 @@ interface SectionProps {
   padding?: string
   textColor?: string
   itemsPosition?: itemsPosition
+  isContain?: boolean
+  isTopBorder?: boolean
   children: React.ReactNode
 }
 
 const Section: types.Brick<SectionProps> = ({
   style,
+  title,
   className,
   wrapperClassName,
   background,
@@ -30,9 +34,16 @@ const Section: types.Brick<SectionProps> = ({
   isTitle,
   isBackgroundImage,
   backgroundImage,
+  isContain,
+  isTopBorder,
 }) => {
   const sectionClasses = classnames(styles.section, {
     [styles.section__background]: isBackgroundImage,
+    [styles.section__contain]: isContain,
+    [styles.section__topBorder]: isTopBorder,
+    'backgroundColor--white': background === '#ffffff',
+    'backgroundColor--light-gray': background === 'rgb(242, 242, 242)',
+    'backgroundColor--container': background === '#2d2d2d',
     [className as string]: className,
   })
 
@@ -40,9 +51,14 @@ const Section: types.Brick<SectionProps> = ({
     [wrapperClassName as string]: wrapperClassName,
   })
 
+  const titleClasses = classnames(styles.section__title, {
+    'textColor--white': textColor === '#ffffff',
+    'textColor--primary': textColor === 'rgb(30, 149, 224)',
+    'textColor--container': textColor === '#2d2d2d',
+  })
+
   const stylesValue = {
     ...style,
-    backgroundColor: background,
     background: `url(${backgroundImage?.src}) no-repeat center center`,
     padding: padding,
   }
@@ -54,9 +70,7 @@ const Section: types.Brick<SectionProps> = ({
           propName='title'
           placeholder='Type section title here...'
           renderBlock={({ children }) => (
-            <h2 className={styles.section__title} style={{ color: textColor }}>
-              {children}
-            </h2>
+            <h2 className={titleClasses}>{children}</h2>
           )}
         />
       )}
@@ -72,6 +86,14 @@ const Section: types.Brick<SectionProps> = ({
           <Repeater propName='tabbedinterfacecontainerWrapper' />
           <Repeater propName='sectionfloatcontentWrapper' />
           <Repeater propName='sectionfilterlistWrapper' />
+          <Repeater propName='sectiontabbednavbarwrapper' />
+          <Repeater propName='sectionrowwrapper' />
+          <Repeater propName='sectionjobsearchwrapper' />
+          <Repeater propName='sectionparagraphwrapper' />
+          <Repeater propName='sectionlistwrapper' />
+          <Repeater propName='sectionspacerwrapper' />
+          <Repeater propName='sectiondetailslistwrapper' />
+          <Repeater propName='sectionmapwrapper' />
           <div className={styles.section__btns}>
             <Repeater propName='sectionbuttonWrapper' />
           </div>
@@ -91,6 +113,11 @@ Section.schema = {
   }),
   sideEditProps: [
     {
+      name: 'isContain',
+      label: 'Make Section Contain',
+      type: types.SideEditPropType.Boolean,
+    },
+    {
       name: 'isBackgroundImage',
       label: 'Set Background Image',
       type: types.SideEditPropType.Boolean,
@@ -107,6 +134,11 @@ Section.schema = {
       type: types.SideEditPropType.Boolean,
     },
     {
+      name: 'isTopBorder',
+      label: 'Show top border',
+      type: types.SideEditPropType.Boolean,
+    },
+    {
       name: 'background',
       label: 'Section Background',
       type: types.SideEditPropType.Select,
@@ -115,7 +147,7 @@ Section.schema = {
         options: [
           { value: '#ffffff', label: 'White' },
           { value: 'rgb(242, 242, 242)', label: 'Light Grey' },
-          { value: '#2d2d2d', label: 'Light Dark' },
+          { value: '#2d2d2d', label: 'Soft Black' },
         ],
       },
     },
@@ -187,6 +219,11 @@ Section.schema = {
       itemLabel: 'Tabbed Interface Container',
     },
     {
+      name: 'sectiontabbednavbarwrapper',
+      itemType: 'tabbednavbarcontextwrapper',
+      itemLabel: 'Tabbed Navbar Container',
+    },
+    {
       name: 'sectionfloatcontentWrapper',
       itemType: 'floatcontent',
       itemLabel: 'Float Content Container',
@@ -200,6 +237,41 @@ Section.schema = {
       name: 'sectionfilterlistWrapper',
       itemType: 'filterlistcontext',
       itemLabel: 'Section Filter List',
+    },
+    {
+      name: 'sectionrowwrapper',
+      itemType: 'row',
+      itemLabel: 'Row',
+    },
+    {
+      name: 'sectionlistwrapper',
+      itemType: 'listcontainer',
+      itemLabel: 'List',
+    },
+    {
+      name: 'sectionspacerwrapper',
+      itemType: 'spacer',
+      itemLabel: 'Spacer',
+    },
+    {
+      name: 'sectionjobsearchwrapper',
+      itemType: 'job-search',
+      itemLabel: 'Job Search Section',
+    },
+    {
+      name: 'sectionparagraphwrapper',
+      itemType: 'paragraph',
+      itemLabel: 'Paragraph',
+    },
+    {
+      name: 'sectiondetailslistwrapper',
+      itemType: 'details-list',
+      itemLabel: 'Details List',
+    },
+    {
+      name: 'sectionmapwrapper',
+      itemType: 'map',
+      itemLabel: 'Map',
     },
   ],
 }

@@ -9,10 +9,11 @@ type Variants =
 
 export interface ButtonType {
   variant?: Variants
-  text: string
+  text?: string
   children?: React.ReactNode
   style?: React.CSSProperties
   fontSize?: string
+  width?: string
   className?: string
   type?: 'button' | 'submit' | 'reset' | undefined
   onClick?: () => void

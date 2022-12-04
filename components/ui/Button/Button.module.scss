@@ -137,4 +137,14 @@
       font-size: 2.2rem;
     }
   }
+
+  &__auto {
+    width: auto;
+  }
+  &__max-content {
+    width: max-content;
+  }
+  &__min-content {
+    width: min-content;
+  }
 }

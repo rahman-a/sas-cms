@@ -9,9 +9,7 @@ import { Home } from '@components/icons'
 import Link from 'next/link'
 import { types } from 'react-bricks/frontend'
 
-interface BreadcrumbsProps {
-  isOpen: boolean
-}
+interface BreadcrumbsProps {}
 
 type Breadcrumb = {
   _id: string
@@ -19,11 +17,12 @@ type Breadcrumb = {
   href: string
 }
 
-const Breadcrumbs: types.Brick<BreadcrumbsProps> = ({ isOpen }) => {
+const Breadcrumbs: types.Brick<BreadcrumbsProps> = () => {
   const [path, setPath] = useState<Breadcrumb[]>([])
+  const [isHidden, setIsHidden] = useState<boolean>(false)
   const router = useRouter()
-  const breadcrumbsClasses = classnames(styles.breadcrumbs, {
-    'is-hidden': isOpen,
+  const breadcrumbsContainerClasses = classnames('container', {
+    'is-hidden': isHidden,
   })
 
   function generateBreadcrumbs() {
@@ -51,11 +50,14 @@ const Breadcrumbs: types.Brick<BreadcrumbsProps> = ({ isOpen }) => {
 
   useEffect(() => {
     setPath(generateBreadcrumbs())
+    if (router.asPath === '/') {
+      setIsHidden(true)
+    }
   }, [router.asPath])
   return (
-    <div className='container'>
+    <div className={breadcrumbsContainerClasses}>
       <SimpleBar>
-        <div className={breadcrumbsClasses}>
+        <div className={styles.breadcrumbs}>
           <Link href='/'>
             <a className={styles.breadcrumbs__item}>
               <Home /> &nbsp; SAS

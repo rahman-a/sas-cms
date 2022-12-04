@@ -1,0 +1,50 @@
+@use '@styles/media' as media;
+
+.tile {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+  padding: 5rem 0;
+  &__wrapper {
+    display: flex;
+    width: 50%;
+    gap: 3rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--primary-text-color-light);
+    @include media.breakpoint(lg) {
+      width: 60%;
+    }
+    @include media.breakpoint(md) {
+      width: 80%;
+    }
+    @include media.breakpoint(sm) {
+      width: 95%;
+    }
+  }
+
+  &__wrapper:hover &__description span {
+    margin-left: 1rem;
+  }
+
+  &__icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 5rem;
+    @include media.breakpoint(sm) {
+      display: none;
+    }
+  }
+
+  &__description {
+    span {
+      margin-left: 0.5rem;
+      transition: margin 0.3s ease-in-out;
+      svg {
+        width: 2rem;
+        height: 1.7rem;
+      }
+    }
+  }
+}

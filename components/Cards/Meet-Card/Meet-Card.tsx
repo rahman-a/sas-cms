@@ -3,6 +3,7 @@ import styles from './Meet-Card.module.scss'
 import { types, Text, RichText, Image, Repeater } from 'react-bricks/frontend'
 import classnames from 'classnames'
 import Link from 'next/link'
+import { useMediaQuery } from '@hooks'
 
 interface MeetCardProps {
   textColor: string
@@ -18,8 +19,9 @@ const MeetCard: types.Brick<MeetCardProps> = ({
   isHovered,
   ...rest
 }) => {
+  const isMediumDevices = useMediaQuery('(max-width: 991.98px)')
   const renderDescription = (text: string): string => {
-    if (window.matchMedia('(max-width: 991.98px)').matches) {
+    if (isMediumDevices) {
       return text.slice(0, 100) + '...'
     }
     return text

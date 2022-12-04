@@ -53,6 +53,17 @@ import {
   FilterTab,
   FilterContent,
   FilterItem,
+  WebTile,
+  CareerHeroSection,
+  StaffMeetSection,
+  JobSearchSection,
+  ContactUsSection,
+  Sitemap,
+  SitemapColumn,
+  SitemapLink,
+  Paragraph,
+  CookiePolicy,
+  Map,
 } from '@components'
 import {
   Button,
@@ -62,6 +73,15 @@ import {
   CopyBox,
   List,
   ListItem,
+  NestedList,
+  NestedListItem,
+  FlatList,
+  FlatListItem,
+  DetailsList,
+  DetailsListItem,
+  ImageCube,
+  FloatPageIndex,
+  FloatPageIndexItem,
 } from '@components/ui'
 import {
   CardsWrapper,
@@ -79,13 +99,25 @@ import {
   Spacer,
   FloatContainer,
   FloatContent,
+  Row,
+  Column,
 } from '@components/Layout'
 // import HeroUnit from './HeroUnit'
 
 /////////////////////////
 /// General Bricks
 /////////////////////////
-const GeneralBricks = [Announcement, Social, HeroSection]
+const GeneralBricks = [
+  Announcement,
+  Social,
+  HeroSection,
+  WebTile,
+  CareerHeroSection,
+  StaffMeetSection,
+  JobSearchSection,
+  ContactUsSection,
+  Map,
+]
 
 /////////////////////////
 /// UI Bricks
@@ -98,6 +130,15 @@ const UIBricks = [
   CopyBox,
   List,
   ListItem,
+  NestedList,
+  NestedListItem,
+  FlatList,
+  FlatListItem,
+  DetailsList,
+  DetailsListItem,
+  ImageCube,
+  FloatPageIndex,
+  FloatPageIndexItem,
 ]
 
 /////////////////////////
@@ -133,7 +174,14 @@ const CardsBricks = [
 /////////////////////////
 /// Layout Bricks
 /////////////////////////
-const LayoutBricks = [Section, Spacer, FloatContainer, FloatContent]
+const LayoutBricks = [
+  Section,
+  Spacer,
+  FloatContainer,
+  FloatContent,
+  Row,
+  Column,
+]
 
 /////////////////////////
 /// Header Bricks
@@ -169,7 +217,7 @@ const FooterBricks = [
 /////////////////////////
 /// Typography Bricks
 /////////////////////////
-const TypographyBricks = [HeaderText]
+const TypographyBricks = [HeaderText, Paragraph]
 
 /////////////////////////
 /// Accordion Bricks
@@ -209,6 +257,11 @@ const TabbedNavbarBricks = [
 /////////////////////////
 const FilterBricks = [FilterContext, FilterTab, FilterContent, FilterItem]
 
+/////////////////////////
+/// Sitemap Bricks
+/////////////////////////
+const SitemapBricks = [Sitemap, SitemapColumn, SitemapLink]
+
 const bricks: types.Brick[] = [
   // General
   ...GeneralBricks,
@@ -236,6 +289,10 @@ const bricks: types.Brick[] = [
   ...TabbedNavbarBricks,
   // Filter List Bricks
   ...FilterBricks,
+  // Sitemap Bricks
+  ...SitemapBricks,
+  // Legal Bricks
+  CookiePolicy,
 ]
 
 export default bricks

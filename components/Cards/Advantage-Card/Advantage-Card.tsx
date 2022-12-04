@@ -7,12 +7,14 @@ interface AdvantageCardProps {
   url: string
   className?: string
   background?: string
+  showImage?: boolean
 }
 
 const AdvantageCard: types.Brick<AdvantageCardProps> = ({
   url,
   className,
   background,
+  showImage,
   ...rest
 }) => {
   return (
@@ -23,14 +25,16 @@ const AdvantageCard: types.Brick<AdvantageCardProps> = ({
     >
       <Link href={url || '#'}>
         <a className={styles.card__wrapper}>
-          <Image
-            propName='card image'
-            alt='advantage card image'
-            maxWidth={100}
-            renderWrapper={({ children }) => (
-              <figure className={styles.card__image}>{children}</figure>
-            )}
-          />
+          {showImage && (
+            <Image
+              propName='card image'
+              alt='advantage card image'
+              maxWidth={100}
+              renderWrapper={({ children }) => (
+                <figure className={styles.card__image}>{children}</figure>
+              )}
+            />
+          )}
           <div className={styles.card__content}>
             <Text
               propName='card title'
@@ -63,6 +67,9 @@ AdvantageCard.schema = {
   label: 'Advantage Card',
   category: 'Cards',
   hideFromAddMenu: true,
+  getDefaultProps: () => ({
+    showImage: true,
+  }),
   sideEditProps: [
     {
       name: 'url',
@@ -82,6 +89,11 @@ AdvantageCard.schema = {
           { value: 'rgb(242, 242, 242)', label: 'Light Grey' },
         ],
       },
+    },
+    {
+      name: 'showImage',
+      label: 'Show Image',
+      type: types.SideEditPropType.Boolean,
     },
   ],
 }

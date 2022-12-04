@@ -1,0 +1,141 @@
+@use '@styles/media' as media;
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  &__wrap {
+    flex-wrap: wrap;
+  }
+  &__align {
+    &-top {
+      align-items: flex-start;
+    }
+    &-center {
+      align-items: center;
+    }
+    &-bottom {
+      align-items: flex-end;
+    }
+  }
+  &__justify {
+    &-start {
+      justify-content: flex-start;
+    }
+    &-center {
+      justify-content: center;
+    }
+    &-end {
+      justify-content: flex-end;
+    }
+    &-between {
+      justify-content: space-between;
+    }
+    &-around {
+      justify-content: space-around;
+    }
+  }
+  &__flex {
+    &-reverse {
+      flex-direction: row-reverse;
+    }
+    &-column {
+      flex-direction: column;
+    }
+    &-column-reverse {
+      flex-direction: column-reverse;
+    }
+    &-row {
+      flex-direction: row;
+    }
+  }
+
+  &__gap {
+    &--sm {
+      gap: 1.5rem;
+    }
+    &--md {
+      gap: 2.5rem;
+    }
+    &--lg {
+      gap: 3.5rem;
+    }
+    &--xl {
+      gap: 4.5rem;
+    }
+  }
+
+  &__sm {
+    &_direction {
+      &-column {
+        @include media.breakpoint(sm) {
+          flex-direction: column;
+        }
+      }
+      &-column-reverse {
+        @include media.breakpoint(sm) {
+          flex-direction: column-reverse;
+        }
+      }
+      &-row {
+        @include media.breakpoint(sm) {
+          flex-direction: row;
+        }
+      }
+      &-reverse {
+        @include media.breakpoint(sm) {
+          flex-direction: row-reverse;
+        }
+      }
+    }
+  }
+}
+
+.column {
+  flex: 1 1 0%;
+  max-width: 100%;
+  &-100 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  &-75 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  &-50 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  &-33 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  &-25 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  &__reset {
+    flex: 1 1 0%;
+    max-width: 100%;
+  }
+
+  &__sm {
+    &-50 {
+      @include media.breakpoint(sm) {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    }
+    &-100 {
+      @include media.breakpoint(sm) {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+    &-reset {
+      @include media.breakpoint(sm) {
+        flex: 1 1 0%;
+        max-width: 100%;
+      }
+    }
+  }
+}

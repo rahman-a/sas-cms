@@ -2,6 +2,18 @@
 
 .section {
   padding: 5rem 0;
+  &__contain {
+    padding: 1rem;
+    & > div {
+      width: 100%;
+    }
+  }
+  &__contain &__wrapper {
+    flex-direction: row !important;
+  }
+  &__topBorder {
+    border-top: 2px solid var(--primary-color);
+  }
   &__title {
     margin: 0 0 2rem 12rem;
     @include media.breakpoint(md) {

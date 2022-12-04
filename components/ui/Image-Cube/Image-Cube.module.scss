@@ -30,19 +30,19 @@
     background-repeat: no-repeat;
     transform-origin: 50% 50%;
     &--1 {
-      background-image: url(/images/careers-cube-500-2.webp);
+      // background-image: url(/images/careers-cube-500-2.webp);
       transform: translate3d(0px, 0px, -125px) rotateX(180deg);
     }
     &--2 {
-      background-image: url(/images/careers-cube-500-3.webp);
+      // background-image: url(/images/careers-cube-500-3.webp);
       transform: translate3d(0px, 0px, 125px);
     }
     &--3 {
-      background-image: url(/images/careers-cube-500-1.webp);
+      // background-image: url(/images/careers-cube-500-1.webp);
       transform: translate(0px, -125px) rotateX(90deg);
     }
     &--4 {
-      background-image: url(/images/careers-cube-500-4.webp);
+      // background-image: url(/images/careers-cube-500-4.webp);
       transform: translate(0px, 125px) rotateX(-90deg);
     }
   }

@@ -1,9 +1,9 @@
-import Link from 'next/link'
-import React, { FunctionComponent, useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import classnames from 'classnames'
 import styles from './Float-Page-Index.module.scss'
 import { Close, ListIcon } from '../../icons'
 import { useMediaQuery } from '@hooks'
+import { types, Repeater } from 'react-bricks/frontend'
 
 type IndexData = {
   _id: string
@@ -16,23 +16,25 @@ interface FloatPageIndexProps {
   scrollItemsClassName: string
   className?: string
   style?: React.CSSProperties
+  isEdit?: boolean
 }
 let isScrollingBasedOnClick: boolean = false
 let scrollStopTimeout: NodeJS.Timeout | null = null
 
-const FloatPageIndex: FunctionComponent<FloatPageIndexProps> = ({
+const FloatPageIndex: types.Brick<FloatPageIndexProps> = ({
   indexData,
-  scrollItemsClassName,
   className,
   style,
+  isEdit,
+  ...rest
 }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false)
   const isHovered = useRef<boolean>(false)
-  const [selectedUrl, setSelectedUrl] = useState(indexData[0].url)
+  const [selectedUrl, setSelectedUrl] = useState<string>('')
   const indexItemsRefs = useRef<any[]>([])
   const isMobile = useMediaQuery('(max-width: 767.98px)')
   const indexClasses = classnames(styles.index, {
-    [styles.index__open]: isOpen,
+    [styles.index__open]: isOpen || isEdit,
     [className as string]: className,
   })
 
@@ -68,13 +70,11 @@ const FloatPageIndex: FunctionComponent<FloatPageIndexProps> = ({
   }
 
   useEffect(() => {
-    if (scrollItemsClassName) {
-      const scrollItems = document.querySelectorAll(`.${scrollItemsClassName}`)
-      if (scrollItems) {
-        indexItemsRefs.current = Array.from(scrollItems)
-      }
+    const scrollItems = document.querySelectorAll(`.scroll-article-content`)
+    if (scrollItems) {
+      indexItemsRefs.current = Array.from(scrollItems)
     }
-  }, [scrollItemsClassName])
+  }, [])
 
   useEffect(() => {
     setIsOpen(true)
@@ -94,41 +94,58 @@ const FloatPageIndex: FunctionComponent<FloatPageIndexProps> = ({
     }
   }, [])
   return (
-    <div
-      className={indexClasses}
-      style={style}
-      onMouseEnter={() => (isHovered.current = true)}
-      onMouseLeave={() => (isHovered.current = false)}
-    >
-      <button
-        className={styles.index__toggle}
-        onClick={() => setIsOpen(!isOpen)}
+    <div {...rest}>
+      <div
+        className={indexClasses}
+        style={style}
+        onMouseEnter={() => (isHovered.current = true)}
+        onMouseLeave={() => (isHovered.current = false)}
       >
-        <span>{isOpen ? <Close /> : <ListIcon />}</span>
-        <div className={styles.index__toggle_dash}></div>
-      </button>
-      <div className={styles.index__wrapper}>
-        <h2 className={styles.index__title}>Index</h2>
-        <ul className={styles.index__list}>
-          {indexData.map((item) => (
-            <li
-              key={item._id}
-              className={`${styles.index__item} ${
-                item.url === selectedUrl ? styles['index__item--selected'] : ''
-              }`}
-              onClick={() => selectIndexHandler(item.url)}
-            >
-              <Link href={`#${item.url}`}>
-                <a className={styles.index__link}>
-                  <span>{item.title}</span>
-                </a>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <button
+          className={styles.index__toggle}
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <span>{isOpen ? <Close /> : <ListIcon />}</span>
+          <div className={styles.index__toggle_dash}></div>
+        </button>
+        <div className={styles.index__wrapper}>
+          <h2 className={styles.index__title}>Index</h2>
+          <ul className={styles.index__list}>
+            <Repeater
+              propName='floatItemWrapper'
+              itemProps={{
+                selectedUrl,
+                selectIndexHandler,
+              }}
+            />
+          </ul>
+        </div>
       </div>
     </div>
   )
+}
+
+FloatPageIndex.schema = {
+  name: 'float-page-index',
+  label: 'Float Page Index',
+  category: 'UI',
+  getDefaultProps: () => ({
+    isEdit: true,
+  }),
+  sideEditProps: [
+    {
+      name: 'isEdit',
+      label: 'Edit Mode',
+      type: types.SideEditPropType.Boolean,
+    },
+  ],
+  repeaterItems: [
+    {
+      name: 'floatItemWrapper',
+      itemLabel: 'Float Item',
+      itemType: 'float-page-index-item',
+    },
+  ],
 }
 
 export default FloatPageIndex

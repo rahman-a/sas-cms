@@ -1,0 +1,172 @@
+@use '@styles/media' as media;
+.hero {
+  // background-image: url(/images/career-hero-1600-new.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include media.breakpoint(md) {
+    background-position: top;
+    background-size: contain;
+  }
+  &__row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include media.breakpoint(md) {
+      flex-direction: column-reverse;
+    }
+  }
+  &__col {
+    position: relative;
+    flex: 1;
+    padding: 2rem 10rem;
+    &:last-child {
+      @include media.breakpoint(md) {
+        min-height: 35vh;
+      }
+      @include media.breakpoint(xs) {
+        min-height: 25vh;
+      }
+    }
+    @include media.breakpoint(lg) {
+      padding: 2rem 8rem;
+    }
+    @include media.breakpoint(xs) {
+      padding: 2rem;
+    }
+  }
+  &__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    @include media.breakpoint(md) {
+      background-color: var(--primary-color);
+      opacity: 1;
+    }
+  }
+
+  &__content {
+    position: relative;
+    @include media.breakpoint(md) {
+      color: var(--primary-text-color-light);
+    }
+  }
+
+  &__category {
+    font: var(--body-text-regular);
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  &__title {
+    font: var(--display-text);
+    font-size: 8rem;
+    line-height: 1;
+    margin: 1rem 0;
+    @include media.breakpoint(xxs) {
+      font-size: 5rem;
+    }
+  }
+
+  &__description {
+    font: var(--body-text-regular);
+    padding: 2rem 0;
+  }
+
+  &__subtitle {
+    font: var(--headline-medium-text);
+    font-weight: 700;
+    padding: 1.6rem 0;
+  }
+
+  &__cta {
+    width: fit-content;
+    padding-left: 0;
+    font: var(--title-text-large-regular);
+    @include media.breakpoint(md) {
+      color: var(--primary-text-color-light);
+    }
+  }
+
+  &__float {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    pointer-events: none;
+    span {
+      display: block;
+      width: 5rem;
+      height: 5rem;
+    }
+    &-1 {
+      background-color: var(--primary-color);
+    }
+    &-2 {
+      background-color: var(--primary-color-dark);
+    }
+    &-3 {
+      position: absolute;
+      right: 10rem;
+      top: 5rem;
+      background-color: var(--primary-color-dark);
+      @include media.breakpoint(xs) {
+        top: 0;
+      }
+    }
+    &-4 {
+      position: absolute;
+      right: 15rem;
+      top: 10rem;
+      background-color: var(--primary-color);
+      @include media.breakpoint(xs) {
+        display: none !important;
+      }
+    }
+    &-5 {
+      position: absolute;
+      right: 25rem;
+      top: 50%;
+      background-color: var(--container-color);
+      @include media.breakpoint(md) {
+        top: 25%;
+      }
+      @include media.breakpoint(xs) {
+        display: none !important;
+      }
+    }
+    &-6 {
+      position: absolute;
+      right: 47%;
+      bottom: 0;
+      background-color: var(--white-color);
+      @include media.breakpoint(md) {
+        bottom: 57%;
+      }
+      @include media.breakpoint(xs) {
+        bottom: 70%;
+        right: 1rem;
+      }
+    }
+    &-7 {
+      position: absolute;
+      right: 44%;
+      bottom: 5rem;
+      background-color: var(--white-color);
+      @include media.breakpoint(md) {
+        bottom: 63%;
+      }
+      @include media.breakpoint(xs) {
+        bottom: 76%;
+        right: 6rem;
+      }
+    }
+  }
+}

@@ -6,6 +6,11 @@
   align-items: center;
   z-index: 999;
 
+  // hide about section in navbar
+  span:nth-child(4) {
+    display: none;
+  }
+
   @include media.breakpoint(md) {
     display: none;
   }

@@ -10,6 +10,7 @@ type HeroSectionProps = {
   isDescription?: boolean
   isSubTitle?: boolean
   isShortUrl?: boolean
+  isBackgroundImage?: boolean
   backgroundImage?: types.IImageSource
 }
 
@@ -20,6 +21,7 @@ const HeroSection: types.Brick<HeroSectionProps> = ({
   isDescription,
   isSubTitle,
   isShortUrl,
+  isBackgroundImage,
 }) => {
   const [show, setShow] = useState<boolean>(false)
   const [background, setBackground] = useState<string>('var(--primary-color)')
@@ -33,7 +35,18 @@ const HeroSection: types.Brick<HeroSectionProps> = ({
   })
 
   useEffect(() => {
+    if (isBackgroundImage) {
+      backgroundImage?.src
+        ? setBackground(`url(${backgroundImage?.src})`)
+        : setBackground('var(--primary-color)')
+    } else {
+      setBackground('var(--primary-color)')
+    }
+  }, [isBackgroundImage])
+
+  useEffect(() => {
     backgroundImage?.src &&
+      isBackgroundImage &&
       setBackground(`url(${backgroundImage.src}) no-repeat`)
   }, [backgroundImage])
   return (
@@ -105,6 +118,7 @@ HeroSection.schema = {
     isDescription: true,
     isSubTitle: false,
     isShortUrl: true,
+    isBackgroundImage: true,
     backgroundImage: {
       fallbackSrc:
         'https://images.reactbricks.com/original/edbafefe-6378-4841-886c-c47bb4eb187f.jpg',
@@ -155,6 +169,11 @@ HeroSection.schema = {
       name: 'backgroundImage',
       label: 'Background Image',
       type: types.SideEditPropType.Image,
+    },
+    {
+      name: 'isBackgroundImage',
+      label: 'Toggle Background Image',
+      type: types.SideEditPropType.Boolean,
     },
     {
       name: 'isFloating',

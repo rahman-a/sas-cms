@@ -12,6 +12,9 @@ interface HeaderTextProps {
   fontSize: string
   font: string
   bold: Bold
+  centerText?: boolean
+  className?: string
+  id?: string
 }
 
 const HeaderText: types.Brick<HeaderTextProps> = ({
@@ -20,6 +23,10 @@ const HeaderText: types.Brick<HeaderTextProps> = ({
   textColor,
   font,
   bold,
+  className,
+  centerText,
+  id,
+  ...rest
 }) => {
   const styleValues = {
     padding,
@@ -34,15 +41,17 @@ const HeaderText: types.Brick<HeaderTextProps> = ({
     [styles['header__font3']]: font === 'font3',
     [styles['header__font4']]: font === 'font4',
     [styles['header__font5']]: font === 'font5',
+    [styles['header__center']]: centerText,
+    [className as string]: className,
   })
 
   return (
-    <div>
+    <div {...rest}>
       <Text
         propName='titleText'
         placeholder='Type title here...'
         renderBlock={({ children }) => (
-          <h2 className={headerClasses} style={styleValues}>
+          <h2 className={headerClasses} style={styleValues} id={id || ''}>
             {children}
           </h2>
         )}
@@ -146,6 +155,21 @@ HeaderText.schema = {
           { value: '3.5rem', label: 'X-Large' },
         ],
       },
+    },
+    {
+      name: 'centerText',
+      label: 'Center Text',
+      type: types.SideEditPropType.Boolean,
+    },
+    {
+      name: 'className',
+      label: 'Custom CSS Class',
+      type: types.SideEditPropType.Text,
+    },
+    {
+      name: 'id',
+      label: 'Custom Id',
+      type: types.SideEditPropType.Text,
     },
   ],
 }

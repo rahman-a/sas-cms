@@ -11,7 +11,7 @@ import Head from 'next/head'
 import { GetStaticProps, GetStaticPaths } from 'next'
 
 import config from '../react-bricks/config'
-import { Layout, ErrorNoPage } from '@components/react-bricks'
+import { Layout, ErrorNoPage, ErrorNoKeys } from '@components/react-bricks'
 
 interface PageProps {
   page: types.Page
@@ -35,6 +35,7 @@ const Page: React.FC<PageProps> = ({ page, error }) => {
           <PageViewer page={pageOk} />
         </>
       )}
+      {error === 'NOKEYS' && <ErrorNoKeys />}
       {error === 'NOPAGE' && <ErrorNoPage />}
     </Layout>
   )

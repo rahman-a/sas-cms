@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react'
+import React from 'react'
 import styles from './Image-Card.module.scss'
 import classnames from 'classnames'
 import { types, Text, RichText } from 'react-bricks/frontend'
@@ -41,7 +41,9 @@ const ImageCard: types.Brick<ImageCardProps> = ({
               propName='card title'
               placeholder='Type card title...'
               renderBlock={({ children }) => (
-                <h2 style={{ color: textColor }}>{children}</h2>
+                <h2 className={styles.card__title} style={{ color: textColor }}>
+                  {children}
+                </h2>
               )}
             />
             <RichText
@@ -53,7 +55,9 @@ const ImageCard: types.Brick<ImageCardProps> = ({
                 types.RichTextFeatures.Highlight,
               ]}
               renderBlock={({ children }) => (
-                <p style={{ color: textColor }}>{children}</p>
+                <div className={styles.card__description}>
+                  <p style={{ color: textColor }}>{children}</p>
+                </div>
               )}
             />
           </div>

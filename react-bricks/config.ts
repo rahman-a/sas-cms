@@ -1,6 +1,5 @@
 import Router from 'next/router'
 import { types } from 'react-bricks/frontend'
-
 import bricks from './bricks'
 import pageTypes from './pageTypes'
 import NextLink from './NextLink'

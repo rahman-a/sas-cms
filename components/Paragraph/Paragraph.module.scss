@@ -1,0 +1,29 @@
+.paragraph {
+  min-height: 1.5rem;
+  &__center {
+    text-align: center;
+  }
+  &__padding {
+    &--sm {
+      padding: 1.5rem;
+    }
+    &--md {
+      padding: 2.5rem;
+    }
+    &--lg {
+      padding: 3.5rem;
+    }
+    &--xl {
+      padding: 4.5rem;
+    }
+  }
+  a {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    &:hover {
+      text-decoration: underline;
+      color: var(--primary-color);
+    }
+  }
+}

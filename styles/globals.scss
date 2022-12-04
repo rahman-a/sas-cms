@@ -113,12 +113,18 @@ html {
   }
 }
 
+html,
+* {
+  scroll-behavior: smooth !important;
+}
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box !important;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -166,5 +172,94 @@ body {
     font-size: 1.6rem;
     color: var(--primary-color-dark);
     letter-spacing: 0.5px;
+  }
+}
+.backgroundColor {
+  &--primary {
+    background-color: var(--primary-color) !important;
+  }
+  &--primary-light {
+    background-color: var(--primary-color-light) !important;
+  }
+  &--primary-dark {
+    background-color: var(--primary-color-dark) !important;
+  }
+  &--surface {
+    background-color: var(--surface-color) !important;
+  }
+  &--light-gray {
+    background-color: var(--background-color) !important;
+  }
+  &--background-dark {
+    background-color: var(--background-color-dark) !important;
+  }
+  &--gray {
+    background-color: var(--gray-color) !important;
+  }
+  &--container {
+    background-color: var(--container-color) !important;
+  }
+  &--white {
+    background-color: var(--white-color) !important;
+  }
+  &--black {
+    background-color: var(--black-color) !important;
+  }
+  &--error {
+    background-color: var(--error-color) !important;
+  }
+  &--error-container {
+    background-color: var(--error-container-color) !important;
+  }
+  &--success {
+    background-color: var(--success-color) !important;
+  }
+  &--success-container {
+    background-color: var(--success-container-color) !important;
+  }
+}
+
+.textColor {
+  &--primary {
+    color: var(--primary-color) !important;
+  }
+  &--primary-light {
+    color: var(--primary-color-light) !important;
+  }
+  &--primary-dark {
+    color: var(--primary-color-dark) !important;
+  }
+  &--surface {
+    color: var(--surface-color) !important;
+  }
+  &--light-gray {
+    color: var(--background-color) !important;
+  }
+  &--background-dark {
+    color: var(--background-color-dark) !important;
+  }
+  &--gray {
+    color: var(--gray-color) !important;
+  }
+  &--container {
+    color: var(--container-color) !important;
+  }
+  &--white {
+    color: var(--white-color) !important;
+  }
+  &--black {
+    color: var(--black-color) !important;
+  }
+  &--error {
+    color: var(--error-color) !important;
+  }
+  &--error-container {
+    color: var(--error-container-color) !important;
+  }
+  &--success {
+    color: var(--success-color) !important;
+  }
+  &--success-container {
+    color: var(--success-container-color) !important;
   }
 }

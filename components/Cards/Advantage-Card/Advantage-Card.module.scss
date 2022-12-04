@@ -25,6 +25,7 @@
   }
   &__wrapper {
     display: flex;
+    align-items: flex-start;
     gap: 2rem;
     text-decoration: none;
   }
@@ -35,6 +36,7 @@
     img {
       width: 100%;
       height: 100%;
+      object-fit: contain;
     }
   }
 
