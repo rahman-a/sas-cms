@@ -21,6 +21,6 @@ export interface ButtonType {
   icon?: 'arrow' | 'thick-arrow' | 'long-arrow'
   rounded?: boolean
   as?: 'a' | 'button'
-  link?: string
+  URLText?: string
   dataAttributes?: Record<string, string | boolean>
 }

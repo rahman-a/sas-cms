@@ -4,6 +4,15 @@
   position: relative;
   height: 42rem;
   width: 33.5rem;
+  &__sm {
+    width: 28rem;
+  }
+  &__md {
+    width: 30rem;
+  }
+  &__lg {
+    width: 33.5rem;
+  }
   &__wrapper {
     display: flex;
     flex-direction: column;

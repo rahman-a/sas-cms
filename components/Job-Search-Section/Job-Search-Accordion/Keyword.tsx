@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react'
+import React, { FunctionComponent, useEffect } from 'react'
 import styles from './Job-Search-Accordion.module.scss'
 import { Keyword } from '@customTypes/Filter'
 
@@ -7,6 +7,7 @@ interface KeywordProps {
   setSelectedKeywords: (keywords: Keyword[]) => void
   selectedKeywords: Keyword[]
   activeName: string
+  type?: string
 }
 
 const Keywords: FunctionComponent<KeywordProps> = ({
@@ -14,13 +15,9 @@ const Keywords: FunctionComponent<KeywordProps> = ({
   setSelectedKeywords,
   selectedKeywords,
   activeName,
+  type,
 }) => {
   const activeValueHandler = (keyword: Keyword): void => {
-    const newKeywords = [...selectedKeywords]
-    if (selectedKeywords.length === 0) {
-      setSelectedKeywords([keyword])
-      return
-    }
     const isFound = selectedKeywords.find((item) => item._id === keyword._id)
     if (isFound) {
       const filtered = selectedKeywords.filter(
@@ -29,8 +26,15 @@ const Keywords: FunctionComponent<KeywordProps> = ({
       setSelectedKeywords(filtered)
       return
     }
-    newKeywords.push(keyword)
-    setSelectedKeywords(newKeywords)
+    if (selectedKeywords.length === 0) {
+      setSelectedKeywords([keyword])
+      return
+    }
+    if (type === 'radio') {
+      setSelectedKeywords([keyword])
+      return
+    }
+    setSelectedKeywords([...selectedKeywords, keyword])
   }
 
   const isElementChecked = (id: string): boolean => {
@@ -47,7 +51,7 @@ const Keywords: FunctionComponent<KeywordProps> = ({
           className={styles.accordion__keyword}
         >
           <input
-            type='checkbox'
+            type={type || 'checkbox'}
             id={activeName + keyword._id}
             name={activeName}
             onChange={() => activeValueHandler(keyword)}

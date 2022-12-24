@@ -10,6 +10,7 @@ interface ImageCardProps {
   link?: string
   textColor?: string
   background?: string
+  grow?: string
   backgroundImage?: types.IImageSource
 }
 
@@ -19,10 +20,16 @@ const ImageCard: types.Brick<ImageCardProps> = ({
   link,
   textColor,
   background,
+  grow,
   backgroundImage,
   ...rest
 }) => {
-  const cardClass = classnames(styles.card, className)
+  const cardClass = classnames(styles.card, className, {
+    [styles['card__grow']]: grow && grow !== 'none',
+    [styles['card__grow--1']]: grow === 'one',
+    [styles['card__grow--2']]: grow === 'two',
+    [styles['card__grow--3']]: grow === 'three',
+  })
   const cardWrapperClasses = classnames(styles.card__wrapper, {
     [styles.card__wrapper_white]: background === '#ffffff',
     [styles.card__wrapper_gray]: background === 'rgb(242, 242, 242)',
@@ -107,6 +114,20 @@ ImageCard.schema = {
           { value: '#ffffff', label: 'White' },
           { value: 'rgb(242, 242, 242)', label: 'Light Grey' },
           { value: '#2d2d2d', label: 'Soft Black' },
+        ],
+      },
+    },
+    {
+      name: 'grow',
+      label: 'Card Grow',
+      type: types.SideEditPropType.Select,
+      selectOptions: {
+        display: types.OptionsDisplay.Select,
+        options: [
+          { value: 'none', label: 'Reset' },
+          { value: 'one', label: 'One' },
+          { value: 'two', label: 'Two' },
+          { value: 'three', label: 'Three' },
         ],
       },
     },

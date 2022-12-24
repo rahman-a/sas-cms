@@ -10,7 +10,7 @@ import {
 import Head from 'next/head'
 import { GetStaticProps, GetStaticPaths } from 'next'
 
-import config from '../react-bricks/config'
+import config from '../../react-bricks/config'
 import { Layout, ErrorNoPage, ErrorNoKeys } from '@components/react-bricks'
 
 interface PageProps {
@@ -48,7 +48,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const { slug } = context.params
   try {
     const page = await fetchPage(slug.toString(), config.apiKey, context.locale)
-    return page.type === 'page' ? { props: { page } } : { notFound: true }
+    return page.type === 'career' ? { props: { page } } : { notFound: true }
   } catch {
     return { props: { error: 'NOPAGE' } }
   }
@@ -60,7 +60,7 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
   }
 
   const allPages = (await fetchPages(config.apiKey)).filter(
-    (page) => page.type === 'page'
+    (page) => page.type === 'career'
   )
 
   const paths = allPages

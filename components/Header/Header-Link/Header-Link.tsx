@@ -39,6 +39,9 @@ const HeaderLink: types.Brick<HeaderLinkProps> = ({
     if (isEdit) return
     onClick && onClick(e, text)
   }
+  useEffect(() => {
+    console.log({ linkURL })
+  }, [linkURL])
   return (
     <span {...rest}>
       <Link href={linkURL || ''}>

@@ -23,6 +23,11 @@ HeaderContainer.schema = {
   }),
   sideEditProps: [
     {
+      name: types.EmbedProp,
+      label: 'Header Brick',
+      type: types.SideEditPropType.Relationship,
+    },
+    {
       name: 'isEdit',
       label: 'Edit Mode',
       type: types.SideEditPropType.Boolean,

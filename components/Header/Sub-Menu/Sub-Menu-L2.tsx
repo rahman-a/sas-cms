@@ -32,7 +32,7 @@ const SubMenuLevel2: types.Brick<SubMenuLevel2Props> = ({
   const navRef = useRef<HTMLDivElement>(null)
   const btnRef = useRef<HTMLButtonElement>(null)
   const timeoutRef = useRef<NodeJS.Timeout | null>(null)
-  const { setSubMenuL3Id, subMenuId, subMenuL3Id } = useContext(HeaderContext)
+  const { setSubMenuL3Id } = useContext(HeaderContext)
   const navClasses = classnames(styles.submenu__items, {
     [styles['submenu__items-c1']]: Number(columns) === 1,
     [styles['submenu__items-c2']]: Number(columns) === 2,
@@ -56,7 +56,6 @@ const SubMenuLevel2: types.Brick<SubMenuLevel2Props> = ({
 
   const handleNavigation = (e: React.SyntheticEvent) => {
     e.preventDefault()
-    console.log('Data set: ', (e.target as HTMLAnchorElement).dataset)
     if ((e.target as HTMLAnchorElement).dataset.issubmenu === 'true') {
       menuSubLevel3Handler(3)
       setSubMenuL3Id((e.target as HTMLAnchorElement).dataset.submenuid)

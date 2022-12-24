@@ -43,8 +43,6 @@ const AccordionLink: types.Brick<AccordionLinkProps> = ({
 
   const toggleAccordionHandler = (e: React.SyntheticEvent) => {
     e.preventDefault()
-    console.log(e.currentTarget)
-    console.log({ isSubmenu })
     if (!isSubmenu) {
       if (!link) return
       router.push(link)

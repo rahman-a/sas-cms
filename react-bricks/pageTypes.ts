@@ -43,6 +43,22 @@ const pageTypes: types.IPageType[] = [
     defaultStatus: types.PageStatus.Draft,
     getDefaultContent: () => [],
   },
+  {
+    name: 'header',
+    pluralName: 'headers',
+    isEntity: true,
+    defaultLocked: false,
+    defaultStatus: types.PageStatus.Draft,
+    getDefaultContent: () => [],
+  },
+  {
+    name: 'footer',
+    pluralName: 'footers',
+    isEntity: true,
+    defaultLocked: false,
+    defaultStatus: types.PageStatus.Draft,
+    getDefaultContent: () => [],
+  },
 ]
 
 export default pageTypes

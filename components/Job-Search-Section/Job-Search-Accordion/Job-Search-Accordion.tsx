@@ -14,6 +14,7 @@ import classNames from 'classnames'
 interface CareerSearchAccordionProps {
   searchBy: string
   keywords: Keyword[]
+  type?: string
   selectedKeywordsHandler: (keywords: Keyword[]) => void
 }
 
@@ -21,6 +22,7 @@ const CareerSearchAccordion: FunctionComponent<CareerSearchAccordionProps> = ({
   searchBy,
   keywords,
   selectedKeywordsHandler,
+  type,
 }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false)
   const [selectedKeywords, setSelectedKeywords] = useState<Keyword[]>([])
@@ -51,7 +53,6 @@ const CareerSearchAccordion: FunctionComponent<CareerSearchAccordionProps> = ({
   )
 
   const selectValueHandler = (keywords: Keyword[]): void => {
-    console.log('keywords: ', keywords)
     setSelectedKeywords(keywords)
     selectedKeywordsHandler(keywords)
   }
@@ -80,6 +81,7 @@ const CareerSearchAccordion: FunctionComponent<CareerSearchAccordionProps> = ({
                 setSelectedKeywords={selectValueHandler}
                 selectedKeywords={selectedKeywords}
                 activeName={searchBy}
+                type={type}
               />
             </fieldset>
           </div>

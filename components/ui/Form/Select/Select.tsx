@@ -54,7 +54,7 @@ const Select: FunctionComponent<SelectProps> = ({
   error,
   success,
 }) => {
-  const [selected, setSelected] = useState<string>('')
+  const [selected, setSelected] = useState<string | null>(null)
   const [isFocused, setIsFocused] = useState(false)
   const [focusedElement, setFocusedElement] = useState(0)
   const [isContainerFocused, setIsContainerFocused] = useState(false)
@@ -172,7 +172,7 @@ const Select: FunctionComponent<SelectProps> = ({
           id={label}
           ref={inputRef}
           type='text'
-          defaultValue={selected || 'Other (please specify)'}
+          defaultValue={selected}
           onKeyDown={(e) => e.preventDefault()}
         />
         <span>

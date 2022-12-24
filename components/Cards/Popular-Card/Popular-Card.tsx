@@ -1,6 +1,6 @@
-import React, { FunctionComponent } from 'react'
+import React from 'react'
 import styles from './Popular-Card.module.scss'
-import { Card } from '@customTypes/Section'
+import classnames from 'classnames'
 import { types, Text, RichText, Image } from 'react-bricks/frontend'
 import Link from 'next/link'
 
@@ -10,6 +10,7 @@ interface PopularCardProps {
   padding: string
   background: string
   className?: string
+  cardSize?: string
 }
 
 const PopularCard: types.Brick<PopularCardProps> = ({
@@ -18,13 +19,17 @@ const PopularCard: types.Brick<PopularCardProps> = ({
   padding,
   background,
   className,
+  cardSize,
   ...rest
 }) => {
+  const cardClass = classnames(styles.card, {
+    [styles['card__sm']]: cardSize === 'small',
+    [styles['card__md']]: cardSize === 'medium',
+    [styles['card__lg']]: cardSize === 'large',
+    [className as string]: className,
+  })
   return (
-    <article
-      className={`${styles.card} ${className ? className : ''}`}
-      {...rest}
-    >
+    <article className={cardClass} {...rest}>
       <Link href={link || ''}>
         <a className={styles.card__wrapper}>
           <Image
@@ -130,6 +135,19 @@ PopularCard.schema = {
           { value: '#ffffff', label: 'White' },
           { value: 'rgb(242, 242, 242)', label: 'Light Grey' },
           { value: '#2d2d2d', label: 'Soft Black' },
+        ],
+      },
+    },
+    {
+      name: 'cardSize',
+      label: 'Card Size',
+      type: types.SideEditPropType.Select,
+      selectOptions: {
+        display: types.OptionsDisplay.Select,
+        options: [
+          { value: 'small', label: 'Small' },
+          { value: 'medium', label: 'Medium' },
+          { value: 'large', label: 'Large' },
         ],
       },
     },

@@ -42,6 +42,7 @@
   &__title {
     font: var(--title-text-regular);
     font-weight: 700;
+    color: var(--primary-text-color);
   }
 
   &__arrow {
@@ -98,6 +99,7 @@
     &_title {
       font-weight: 500;
       font-size: 1.6rem;
+      color: var(--primary-text-color);
     }
   }
 }

@@ -7,6 +7,20 @@
   @include media.breakpoint(md) {
     min-width: 35rem;
   }
+  &__grow {
+    display: flex;
+    flex-direction: column;
+    max-width: none;
+    &--1 {
+      flex-grow: 1;
+    }
+    &--2 {
+      flex-grow: 2;
+    }
+    &--3 {
+      flex-grow: 3;
+    }
+  }
   &__wrapper {
     position: relative;
     min-height: 21.43rem;

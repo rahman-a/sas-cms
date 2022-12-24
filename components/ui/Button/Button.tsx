@@ -15,7 +15,7 @@ const Button: types.Brick<ButtonType> = ({
   onClick,
   rounded,
   as,
-  link,
+  URLText = '',
   style,
   dataAttributes,
   className,
@@ -47,10 +47,11 @@ const Button: types.Brick<ButtonType> = ({
     if (disabled) return
     onClick && onClick()
   }
+
   if (as === 'a') {
     return (
       <div {...rest}>
-        <Link href={link || '#'}>
+        <Link href={URLText}>
           <a
             style={style}
             onClick={btnClickHandler}
@@ -187,14 +188,9 @@ Button.schema = {
       type: types.SideEditPropType.Boolean,
     },
     {
-      name: 'link',
+      name: 'URLText',
       label: 'Button Link to ...',
       type: types.SideEditPropType.Text,
-      validate: (value) =>
-        !value ||
-        value.startsWith('https://') ||
-        value.startsWith('http://') ||
-        'Link must start with http:// or https://',
     },
   ],
 }

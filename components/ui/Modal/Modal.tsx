@@ -13,6 +13,7 @@ interface ModalProps {
   isOpen: boolean
   onClose?: () => void
   className?: string
+  closeOnOutsideClick?: boolean
   style?: React.CSSProperties
 }
 
@@ -21,6 +22,7 @@ const Modal: FunctionComponent<ModalProps> = ({
   isOpen,
   onClose,
   className,
+  closeOnOutsideClick = true,
   style,
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -28,6 +30,13 @@ const Modal: FunctionComponent<ModalProps> = ({
     [styles.modal__open]: isModalOpen,
     [className as string]: className,
   })
+
+  const closeOnOutsideClickHandler = (e: SyntheticEvent) => {
+    if (closeOnOutsideClick) {
+      setIsModalOpen(false)
+      onClose && onClose()
+    }
+  }
 
   const closeModalHandler = () => {
     setIsModalOpen(false)
@@ -38,7 +47,11 @@ const Modal: FunctionComponent<ModalProps> = ({
     setIsModalOpen(isOpen)
   }, [isOpen])
   return (
-    <div className={modalClasses} style={style} onClick={closeModalHandler}>
+    <div
+      className={modalClasses}
+      style={style}
+      onClick={closeOnOutsideClickHandler}
+    >
       <div
         className={styles.modal__content}
         onClick={(e) => e.stopPropagation()}
