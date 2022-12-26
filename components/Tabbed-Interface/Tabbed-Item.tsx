@@ -27,7 +27,6 @@ const TabbedItem: types.Brick<TabbedItemProps> = ({
   }
 
   useEffect(() => {
-    console.log('activeTab: ', activeTab)
     if (!activeTab) {
       setActiveTab(linkId)
     }

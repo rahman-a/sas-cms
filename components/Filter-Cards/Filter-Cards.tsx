@@ -10,15 +10,6 @@ import classnames from 'classnames'
 import { CardsWrapper, PopularCard } from '@components/Cards'
 import sectionsData from '@data/sections.json'
 
-const card = {
-  _id: '907d16c34995fcccc1943ddb52000363',
-  title: 'New world. New skills.',
-  description:
-    'The need to upskill and reskill the workforce has never been more urgent. Everyone should be able to live, learn, work and participate in the digital world',
-  image: '/images/dam11.thumbnail.webp',
-  link: 'https://www.pwc.com/gx/en/issues/upskilling',
-}
-
 interface FilterCardsProps {
   list: FilterList
   className?: string
@@ -128,7 +119,7 @@ const FilterCards: FunctionComponent<FilterCardsProps> = ({
             />
           </div>
           <div className={styles.filter__result_cards}>
-            <CardsWrapper>
+            {/* <CardsWrapper>
               {sectionsData.sections[0].cards.map((section) => (
                 <PopularCard
                   key={section._id}
@@ -136,7 +127,7 @@ const FilterCards: FunctionComponent<FilterCardsProps> = ({
                   className={styles.filter__result_card}
                 />
               ))}
-            </CardsWrapper>
+            </CardsWrapper> */}
           </div>
         </div>
       </div>

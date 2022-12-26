@@ -5,7 +5,7 @@ import { types, Text, Repeater } from 'react-bricks/frontend'
 
 interface CardsWrapperProps {
   children: JSX.Element | JSX.Element[]
-  gapType: 'none' | 'small' | 'medium' | 'large'
+  gapType?: 'none' | 'small' | 'medium' | 'large'
   isTitle?: boolean
   isScroll?: boolean
   style?: React.CSSProperties

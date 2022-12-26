@@ -1,5 +1,5 @@
 import { getQueryString } from '../../utils'
-const ROOT_URL = 'http://localhost:5000/api/v1'
+const ROOT_URL = 'https://www.saspt.co/api/v1'
 interface IQuery {
   country?: string
   title?: string

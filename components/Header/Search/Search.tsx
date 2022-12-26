@@ -64,20 +64,27 @@ const Search: types.Brick<SearchProps> = ({ isEdit, ...rest }) => {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             ref={inputRef}
+            disabled={true}
           />
           <button>
             <Magnifier />
           </button>
         </form>
-        <div className={styles.search__loading}>
+        {/* <div className={styles.search__loading}>
           <RotatingLines width='20' strokeColor='#fff' strokeWidth='5' />
           <span>Loading Result</span>
-        </div>
+        </div> */}
         <div className={resultsClasses}>
+          <h1 style={{ color: '#fff', margin: '1rem 0' }}>
+            Searching isn't available right now
+          </h1>
+          <h3 style={{ color: '#fff' }}>
+            We're working on making this feature available soon
+          </h3>
+          {/* <SearchResult />
           <SearchResult />
           <SearchResult />
-          <SearchResult />
-          <button className={styles.search__view}>View All Results</button>
+          <button className={styles.search__view}>View All Results</button> */}
         </div>
       </div>
     </div>

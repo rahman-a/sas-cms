@@ -1,8 +1,7 @@
-import Link from 'next/link'
-import styles from './Footer.module.scss'
+// import Link from 'next/link'
 import React from 'react'
-import classnames from 'classnames'
-
+import styles from './Footer.module.scss'
+import Link from 'next/link'
 import { types, Text } from 'react-bricks/frontend'
 
 interface FooterLinkProps {

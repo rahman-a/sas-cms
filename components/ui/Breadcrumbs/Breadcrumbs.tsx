@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import SimpleBar from 'simplebar-react'
 import classnames from 'classnames'
@@ -32,7 +32,13 @@ const Breadcrumbs: types.Brick<BreadcrumbsProps> = () => {
     const asPathNestedRoutes = asPathWithoutQuery
       .split('/')
       .filter((v) => v.length > 0)
-      .map((p) => p.replace('#', '').toLocaleLowerCase())
+      .map((p) => {
+        let idx = p.indexOf('#')
+        if (idx > -1) {
+          return p.substring(0, idx)
+        }
+        return p
+      })
 
     // Iterate over the list of nested route parts and build
     // a "crumb" object for each one.
